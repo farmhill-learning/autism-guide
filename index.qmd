@@ -2,6 +2,6 @@
 toc: false
 sidebar: autism
 ---
-### This is a comprehensive resource about autism. 
+# Autism
 
 
