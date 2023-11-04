@@ -1,1 +1,89 @@
-# Caution: Cures and Remedies
+# Why do people seek alternative treatments?
+
+There are many alternative treatments or protocols advised for conditions like diabetes, skin allergies or even cancer. Similarly, there have been many alternative treatments that have been and continue to be practiced for autism, despite no evidence of effectiveness. In some cases, people believe in and are willing to try alternative approaches, even when there is evidence of harm. 
+
+What prompts people to try these approaches, against all reason? 
+
+::: {.callout-caution}
+Please note that the alternative treatments for autism discussed here are considered ineffective and some can be outright dangerous. These are included to provide a cautionary note and are NOT recommended. 
+:::
+
+### Newly discovered conditions
+
+When a condition is newly discovered or becomes widespread, and an effective treatment is yet to be determined, it is typical for people to explore a range of potential causes, treatments and “cures”. An approach that might have been effective for a different condition that appears to be related may be tried. For example, in the case of COVID, when the infection hit, there was no cure. Healthcare workers primarily focused on providing symptomatic treatment and tried approaches that worked for other infections and respiratory conditions like flu. A variety of treatments ranging from allopathy, ayurveda to homeopathy were tried before a vaccine was developed and a protocol that works was devised. 
+
+### Seeking better results with less effort
+
+Even when some understanding and evidence-based interventions are available, there might be a desire to seek alternative solutions in the hope of achieving better or anticipated results, and with lesser effort. For example, it is understood that diabetes cannot be cured but can be managed with lifestyle changes. Many people find these lifestyle changes difficult to make and maintain. They seek alternative approaches instead. 
+
+### Inability to critically evaluate 
+
+It is also possible that people may not have the mental capacity to critically evaluate the feasibility of promised cures versus the potential harm as they deal with the stress placed by the condition they are dealing with. Sometimes they also believe that they have tried everything there is to try and there is no harm in trying one more thing. You see this approach in people dealing with cancer and such life threatening conditions. 
+
+## The case of autism
+
+Many of these factors seem to be working in the case of people who are willing to try alternative treatments for autism. Autism has been a poorly understood condition whose cause is not clearly known. It impacts children and it is no secret that many of us do not understand parenting, education and child development well enough. When a child is diagnosed with autism, parents do not immediately understand all the implications and its lifelong impact. Many see it as improper behavior on the child’s part or a set of symptoms that are preventing the child from going to school and seek to address them quickly, in time for the child to join a school. They also hear from healthcare professionals that there is no medical cure for autism. The evidence based interventions are behavioral, requiring significant time, energy and resource commitment from everyone involved. Most people are stressed out with the effort of bringing up the child and an autism diagnosis just makes things worse.  
+
+It is in such an environment that alternative approaches, promising cures or at least significant improvements quickly, with little or no effort, become popular. Some of these are approaches that work for another condition, e.g. chelation, which is a treatment for heavy metal toxicity. Chelation was tried for autism initially because symptoms of autism resembled mercury poisoning and later because people believed autism was caused by mercury from vaccines. Similarly, hyperbaric oxygen therapy works for traumatic brain injury and was tried for autism because people believed increasing oxygen supply to the brain can help autism. There is homeopathy, which has been tried for everything that is not well understood in current medical science. In the Indian context, there is ayurveda, siddha and other alternative systems offering everything from remedies to cures for autism. Many others like restrictive diets are approaches that claim to cure a wide variety of conditions. 
+
+## Caution: Alternative approaches 
+
+Currently, we understand Autism as a brain wired differently. Symptoms of autism may pose some social challenges for individuals in the spectrum, for which one can seek symptomatic treatment to enable a functional and meaningful life within the society. The cause of autism is unclear and so is the cure for autism. Scientifically, no evidence supports the existence of a "cure" for autism. Evidence-based interventions aim to manage specific symptoms, yet other interventions driven by speculative theories of "curing" autism not only lack efficacy but can also result in severe side effects. Consequently, interventions that demand careful attention and caution include:
+
++ Chelation
++ Stem cell therapy
++ Hyperbaric oxygen therapy (HBOT)
++ Homeopathy - Secretin
++ Ayurveda
++ Restrictive diets
+
+## When to be critical 
+
+Some treatments might appear appealing due to their success in addressing a different condition with similar symptoms, success stories from certain individuals, or alignment with personal beliefs or expectations of a cure. However, it is important to exercise serious caution when the intervention is promoted in the following ways:
+
++ The treatment lacks substantial scientific evidence or is based on unverified claims.
++ There is pressure or persuasion to adopt the intervention without clear and transparent information about its potential risks.
++ The treatment is presented as a "miracle cure" or a one-size-fits-all solution for a complex condition like autism.
++ Claims of success are primarily anecdotal and not supported by reliable research or clinical evidence.
++ The intervention involves risks or potentially harmful side effects that are not adequately addressed or disclosed.
+
+## A guide to decision making
+
+Distinguishing between legitimate therapies and questionable ones can be challenging, particularly when conventional approaches seem ineffective for parents of autistic children. While alternative treatments may, in some cases, offer assistance, it's crucial to recognize that no single method is universally effective for treating autism. If you are contemplating a non-traditional option, the following questions can guide your decision-making process:
+
++ Who is recommending this option and what do they have to gain if you accept?
++ What do reliable sources such as the CDC (Centers for Disease Control and Prevention) or NIMH (National Institute of Mental Health) or The Central Drugs Standard Control Organisation (CDSCO) have to say about this particular method?
++ What do established organizations led by people living with autism, such as the Autistic Self Advocacy Network (ASAN), Action for Autism (AFA) and the Autistic Women and Nonbinary Network (AWN) have to say about this therapy?
++ Is this method aimed at "curing" autism?
++ What are the potential risks related to using this treatment?
++ What methods are in place to ensure the person's safety?
++ How will you measure changes or improvements?
+
+# Chelation - A Dangerous approach
+::: {.callout-caution}
+Chelation is not recommended for autism. It can have dangerous side effects.
+:::
+
+## What is chelation?
+
+In chelation, the aim is to administer medications (chelators) that bind with metals in the body and remove it from the system via urine when the medicine itself is excreted. This has been useful to treat heavy metal toxicity. Most commonly used medications are dimercaptosuccinic acid (DMSA) or ethylenediaminetetraacetic acid (EDTA). This treatment is typically administered intravenously or orally under medical supervision following a detailed baseline assessment of metal content in the system, usually with a urine test.
+
+## History of chelation
+
+Chelation process dates back to 1935 when it was used as binding and extracting agent of calcium in the dyeing industry. The use of Chelation therapy in humans started between the 1950s and 1960s when it was used in patients with hypercalcemia and lead poisoning, consequently showing improvements in their cardiovascular condition. Since then it has been established as an effective treatment for lead poisoning or any heavy metal toxicity for that matter and as anticoagulants. Between 2002 and 2007, despite several warnings and prohibitions by the FDA (Food and Drug Administration), chelation gained popularity in the U.S. for treating heart conditions and other health issues. However, due to its intensity and potential harmful side effects, it is strictly administered under medical supervision.
+In 1989, a "Protocol for the Safe and Effective Administration of EDTA" was established and later updated. This comprehensive protocol establishes strict criteria for patient selection and urges clinicians to conduct an initial assessment of renal function using the Cockcroft-Gault equation. It further emphasizes the continuous monitoring of renal function throughout a series of chelation treatments. Additionally, emergency procedures are outlined in case of adverse reactions during the process.
+
+## Why was Chelation tried for autism?
+
+It gained attention in the context of autism due to concerns about heavy metal toxicity in the systems of individuals in the spectrum, but scientific research hasn't supported the theory that autism is caused by heavy metal toxicity. Some studies have suggested that children with autism may have higher levels of certain heavy metals in their systems, but the direct cause between heavy metal exposure and autism has not been established. One hypothesis that autism is caused due to exposure to heavy metals (mercury) through vaccines has been studied thoroughly and research suggests no causal link between vaccines and autism. Other theories of autism being caused due to intrauterine or environmental exposure to heavy metals is still under study and there is no established link as of now.
+
+On the other hand, scientific research investigating the effectiveness of chelation therapy for autism remains limited and inconclusive. Clinical trials investigating the impact of chelation on autism symptoms have shown mixed or inconclusive results, and many of these studies have methodological limitations.
+
+## Caution
+
+Chelation therapy can be risky and has the potential for serious side effects such as hypocalcaemia (level of calcium in blood is too low), renal impairment and reported deaths. The presence of certain metals like calcium, copper, iron, magnesium, manganese, molybdenum, chromium, potassium, sodium, and zinc is essential to facilitate normal biological functioning of the human body. It is a cause for concern if there are lower or higher levels of these metals than what is required. It necessitates meticulous and supervised administration of medications to avoid excessive removal of metals. Medical organizations do not recommend chelation therapy for autism due to safety concerns.
+
+Some researchers also suggest that due to the greater risks associated with chelation 
+compared to its efficacy as a treatment for autism, it is advisable to first establish a definitive causal link between heavy metals and autism. This approach emphasizes the need to first validate the relationship between heavy metal exposure and autism before further studying on chelation as a treatment.
+
+Therefore, it is crucial for anyone, whether medical professionals or families, considering chelation therapy to conduct a thorough baseline assessment and cost-benefit analysis of the treatment before proceeding with it. There is no medical organization that is in favor of using chelation therapy for autism.
