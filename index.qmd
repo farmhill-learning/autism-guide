@@ -2,7 +2,7 @@
 toc: false
 sidebar: autism
 ---
-# Autism
+# Autism Guide
 
 This guide deals with autism and various aspects of living with it. 
 
