@@ -1,7 +1,5 @@
 
-This section deals with the importance of diagnosis, the process for diagnosis and also, diagnosis for older people. There is also a short note for professionals on how to go about the diagnosis. 
-
-# Getting a diagnosis
+# Getting a diagnosis - why and when
 
 ## The importance of diagnosis
 One of the questions that parents usually have is about the need for diagnosis. Many times parents do not want to get a diagnosis for a variety of reasons. Some parents argue that diagnosis just attaches a label and they are not comfortable with the label. Some parents feel that the child does not need a label as long as he/she is able to ‘cope’ with autism. Many parents are weary of the negative social implications of acknowledging their child’s autism. 
@@ -21,11 +19,11 @@ Naturally, parents routinely observe and assess their child's progress during th
 
 When there are concerns about the development of the child, parents should consult their primary care physician and they may be referred for further screening. 
 
-## Diagnostic Process
+# Diagnostic Process
 
 While there are no definite known causes of autism, the process of diagnosing it often requires the involvement of multiple professionals and various assessments. As a result, it may not be a straightforward procedure, but early diagnosis is crucial for both the child and their family to enhance their quality of life and meaningfully navigate the condition.
 
-### Developmental Screening
+## Developmental Screening
 
 If any delays or concerns are observed, the next step is to undergo developmental screening, a more formal evaluation of a child's developmental progress. This screening process is conducted typically by a developmental pediatrician/ psychologist. It entails the use of structured questionnaires and checklists covering areas like language, physical abilities, cognitive skills, as well as behavioral and emotional aspects. 
 
@@ -34,7 +32,7 @@ In instances where there are concerns or if a child is at a higher risk for Auti
 
 In addition, AAP recommends that all children be screened specifically for ASD during regular visits at 18 months and 24 months. 
 
-### Screening Instruments
+## Screening Instruments
 Most often the Modified Checklist for Autism in Toddlers, Revised with Follow-Up (MCHAT - R/F) or the Childhood Autism Rating Scale (CARS) is used.
 
 + MCHAT - R/F is a brief checklist of yes/no items for early detection among children 16 to 30 months of age.
@@ -55,7 +53,9 @@ Based on the test results, the pediatrician may refer the parents for therapies 
 # Screening and Diagnosis - A note for professionals
 
 A pediatrician typically serves as the initial point of contact for a child and their family within the medical field. Therefore, it is of utmost importance that pediatricians vigilantly monitor a child's natural development.
-## Signs a pediatrician can lookout for
+
+### General signs
+
 + Does not respond to name by 9 months of age
 + Does not show facial expressions like happy, sad, angry, and surprised by 9 months of age
 + Does not play simple interactive games like pat-a-cake by 12 months of age
@@ -80,8 +80,10 @@ A pediatrician typically serves as the initial point of contact for a child and 
 + Not getting signals from body language, tone of voice, and expressions
 + Restricted or repetitive behaviors and interests 
 
+### Unusual interests or behaviours
 People with ASD have behaviors or interests that can seem unusual. These behaviors or interests set ASD apart from conditions defined by problems with social communication and interaction only.
-Examples of restricted or repetitive behaviors and interests related to ASD can include
+Examples of restricted or repetitive behaviors and interests related to ASD can include:
+
 + Lines up toys or other objects and gets upset when order is changed
 + Plays with toys the same way every time
 + Is focused on parts of objects (for example, wheels)
@@ -116,19 +118,21 @@ Screening tools are assessments that identify at risk children. Children who are
 Screening tool commonly used by clinical/ developmental psychologists and psychiatrists in India is 
 
 ### M-CHAT-R/F (Modified Checklist for Autism in Toddlers, Revised with Follow-Up)
+
 The Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F; Robins, Fein, & Barton, 2009) is a two-stage parent-report screening tool designed to assess the risk of Autism Spectrum Disorder (ASD). The M-CHAT-R/F is freely available for download for clinical, research, and educational purposes.
 Here are the usage instructions:
+
 + The M-CHAT-R can be utilized and scored during routine well-child care visits, and it is also suitable for specialists and other professionals to evaluate the risk of ASD.
 + The primary objective of the M-CHAT-R is to maximize sensitivity, meaning it aims to identify as many cases of ASD as possible. Consequently, there is a relatively high rate of false positives, indicating that not all children who score as at risk will be diagnosed with ASD.
 + To address this, the Follow-Up questions (M-CHAT-R/F) have been developed. Users should be aware that even with the Follow-Up questions, a significant number of children who screen positive on the M-CHAT-R will not receive an ASD diagnosis. However, it's important to recognize that these children are at a heightened risk for other developmental disorders or delays, making it crucial to consider further evaluation for any child who screens positive.
 
-## Occupational Therapy Assessment 
+### Occupational Therapy Evaluation 
 
 As an occupational therapist (OT), the evaluation of a child with autism involves a comprehensive assessment of various domains, including social, communication, cognitive, sensory, and motor skills. It is valuable to incorporate a sensory profile of the child and consider the results of assessments conducted by other professionals. The Autism Spectrum Disorder (ASD) assessment conducted by an occupational therapist can take place in diverse settings, such as at home, in school, or at one of our clinics.
 
 During the ASD assessment, the occupational therapist, using their clinical expertise and specialized training, employs a combination of a sensory profile, autism checklist and clinical observation. The checklist and sensory profile is designed to gather information on how the child perceives and interacts with the world. For example, it includes questions related to the child's comfort level in social situations, their preference for solitary play versus engaging with others, and other factors that provide insights into their sensory experiences and responses. This multidimensional assessment approach helps tailor intervention strategies to meet the child's specific needs and challenges.
 
-## Speech and Language Assessment
+### Speech and Language Evaluation
 
 As a Speech Language pathologist (SLP), one can conduct initial screenings to identify any communication and language delays or atypical behaviors that may be indicative of autism. SLPs can conduct comprehensive assessments to evaluate a child's communication and language skills. This assessment may involve evaluating speech and language development, as well as social communication abilities.
 
@@ -166,6 +170,7 @@ Reciprocal Social Interactions
 Restricted, Repetitive, and Stereotyped Behaviors and Interests
 
 Following highly standardized procedures, the interviewer records and codes the responses provided by the informant. The interview questions cover eight distinct content areas:
+
 + The subject's background, including family, educational history, previous diagnoses, and medication use.
 + An overview of the subject's behavior.
 + Early development and achievement of developmental milestones.
@@ -216,8 +221,10 @@ As Samriddhi Malhotra, an individual on the autism spectrum, diagnosed in her 30
 “My family couldn’t understand this because I was considered academically bright. Because of these ‘odd’ behaviours, people would say things like ‘she’s so careless and haphazard’ or ‘she’s lazy’.
 As an adult, I wouldn’t always understand social cues, the dynamics in a friend circle and the subtext and subtleties of what people say. But, over the years, I learnt to master them almost like a science. Piecing it together logically, like, oh, this is what people mean when they say this or that, and I learnt to adapt.”
 
-Signs to look out for:Symptoms of autism in adults closely resemble those in children, such as difficulties in social situations, obsessive interests, and strict adherence to routines.
+## Signs to look out for
+Symptoms of autism in adults closely resemble those in children, such as difficulties in social situations, obsessive interests, and strict adherence to routines.
 Key symptoms that are often observed in adults with autism include:
+
 + Difficulty understanding other people’s feelings or reactions
 + Social anxiety
 + Trouble making and keeping friends
@@ -226,8 +233,11 @@ Key symptoms that are often observed in adults with autism include:
 + Difficulty expressing how they feel
 + Interpreting things very literally or in black and white
 + Stuck in having the same routine every day and being uncomfortable if it is interrupted or threatened to be changed
+
 ## Diagnostic tools
+
 Since symptoms are not very different from what we observe in a child, the diagnostic process would be more or less similar. In most cases of adolescents, it would be the school that first reports concerns and then with the help of a psychologist one may undergo the diagnostic process. In adults, it could pose some challenges because symptoms of other disorders could be overlapping with autism symptoms. Either ways, a combination of assessments and clinical judgements could be used to diagnose older people. Some tools are:
+
 + Autism Diagnostic Observation Schedule (ADOS) - (ADOS; Lord, Rutter, DiLavore, Risi, 1999)
 The Autism Diagnostic Observation Schedule (ADOS) is considered the 'gold standard' for assessing and diagnosing autism and pervasive developmental disorder (PDD) in individuals of all ages, developmental stages, and language abilities.
 + Autism Diagnostic Interview, Revised (ADI-R) - (ADI-R; Couteur, Lord, Rutter, 2003)
