@@ -2,7 +2,7 @@
 toc: false
 sidebar: autism
 ---
-# Autism Guide
+# Autism Spectrum Disorder
 
 This guide deals with autism and various aspects of living with it. 
 
