@@ -208,6 +208,12 @@ In this context, it's important to highlight that there is currently no clinical
 
 Given these factors, families considering stem cell therapy believing it will lead to significant improvements or a cure for autism need to seriously reconsider and make an informed decision. The only ethical and scientific way to get stem cell therapy is to participate in a well designed clinical trial or study. The path ahead demands a cautious approach to verify the safety, efficacy and long term impacts of the therapy.
 
+Here is a video created in 2023 by Yash Charitable Trust (YCT), and Forum for Autism, against the use of stem cell therapy as a treatment.
+
+{{< video https://www.youtube.com/embed/aXXbkDzKtqE?si=RrY3-wkt4Eh68bru >}}
+
+
+
 # Hyperbaric Oxygen Therapy (HBOT) 
 
 In hyperbaric oxygen therapy (HBOT), the individual enters a pressurized chamber where they inhale pure oxygen. Inside this chamber, the air pressure is double compared to the normal air we breathe outside. This treatment increases the amount of oxygen dissolved in the blood, allowing it to reach the brain and other parts of the body.
