@@ -109,6 +109,11 @@ Genetics plays a large role in the incidence of autism, as evidenced by a 2019 s
 
 The role of genetics is also indicated by the concordance rate (both of two siblings having autism). In siblings, who share 50% of their genes, the occurrence of autism in both the siblings (the concordance rate) is 20%. Similarly, in fraternal twins, who share 50% of genes and grow in the same womb, the concordance rate is 31%. However, genetics are not the only causal factor - this is evidenced by the concordance rate of 77% even in identical twins, who share 100% of their genes, and grow in the same womb.  
 
+Here is a TED talk by Wendy Chung where she talks about genetic factors in autism.
+
+{{< video https://www.youtube.com/embed/wKlMcLTqRLs?si=FU5z2Jgf68XVavao >}}
+
+
 Genetics play a large role does not mean autism runs in the family. Certain individuals have it brand new because of mutations in the sperm or egg at the time of conception which are not passed down. Also, while we know genetics play a large role, the current studies do not provide information on what genes are involved, or even if it is a combination of genes. Furthermore, A study by Simons Foundation found that the genetic changes/ alterations were different for different individuals even among a population of 2600 that had brand new autism - this means there is not 1 gene, but about 300-400 genes (that are not random, but fit together in a pathway/ network) causing autism - possibly why there is such a wide spectrum of autism.  
 
 ## Environmental Factors 
