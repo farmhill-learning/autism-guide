@@ -35,7 +35,7 @@ In addition, AAP recommends that all children be screened specifically for ASD d
 ## Screening Instruments
 Most often the Modified Checklist for Autism in Toddlers, Revised with Follow-Up (MCHAT - R/F) or the Childhood Autism Rating Scale (CARS) is used.
 
-+ MCHAT - R/F is a brief checklist of yes/no items for early detection among children 16 to 30 months of age.
++ [MCHAT](https://www.mchatscreen.com/){.external target="_blank"} is a brief checklist of yes/no items for early detection among children 16 to 30 months of age.
 + Childhood Autism Rating Scale (CARS) observes a child’s behavior and uses a 15-point scale to evaluate a child’s relationship to people, body use, adaptation to change, listening response, and verbal communication.
 
 A well-executed screening will determine whether a more comprehensive assessment for autism is required. Additionally, it aids in the identification or exclusion of any other potential issues or conditions that may be present. 
