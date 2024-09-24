@@ -5,6 +5,9 @@ book:
   title: "Autism Guide"
   author: "Venu GVGK"
   date: "9/24/2024"
+
+  repo-url: https://github.com/farmhill-learning/autism-guide/
+
   chapters:
     - index.qmd
     - about.qmd
