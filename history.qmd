@@ -1,48 +1,48 @@
-# A short history of autism 
+# A short history of autism
 
 *Why is the history of autism important? Why is the history of any scientific idea important, for that matter?*
 
-The history of a scientific idea is important because science develops in the context of the challenges faced in a particular time and place. People who are doing science do not work in a vacuum, so what they notice and the way they interpret what they see, both depend on the context in which they are operating. However, when these interpretations become part of the science, they are sometimes seen to be somehow ‘objective’ by later day practitioners and students. This leads to a loss of context and inhibits the ability to critically examine older ideas, thereby giving them a longer life than they deserve. 
+The history of a scientific idea is important because science develops in the context of the challenges faced in a particular time and place. People who are doing science do not work in a vacuum, so what they notice and the way they interpret what they see, both depend on the context in which they are operating. However, when these interpretations become part of the science, they are sometimes seen to be somehow ‘objective’ by later day practitioners and students. This leads to a loss of context and inhibits the ability to critically examine older ideas, thereby giving them a longer life than they deserve.
 
-Nowhere is this more visible than in the case of autism. 
+Nowhere is this more visible than in the case of autism.
 
-The acknowledged pioneer of autism research in the US was also the proponent of the claim that ‘refrigerator mothers’ caused autism. He focused on one specific end of the autism spectrum, ended up conveying the idea that it is a severely disabling, rare condition, and that led to a certain stigma around autism. 
+The acknowledged pioneer of autism research in the US was also the proponent of the claim that ‘refrigerator mothers’ caused autism. He focused on one specific end of the autism spectrum, ended up conveying the idea that it is a severely disabling, rare condition, and that led to a certain stigma around autism.
 
-Another pioneer of autism, while he had a better understanding of the variety of autistic traits, had to focus on the ‘higher functioning’ end of the spectrum, as he worked in the Nazi regime that did not have a place for the ‘feeble minded’. 
+Another pioneer of autism, while he had a better understanding of the variety of autistic traits, had to focus on the ‘higher functioning’ end of the spectrum, as he worked in the Nazi regime that did not have a place for the ‘feeble minded’.
 
-While both are Germanic, they wrote in two different languages making it difficult to reconcile these two ideas. Both failed to acknowledge the work of brilliant clinicians, who, incidentally, worked with one first and then with the other. 
+While both are Germanic, they wrote in two different languages making it difficult to reconcile these two ideas. Both failed to acknowledge the work of brilliant clinicians, who, incidentally, worked with one first and then with the other.
 
-Both might also have known about but ignored the seminal contributions of a Soviet Jewish woman psychologist, possibly due to antisemitism, sexist attitudes, and anti-Soviet sentiments. These contributions, if accounted for properly, would have made autism what it is today, but much earlier and with much less misery all around. 
+Both might also have known about but ignored the seminal contributions of a Soviet Jewish woman psychologist, possibly due to antisemitism, sexist attitudes, and anti-Soviet sentiments. These contributions, if accounted for properly, would have made autism what it is today, but much earlier and with much less misery all around.
 
-Coming a little later, a parent of an autistic child, who worked tirelessly to disprove ‘refrigerator mother’ theory was also a supporter of controversial programs and alternative treatments like chelation, use of aversive and believed in the vaccine-autism link which was later discredited. 
+Coming a little later, a parent of an autistic child, who worked tirelessly to disprove ‘refrigerator mother’ theory was also a supporter of controversial programs and alternative treatments like chelation, use of aversive and believed in the vaccine-autism link which was later discredited.
 
-Then it took a British woman psychiatrist, also the mother of a severely autistic child, to bring these accounts together and help us see autism for the spectrum it is. It took the accounts of a few autistic adults like Temple Grandin and Judy Singer, movies like Rainman, the recent tireless work of journalists like Steve Silberman, as well as countless others, to put the idea of neurodiversity as the basis of looking at and understanding autism, as we do today. 
+Then it took a British woman psychiatrist, also the mother of a severely autistic child, to bring these accounts together and help us see autism for the spectrum it is. It took the accounts of a few autistic adults like Temple Grandin and Judy Singer, movies like Rainman, the recent tireless work of journalists like Steve Silberman, as well as countless others, to put the idea of neurodiversity as the basis of looking at and understanding autism, as we do today.
 
-So, yes, the history of autism is interesting and informative. Here is a TED talk by Steve Silberman that touches upon some of the developments in the history of autism. 
+So, yes, the history of autism is interesting and informative. Here is a TED talk by Steve Silberman that touches upon some of the developments in the history of autism.
 
 {{< video https://www.youtube.com/embed/_MBiP3G2Pzc?si=fahLdja2XgMe4D9F >}}
 
 Let's dive in for more detail!
 
-# Autism – Initial definition and refrigerator mother hypothesis
+## Autism – Initial definition and refrigerator mother hypothesis
 
 *Kanner's perspective on autism, as an infrequent and narrowly defined condition, influenced perceptions for years, contributing to precise diagnosis but potentially hindering a broader understanding of the spectrum.*
 
 Our understanding of autism has undergone significant evolution, shaped by both early observations and subsequent scientific advancements. Initially, the term "autism" was coined by Swiss psychiatrist Eugen Bleuler in 1908, describing symptoms observed in schizophrenia as a withdrawal into an inner world or self-absorption. Leo Kanner, born in Austria in 1894, later became a key figure in defining and shaping the early understanding of autism.
 
-## Leo Kanner – Psychogenic theories - 1941
+### Leo Kanner – Psychogenic theories - 1941
 
 Leo Kanner, who earned his MD degree in Berlin, moved to the United States, and embarked on a career in psychiatry. His influential work began in 1928 when he underwent psychiatric training and eventually joined John Hopkins University Hospital. Kanner's contributions included establishing a child psychiatric unit, transforming the doctor-patient relationship perspective. In 1935, he authored "Child Psychiatry," the first English-language textbook on the subject. During this time, he helped clinicians Anne Weiss and George Frankl to escape the Nazi regime in Germany. Frankl later joined Kanner at John Hopkins University.
 
 In 1941, Kanner presented a paper titled "Autistic Disturbances with Affective Contact," which was eventually published in 1943. This seminal work outlined observations of 11 children with common signs, including social isolation, a desire for sameness, routine obsession, delayed echolalia, and splinter memory skills. Kanner's perspective on autism, as an infrequent and narrowly defined condition, influenced perceptions for years, contributing to precise diagnosis but potentially hindering a broader understanding of the spectrum.
 
-Kanner proposed the concept of emotionally neglectful mothers (refrigerator mothers) in his observations of parents of children with autism. He suggested that cold and neglectful mothers might contribute to the development of autism in their children. 
+Kanner proposed the concept of emotionally neglectful mothers (refrigerator mothers) in his observations of parents of children with autism. He suggested that cold and neglectful mothers might contribute to the development of autism in their children.
 
 ## Bernard Rimland – Autism as a neurological condition - 1964
 
-It wasn't until Bernard Rimland challenged this hypothesis in 1964, advocating for a more biological and neurological understanding of autism in his book "Infantile Autism: The Syndrome and Its Implications for a Neural Theory of Behavior," that a shift occurred in the scientific community's perspective. Rimland's work played a significant role in steering away from psychogenic theories and toward a more comprehensive understanding of autism as a neurological condition. 
+It wasn't until Bernard Rimland challenged this hypothesis in 1964, advocating for a more biological and neurological understanding of autism in his book "Infantile Autism: The Syndrome and Its Implications for a Neural Theory of Behavior," that a shift occurred in the scientific community's perspective. Rimland's work played a significant role in steering away from psychogenic theories and toward a more comprehensive understanding of autism as a neurological condition.
 
-# Behavioral Approaches – Foundations of ABA
+## Behavioral Approaches – Foundations of ABA
 
 *Grounded in empirical research, ABA is a data driven method relying on collection and analysis of objective data to analyze the effectiveness of behavior interventions. It has evolved into one of the evidence-based approaches to working with autism.*
 
@@ -58,16 +58,16 @@ While the 1965 study focused on language development, it set the stage for Lovaa
 
 ABA involves breaking down complex behaviors into smaller components and using reinforcement strategies to encourage desired behaviors while discouraging undesirable ones. The Lovaas Method features intensive one-on-one behavioral therapy, often exceeding 40 hours per week, with a focus on structured learning, positive reinforcement, and individualized goals. Grounded in empirical research, Lovaas's work, including the 1987 study "Behavioral treatment and normal educational and intellectual functioning in young autistic children," played a crucial role in establishing ABA as a leading intervention for autism.
 
-# Study of autism in twins – Investigating genetic origins - 1977
+## Study of autism in twins – Investigating genetic origins - 1977
 
 *The study's significance lies in shifting the perception of autism from an environmentally caused disorder to one of the most heritable psychiatric disorders.*
 
-A few years down the line, despite Bernard Rimland's efforts to challenge the refrigerator mother theory, the concept resurfaced in 1967, perpetuated by Bruno Bettelheim, a psychoanalyst who echoed and popularized the theory in his book titled "The Empty Fortress." 
+A few years down the line, despite Bernard Rimland's efforts to challenge the refrigerator mother theory, the concept resurfaced in 1967, perpetuated by Bruno Bettelheim, a psychoanalyst who echoed and popularized the theory in his book titled "The Empty Fortress."
 
 A significant turning point came with the first-ever study of twins and autism in the history of autism research, providing an alternative perspective to blaming parents.
-Previous studies had noted a lack of resemblance for non-twin siblings, challenging the consideration of genetic influence on autism. The rarity of autism diagnoses at the time (2-4 children out of 10,000) contributed to the low rates observed in siblings, even if heritability were high. 
+Previous studies had noted a lack of resemblance for non-twin siblings, challenging the consideration of genetic influence on autism. The rarity of autism diagnoses at the time (2-4 children out of 10,000) contributed to the low rates observed in siblings, even if heritability were high.
 
-The groundbreaking [study](https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7610.1977.tb00443.x){.external target="_blank"} conducted by Susan Folstein and Michael Rutter focused on 21 pairs of British twins, examining the concordance rates for autism. They studied identical twins (monozygotic), where a fertilized egg splits and develops into two babies with the same genetic information, as well as non-identical twins (fraternal or dizygotic) where two eggs are fertilized by two sperm and produce two genetically unique children. 
+The groundbreaking [study](https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7610.1977.tb00443.x){.external target="_blank"} conducted by Susan Folstein and Michael Rutter focused on 21 pairs of British twins, examining the concordance rates for autism. They studied identical twins (monozygotic), where a fertilized egg splits and develops into two babies with the same genetic information, as well as non-identical twins (fraternal or dizygotic) where two eggs are fertilized by two sperm and produce two genetically unique children.
 
 Among the 10 pairs of fraternal (dizygotic, DZ) twins, where at least one twin was diagnosed with autism using strict criteria, not a single co-twin was diagnosed with autism, indicating zero concordance for fraternal twin pairs.
 
@@ -81,49 +81,49 @@ The 1977 paper not only contributed to understanding the heritability of autism 
 
 Following the increased recognition and understanding of autism, Autism made its way to the DSM-III (Diagnostic and Statistical Manual of Mental Disorders, Third Edition) as an independent diagnosis. This marked a significant step in acknowledging and categorizing autism spectrum disorders within the psychiatric diagnostic framework.
 
-# ‘Discovery’ of Asperger’s Syndrome and Autism as a spectrum - 1981
+## ‘Discovery’ of Asperger’s Syndrome and Autism as a spectrum - 1981
 
 *Lorna Wing proposed the concept of the "autism spectrum." She emphasized that autism is a spectrum of disorders with a wide range of presentations, including different degrees of severity and a diverse set of characteristics. Her work has had a lasting impact on autism research, diagnosis, and support systems.*
 
-Dr. Lorna Wing (1928-2014) trained as a medical doctor specializing in psychiatry. She and her husband John Wing both specialized as psychiatrists. They had a daughter Susie in 1956. Susie was delayed in development and had a ‘detached, insular’ manner. Despite being specialists in psychiatry, it took them years to get a diagnosis of autism. Convinced of the need for more research in the space, Dr. Wing changed her focus to child psychiatry. Dr. Wing and her collaborator Dr. Judith Gold did pioneer work in the field of autism. They initiated Camberwell Case register to record all patients using psychiatric services in that area of London and relentlessly accumulated case data that formed the basis of the influential insight that autism formed a spectrum. 
+Dr. Lorna Wing (1928-2014) trained as a medical doctor specializing in psychiatry. She and her husband John Wing both specialized as psychiatrists. They had a daughter Susie in 1956. Susie was delayed in development and had a ‘detached, insular’ manner. Despite being specialists in psychiatry, it took them years to get a diagnosis of autism. Convinced of the need for more research in the space, Dr. Wing changed her focus to child psychiatry. Dr. Wing and her collaborator Dr. Judith Gold did pioneer work in the field of autism. They initiated Camberwell Case register to record all patients using psychiatric services in that area of London and relentlessly accumulated case data that formed the basis of the influential insight that autism formed a spectrum.
 
-In 1981, she published a paper titled ‘Asperger syndrome: A clinical account’, popularizing the research of Hans Asperger. Asperger was an Austrian psychiatrist who, in 1940s, described a form of autism in a group of intelligent boys who were intensely interested in one or two subjects like dinosaurs or trains. They shared many of the usual problems associated with autism like the inability to make friends, repetitive behaviors, and distress at any change in routines. 
+In 1981, she published a paper titled ‘Asperger syndrome: A clinical account’, popularizing the research of Hans Asperger. Asperger was an Austrian psychiatrist who, in 1940s, described a form of autism in a group of intelligent boys who were intensely interested in one or two subjects like dinosaurs or trains. They shared many of the usual problems associated with autism like the inability to make friends, repetitive behaviors, and distress at any change in routines.
 
-Dr. Wing presented Asperger’s paper, along with her own research, as strong evidence for her larger argument that autism should be understood as a spectrum of disorders sharing common roots. At one end are some who, like Dr. Asperger’s patients, would go on to successful careers and untroubled lives, at the other end, may be patients like those studied by Dr. Kanner. 
+Dr. Wing presented Asperger’s paper, along with her own research, as strong evidence for her larger argument that autism should be understood as a spectrum of disorders sharing common roots. At one end are some who, like Dr. Asperger’s patients, would go on to successful careers and untroubled lives, at the other end, may be patients like those studied by Dr. Kanner.
 
 Who was Hans Asperger and how did his research not see the light of day till 1980s, while stigmatizing ideas of autism were around for about 40 years?
 
 ## Hans Asperger – the other end – 1944
 
-Hans Asperger (1906-1980), an Austrian pediatrician born in Vienna. He pursued medicine and received his medical degree in 1931 from the University of Vienna. He joined the University Children's Clinic in Vienna. His mentor and supervisor at the clinic for the most part was Franz Hamburger, a prominent Austrian pediatrician. Under Hamburger's guidance, Asperger had the opportunity to observe and work with a diverse range of pediatric cases. 
+Hans Asperger (1906-1980), an Austrian pediatrician born in Vienna. He pursued medicine and received his medical degree in 1931 from the University of Vienna. He joined the University Children's Clinic in Vienna. His mentor and supervisor at the clinic for the most part was Franz Hamburger, a prominent Austrian pediatrician. Under Hamburger's guidance, Asperger had the opportunity to observe and work with a diverse range of pediatric cases.
 
-Asperger's work on autism was influenced not only by his medical training but also by the clinical experiences and mentorship he received during his tenure at the University Children's Clinic. His colleagues had a unique way of treating children with special needs and they tried to adopt new ways of teaching and learning for those children. The collaboration between Asperger and Hamburger thus played a crucial role in shaping Asperger's understanding of child development and psychopathology, contributing to the pioneering observations that would later define his work on autism. 
+Asperger's work on autism was influenced not only by his medical training but also by the clinical experiences and mentorship he received during his tenure at the University Children's Clinic. His colleagues had a unique way of treating children with special needs and they tried to adopt new ways of teaching and learning for those children. The collaboration between Asperger and Hamburger thus played a crucial role in shaping Asperger's understanding of child development and psychopathology, contributing to the pioneering observations that would later define his work on autism.
 
 During his tenure at the Children's Clinic in Vienna, Asperger extensively studied over 200 children. These children displayed a range of symptoms, from prodigious abilities coupled with struggles in school to more severe disabilities that led to institutionalization. Despite the diversity, they all shared common features such as precocious talents, social awkwardness, and an intense focus on laws, rules, and schedules.
 
-In 1944, Hans Asperger published a groundbreaking paper titled "Die 'Autistischen Psychopathen’ im Kindesalter" ("The 'Autistic Psychopaths' in Childhood"). This seminal work detailed his observations and conceptualization of a distinctive set of behaviors displayed by certain children, which are now recognized as falling within the autism spectrum. 
+In 1944, Hans Asperger published a groundbreaking paper titled "Die 'Autistischen Psychopathen’ im Kindesalter" ("The 'Autistic Psychopaths' in Childhood"). This seminal work detailed his observations and conceptualization of a distinctive set of behaviors displayed by certain children, which are now recognized as falling within the autism spectrum.
 
 Asperger adopted a holistic understanding, viewing autism as a variation in neurodevelopment rather than a disorder. Crucially, Asperger recognized that these symptoms existed on a continuum, affecting both children and adults. He also keenly noted that the symptoms were noticeable in children only when they were 2 years old or older. Additionally, his work acknowledged the lifelong implications of autism but also expressed optimism about individuals leading fulfilling lives with appropriate support.
 
-When Asperger eventually shared his research with the world, he chose to highlight his higher-functioning patients. This decision was influenced by the era he lived in, marked by the Nazis' pursuit of purifying the land of the "feebleminded," leading to the euthanization of many institutionalized children. Consequently, Asperger unintentionally conveyed the impression that autism was a rare condition affecting young geniuses, rather than the more common syndrome he had identified. However, despite its significance, the paper did not gain widespread recognition initially, due to the language barrier and the second world war. 
+When Asperger eventually shared his research with the world, he chose to highlight his higher-functioning patients. This decision was influenced by the era he lived in, marked by the Nazis' pursuit of purifying the land of the "feebleminded," leading to the euthanization of many institutionalized children. Consequently, Asperger unintentionally conveyed the impression that autism was a rare condition affecting young geniuses, rather than the more common syndrome he had identified. However, despite its significance, the paper did not gain widespread recognition initially, due to the language barrier and the second world war.
 
 ## The mystery of Asperger – Kanner Connection
 
-Psychiatrist George Frankl was working at the Vienna clinic much before Asperger joined there. Psychologist Anne Weiss was also a part of the staff at the clinic. Both published papers in 1934-35, which included descriptions of children who had same characteristics as autism. They were working closely with Asperger. Both were jews, and they escaped the Nazi regime in 1935-37. Asperger was named the head of the clinic in 1935. 
+Psychiatrist George Frankl was working at the Vienna clinic much before Asperger joined there. Psychologist Anne Weiss was also a part of the staff at the clinic. Both published papers in 1934-35, which included descriptions of children who had same characteristics as autism. They were working closely with Asperger. Both were jews, and they escaped the Nazi regime in 1935-37. Asperger was named the head of the clinic in 1935.
 
-Frankl and Weiss, who later married each other went to work with Leo Kanner in 1938. Kanner’s paper titled "Autistic Disturbances of Affective Contact" was published in August 1941. Asperger’s paper, which Lorna Wing translated in 1981, was first submitted as a postdoctoral thesis in 1942 and was published in 1944. 
+Frankl and Weiss, who later married each other went to work with Leo Kanner in 1938. Kanner’s paper titled "Autistic Disturbances of Affective Contact" was published in August 1941. Asperger’s paper, which Lorna Wing translated in 1981, was first submitted as a postdoctoral thesis in 1942 and was published in 1944.
 
-It is difficult to imagine Kanner was unaware of Asperger’s work, while definitive evidence is not available. One can only wonder what would have happened if they acknowledged each other’s work and collaborated. 
+It is difficult to imagine Kanner was unaware of Asperger’s work, while definitive evidence is not available. One can only wonder what would have happened if they acknowledged each other’s work and collaborated.
 
 ## Lorna Wing – Bringing the ends together
 
 Building on the work of Leo Kanner and Hans Asperger, Lorna Wing proposed the concept of the "autism spectrum." She emphasized that autism is a spectrum of disorders with a wide range of presentations, including different degrees of severity and a diverse set of characteristics. Adding on, Wing also introduced the concept of the "triad of impairments" to describe the core features of autism. This triad includes difficulties in social interaction, communication, and imagination (often manifested as repetitive and stereotyped behaviors). The triad of impairments became a foundational framework for understanding and diagnosing autism spectrum disorders. Along with Judith Gould, she also developed the Autism Diagnostic Interview (ADI), a structured interview for parents or caregivers of individuals with autism. The ADI became an essential tool for clinicians and researchers in diagnosing autism and gathering information about a person's behavior and development.
 
-Wing, apart from actively being involved in advocating for individuals with autism and their families, contributed to better recognition and understanding of autism in girls and women by highlighting the underrepresentation of females on the autism spectrum. Her work drew attention to the fact that autism might present differently in females compared to males. 
+Wing, apart from actively being involved in advocating for individuals with autism and their families, contributed to better recognition and understanding of autism in girls and women by highlighting the underrepresentation of females on the autism spectrum. Her work drew attention to the fact that autism might present differently in females compared to males.
 
 Her work has had a lasting impact on autism research, diagnosis, and support systems.
 
-# Autism in Adults – Temple Grandin – 1986
+## Autism in Adults – Temple Grandin – 1986
 
 *As one of the first adults to break the stigma and publicly disclose her autism, Temple Grandin made enormous contributions to the field of autism by drawing attention to the lived experience of autistics.*
 
@@ -134,9 +134,9 @@ Grandin's unique cognitive style, characterized by visual thinking, has been a f
 
 Beyond her literary contributions, Temple Grandin's professional endeavors in animal science and her innovative designs for livestock handling facilities reflect her understanding of sensory sensitivities, a common trait in individuals with autism. Her work in enhancing animal welfare demonstrates her ability to apply a unique perspective to real-world challenges. In addition to her autobiographical writings, Grandin has authored numerous books and articles on autism, animal behavior, and related subjects, contributing to the widespread knowledge about autism in both academic and popular contexts.
 
-Stories of Grandin and other adult autistics like her, and the 1988 movie Rainman, also gave rise to the idea that autistics are unusually good at arts or math – a condition called savant syndrome. 
+Stories of Grandin and other adult autistics like her, and the 1988 movie Rainman, also gave rise to the idea that autistics are unusually good at arts or math – a condition called savant syndrome.
 
-# Emergence of neurodiversity paradigm-1990s
+## Emergence of neurodiversity paradigm-1990s
 
 *Neurodiversity describes the idea that people experience and interact with the world around them in many different ways; there is no one "right" way of thinking, learning, and behaving, and differences are not viewed as deficits.*
 
@@ -152,7 +152,7 @@ Singer undertook a thesis titled "Odd People In," exploring the emergence of a n
 
 Neurodiversity has become an important idea. It changed how we talk about and see neurological differences. The neurodiversity movement works for the rights and inclusion of people with different ways of thinking in all parts of life.
 
-# Another step back – Autism Vaccine connection – 1998-2010
+## Another step back – Autism Vaccine connection – 1998-2010
 
 *In 1998, a paper in Lancet claimed that there is a connection between Autism and the MMR vaccine. While the study was later found to be fraudulent and was retracted, the questions about vaccine safety and impact on autism refuse to leave the public perception.*
 
@@ -164,9 +164,9 @@ The study faced immediate criticism for its small and selective sample, lack of 
 
 The study was eventually retracted by The Lancet in 2010 due to ethical concerns and the discovery of undisclosed financial conflicts of interest. Wakefield lost his medical license in the same year, facing disciplinary action for ethical violations.
 
-The Wakefield study had a profound impact on public perception and contributed to vaccine hesitancy. However, it has been widely discredited by subsequent research, and Wakefield's actions have been condemned by the scientific community for their ethical and methodological shortcomings. 
+The Wakefield study had a profound impact on public perception and contributed to vaccine hesitancy. However, it has been widely discredited by subsequent research, and Wakefield's actions have been condemned by the scientific community for their ethical and methodological shortcomings.
 
-# An old, yet modern take on autism 2013
+## An old, yet modern take on autism 2013
 
 *In another twist, research notes from 1925, made by a Russian Jewish woman psychologist reveal a much more nuanced and modern understanding of autism.*
 
@@ -178,7 +178,7 @@ Upon examination, Manouilenko found significant similarities between Sukhareva's
 
 Sukhareva, a Soviet child psychiatrist, independently observed children displaying social withdrawal, language difficulties, and repetitive behaviors. Her detailed description of autistic features in the six boys she observed was published in 1925, nearly two decades before the more widely known work of Asperger and Kanner. Sukhareva recognized the unique cognitive profiles of the children she studied, emphasizing differences in information processing and engagement with the world. Her focus on early childhood and the importance of early identification and intervention aligns with later perspectives on autism.
 
-Sukhareva held a positive view regarding children's ability to adapt successfully under favorable conditions. She emphasized the significance of the social environment, proper upbringing, and education in stimulating compensatory opportunities for children. 
+Sukhareva held a positive view regarding children's ability to adapt successfully under favorable conditions. She emphasized the significance of the social environment, proper upbringing, and education in stimulating compensatory opportunities for children.
 
 Sukhareva, as a child psychiatrist, observed and highlighted how crucial these factors were in aiding children's adaptation within their families and at school. This perspective aligned with her evolutionary-biological concept of mental illness. In her 1926 paper, Sukhareva balanced her descriptions by also noting unconventional behavior and challenges faced by the children she observed.
 
@@ -186,9 +186,9 @@ Sukhareva also documented motor coordination issues in some children, contributi
 
 Sula Wolff, a psychiatrist based in Edinburgh, praised Sukhareva's 1926 publication, stating that Sukhareva summarized the children's characteristics "admirably" and described her work as "marvellous." According to Manouilenko and Bejerot, Sukhareva's descriptions were considered "structured, elegant, detailed," and "vivid." They also noted that Sukhareva's ideas on ways to help autistic children were remarkably "modern."
 
-Manouilenko and Bejerot suggest that Sukhareva’s gender, her Jewish identity, Russian nationality, and her publications in Russian and German were not an effective combination for gaining worldwide attention in the 1920s. One can only bemoan the loss to the autism community, clearly due to the established discrimination. 
+Manouilenko and Bejerot suggest that Sukhareva’s gender, her Jewish identity, Russian nationality, and her publications in Russian and German were not an effective combination for gaining worldwide attention in the 1920s. One can only bemoan the loss to the autism community, clearly due to the established discrimination.
 
-# Current understanding – 2024
+## Current understanding – 2024
 
 Today, "autism" refers to a spectrum of neurodevelopmental disorders characterized by challenges in social communication and interaction, as well as restricted and repetitive behaviors. The contemporary understanding emphasizes the multifactorial nature of autism, involving a complex interplay of genetic, neurological, and environmental factors.
 

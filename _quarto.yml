@@ -7,8 +7,17 @@ book:
   date: "9/24/2024"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - about.qmd
+    - identification-causes.qmd
+    - history.qmd
+    - perspectives.qmd
+    - diagnosis.qmd
+    - next-steps.qmd
+    - early-intervention.qmd
+    - cures-and-remedies.qmd
+    - education.qmd
+    - work.qmd
+    - adulting.qmd
     - references.qmd
 
 bibliography: references.bib

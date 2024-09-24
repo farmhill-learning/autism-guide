@@ -2,36 +2,36 @@
 In this section we examine some of the alternative treatments to autism.
 
 ::: {.callout-caution}
-Please note that the alternative treatments for autism discussed here are considered ineffective and some can be outright dangerous. These are included to provide a cautionary note and are NOT recommended. 
+Please note that the alternative treatments for autism discussed here are considered ineffective and some can be outright dangerous. These are included to provide a cautionary note and are NOT recommended.
 :::
 
 
-# Why do people seek alternative treatments?
+## Why do people seek alternative treatments?
 
-There are many alternative treatments or protocols advised for conditions like diabetes, skin allergies or even cancer. Similarly, there have been many alternative treatments that have been and continue to be practiced for autism, despite no evidence of effectiveness. In some cases, people believe in and are willing to try alternative approaches, even when there is evidence of harm. 
+There are many alternative treatments or protocols advised for conditions like diabetes, skin allergies or even cancer. Similarly, there have been many alternative treatments that have been and continue to be practiced for autism, despite no evidence of effectiveness. In some cases, people believe in and are willing to try alternative approaches, even when there is evidence of harm.
 
-What prompts people to try these approaches, against all reason? 
+What prompts people to try these approaches, against all reason?
 
 
 ### Newly discovered conditions
 
-When a condition is newly discovered or becomes widespread, and an effective treatment is yet to be determined, it is typical for people to explore a range of potential causes, treatments and “cures”. An approach that might have been effective for a different condition that appears to be related may be tried. For example, in the case of COVID, when the infection hit, there was no cure. Healthcare workers primarily focused on providing symptomatic treatment and tried approaches that worked for other infections and respiratory conditions like flu. A variety of treatments ranging from allopathy, ayurveda to homeopathy were tried before a vaccine was developed and a protocol that works was devised. 
+When a condition is newly discovered or becomes widespread, and an effective treatment is yet to be determined, it is typical for people to explore a range of potential causes, treatments and “cures”. An approach that might have been effective for a different condition that appears to be related may be tried. For example, in the case of COVID, when the infection hit, there was no cure. Healthcare workers primarily focused on providing symptomatic treatment and tried approaches that worked for other infections and respiratory conditions like flu. A variety of treatments ranging from allopathy, ayurveda to homeopathy were tried before a vaccine was developed and a protocol that works was devised.
 
 ### Seeking better results with less effort
 
-Even when some understanding and evidence-based interventions are available, there might be a desire to seek alternative solutions in the hope of achieving better or anticipated results, and with lesser effort. For example, it is understood that diabetes cannot be cured but can be managed with lifestyle changes. Many people find these lifestyle changes difficult to make and maintain. They seek alternative approaches instead. 
+Even when some understanding and evidence-based interventions are available, there might be a desire to seek alternative solutions in the hope of achieving better or anticipated results, and with lesser effort. For example, it is understood that diabetes cannot be cured but can be managed with lifestyle changes. Many people find these lifestyle changes difficult to make and maintain. They seek alternative approaches instead.
 
-### Inability to critically evaluate 
+### Inability to critically evaluate
 
-It is also possible that people may not have the mental capacity to critically evaluate the feasibility of promised cures versus the potential harm as they deal with the stress placed by the condition they are dealing with. Sometimes they also believe that they have tried everything there is to try and there is no harm in trying one more thing. You see this approach in people dealing with cancer and such life threatening conditions. 
+It is also possible that people may not have the mental capacity to critically evaluate the feasibility of promised cures versus the potential harm as they deal with the stress placed by the condition they are dealing with. Sometimes they also believe that they have tried everything there is to try and there is no harm in trying one more thing. You see this approach in people dealing with cancer and such life threatening conditions.
 
 ## The case of autism
 
-Many of these factors seem to be working in the case of people who are willing to try alternative treatments for autism. Autism has been a poorly understood condition whose cause is not clearly known. It impacts children and it is no secret that many of us do not understand parenting, education and child development well enough. When a child is diagnosed with autism, parents do not immediately understand all the implications and its lifelong impact. Many see it as improper behavior on the child’s part or a set of symptoms that are preventing the child from going to school and seek to address them quickly, in time for the child to join a school. They also hear from healthcare professionals that there is no medical cure for autism. The evidence based interventions are behavioral, requiring significant time, energy and resource commitment from everyone involved. Most people are stressed out with the effort of bringing up the child and an autism diagnosis just makes things worse.  
+Many of these factors seem to be working in the case of people who are willing to try alternative treatments for autism. Autism has been a poorly understood condition whose cause is not clearly known. It impacts children and it is no secret that many of us do not understand parenting, education and child development well enough. When a child is diagnosed with autism, parents do not immediately understand all the implications and its lifelong impact. Many see it as improper behavior on the child’s part or a set of symptoms that are preventing the child from going to school and seek to address them quickly, in time for the child to join a school. They also hear from healthcare professionals that there is no medical cure for autism. The evidence based interventions are behavioral, requiring significant time, energy and resource commitment from everyone involved. Most people are stressed out with the effort of bringing up the child and an autism diagnosis just makes things worse.
 
-It is in such an environment that alternative approaches, promising cures or at least significant improvements quickly, with little or no effort, become popular. Some of these are approaches that work for another condition, e.g. chelation, which is a treatment for heavy metal toxicity. Chelation was tried for autism initially because symptoms of autism resembled mercury poisoning and later because people believed autism was caused by mercury from vaccines. Similarly, hyperbaric oxygen therapy works for traumatic brain injury and was tried for autism because people believed increasing oxygen supply to the brain can help autism. There is homeopathy, which has been tried for everything that is not well understood in current medical science. In the Indian context, there is ayurveda, siddha and other alternative systems offering everything from remedies to cures for autism. Many others like restrictive diets are approaches that claim to cure a wide variety of conditions. 
+It is in such an environment that alternative approaches, promising cures or at least significant improvements quickly, with little or no effort, become popular. Some of these are approaches that work for another condition, e.g. chelation, which is a treatment for heavy metal toxicity. Chelation was tried for autism initially because symptoms of autism resembled mercury poisoning and later because people believed autism was caused by mercury from vaccines. Similarly, hyperbaric oxygen therapy works for traumatic brain injury and was tried for autism because people believed increasing oxygen supply to the brain can help autism. There is homeopathy, which has been tried for everything that is not well understood in current medical science. In the Indian context, there is ayurveda, siddha and other alternative systems offering everything from remedies to cures for autism. Many others like restrictive diets are approaches that claim to cure a wide variety of conditions.
 
-## Caution: Alternative approaches 
+## Caution: Alternative approaches
 
 Currently, we understand Autism as a brain wired differently. Symptoms of autism may pose some social challenges for individuals in the spectrum, for which one can seek symptomatic treatment to enable a functional and meaningful life within the society. The cause of autism is unclear and so is the cure for autism. Scientifically, no evidence supports the existence of a "cure" for autism. Evidence-based interventions aim to manage specific symptoms, yet other interventions driven by speculative theories of "curing" autism not only lack efficacy but can also result in severe side effects. Consequently, interventions that demand careful attention and caution include:
 
@@ -44,7 +44,7 @@ Currently, we understand Autism as a brain wired differently. Symptoms of autism
 + Ayurveda
 
 
-## When to be critical 
+## When to be critical
 
 Some treatments might appear appealing due to their success in addressing a different condition with similar symptoms, success stories from certain individuals, or alignment with personal beliefs or expectations of a cure. However, it is important to exercise serious caution when the intervention is promoted in the following ways:
 
@@ -66,48 +66,50 @@ Distinguishing between legitimate therapies and questionable ones can be challen
 + What methods are in place to ensure the person's safety?
 + How will you measure changes or improvements?
 
-# Chelation - A Dangerous approach
+## Chelation - A Dangerous approach
+
 ::: {.callout-caution}
 Chelation is not recommended for autism. It can have dangerous side effects.
 :::
 
-## What is chelation?
+### What is chelation?
 
 In chelation, the aim is to administer medications (chelators) that bind with metals in the body and remove it from the system via urine when the medicine itself is excreted. This has been useful to treat heavy metal toxicity. Most commonly used medications are dimercaptosuccinic acid (DMSA) or ethylenediaminetetraacetic acid (EDTA). This treatment is typically administered intravenously or orally under medical supervision following a detailed baseline assessment of metal content in the system, usually with a urine test.
 
-## History of chelation
+### History of chelation
 
-Chelation process dates back to 1935 when it was used as binding and extracting agent of calcium in the dyeing industry. The use of Chelation therapy in humans started between the 1950s and 1960s when it was used in patients with hypercalcemia and lead poisoning, consequently showing improvements in their cardiovascular condition. Since then it has been established as an effective treatment for lead poisoning or any heavy metal toxicity for that matter and as anticoagulants. Between 2002 and 2007, despite several warnings and prohibitions by the FDA (Food and Drug Administration), chelation gained popularity in the U.S. for treating heart conditions and other health issues. 
+Chelation process dates back to 1935 when it was used as binding and extracting agent of calcium in the dyeing industry. The use of Chelation therapy in humans started between the 1950s and 1960s when it was used in patients with hypercalcemia and lead poisoning, consequently showing improvements in their cardiovascular condition. Since then it has been established as an effective treatment for lead poisoning or any heavy metal toxicity for that matter and as anticoagulants. Between 2002 and 2007, despite several warnings and prohibitions by the FDA (Food and Drug Administration), chelation gained popularity in the U.S. for treating heart conditions and other health issues.
 
 However, due to its intensity and potential harmful side effects, it is strictly administered under medical supervision.
 In 1989, a "Protocol for the Safe and Effective Administration of EDTA" was established and later updated. This comprehensive protocol establishes strict criteria for patient selection and urges clinicians to conduct an initial assessment of renal function using the Cockcroft-Gault equation. It further emphasizes the continuous monitoring of renal function throughout a series of chelation treatments. Additionally, emergency procedures are outlined in case of adverse reactions during the process.
 
-## Why was Chelation tried for autism?
+### Why was Chelation tried for autism?
 
 It gained attention in the context of autism due to concerns about heavy metal toxicity in the systems of individuals in the spectrum, but scientific research hasn't supported the theory that autism is caused by heavy metal toxicity. Some studies have suggested that children with autism may have higher levels of certain heavy metals in their systems, but the direct cause between heavy metal exposure and autism has not been established. One hypothesis that autism is caused due to exposure to heavy metals (mercury) through vaccines has been studied thoroughly and research suggests no causal link between vaccines and autism. Other theories of autism being caused due to intrauterine or environmental exposure to heavy metals is still under study and there is no established link as of now.
 
 On the other hand, scientific research investigating the effectiveness of chelation therapy for autism remains limited and inconclusive. Clinical trials investigating the impact of chelation on autism symptoms have shown mixed or inconclusive results, and many of these studies have methodological limitations.
 
-## Caution
+### Caution
 
 Chelation therapy can be risky and has the potential for serious side effects such as hypocalcaemia (level of calcium in blood is too low), renal impairment and reported deaths. The presence of certain metals like calcium, copper, iron, magnesium, manganese, molybdenum, chromium, potassium, sodium, and zinc is essential to facilitate normal biological functioning of the human body. It is a cause for concern if there are lower or higher levels of these metals than what is required. It necessitates meticulous and supervised administration of medications to avoid excessive removal of metals. Medical organizations do not recommend chelation therapy for autism due to safety concerns.
 
-Some researchers also suggest that due to the greater risks associated with chelation 
+Some researchers also suggest that due to the greater risks associated with chelation
 compared to its efficacy as a treatment for autism, it is advisable to first establish a definitive causal link between heavy metals and autism. This approach emphasizes the need to first validate the relationship between heavy metal exposure and autism before further studying on chelation as a treatment.
 
 Therefore, it is crucial for anyone, whether medical professionals or families, considering chelation therapy to conduct a thorough baseline assessment and cost-benefit analysis of the treatment before proceeding with it. There is no medical organization that is in favor of using chelation therapy for autism.
 
-# Miracle Mineral Solution (MMS)
+## Miracle Mineral Solution (MMS)
+
 ::: {.callout-caution}
 MMS is not recommended for autism. It can have dangerous side effects.
 :::
 
 Miracle Mineral Solution (MMS) is a controversial substance promoted in alternative health circles. Marketed as a cure for various ailments, MMS is a combination of sodium chlorite and citric acid, creating chlorine dioxide. Advocates claim it can treat conditions like malaria, cancer, and even autism. However, its use is highly controversial and poses serious health risks.
 
-## MMS and Autism
+### MMS and Autism
 MMS has been suggested as a remedy for autism, asserting its ability to alleviate symptoms and enhance well-being in individuals on the autism spectrum. It's essential to note that there is no scientific evidence supporting MMS for autism, and major health organizations strongly advise against its use.
 
-## History
+### History
 Miracle Mineral Solution (MMS) , found in 2006 by Jim Humble, has a controversial history, marked by its promotion as a supposed cure for various illnesses despite serious health risks associated with its use. Here's a brief overview of the history of MMS:
 
 + Origins in Water Purification: MMS is derived from sodium chlorite, a chemical used in some industrial applications, including water purification. It was first promoted by Jim Humble, a former Scientologist, who claimed to have discovered its health benefits during a mining expedition in South America.
@@ -119,9 +121,9 @@ Miracle Mineral Solution (MMS) , found in 2006 by Jim Humble, has a controversia
 + Continued Advocacy Despite Warnings: Despite widespread condemnation and legal actions, there are continued reports of individuals advocating for and using MMS. Online platforms have been used to disseminate information about MMS, leading to ongoing concerns about its accessibility and use.
 + Ethical Considerations: The promotion of MMS for serious medical conditions, including autism, raises ethical concerns within the medical and scientific communities. Advocates for evidence-based medicine emphasize the importance of protecting individuals from potentially harmful and unproven treatments.
 
-The controversy surrounding MMS underscores the importance of relying on evidence-based medical practices and the need for public awareness regarding potential health risks associated with unproven treatments. In addition, the popularity of MMS at one time as a remedy for autism should make us all weary of the power of zealous beliefs supported with religious fervor and no evidence. 
+The controversy surrounding MMS underscores the importance of relying on evidence-based medical practices and the need for public awareness regarding potential health risks associated with unproven treatments. In addition, the popularity of MMS at one time as a remedy for autism should make us all weary of the power of zealous beliefs supported with religious fervor and no evidence.
 
-## Caution:
+### Caution:
 
 + Lack of Scientific Support: The endorsement of MMS as an autism treatment lacks scientific credibility. Rigorous clinical trials with proper controls and methodologies are absent, rendering any claims about its benefits for autism unproven.
 + Health Risks and Side Effects: MMS contains chlorine dioxide, an industrial chemical. Ingesting it can lead to severe health risks, including nausea, vomiting, diarrhea, and potentially life-threatening complications. The Food and Drug Administration has issued warnings about the dangers of MMS consumption.
@@ -131,24 +133,24 @@ The controversy surrounding MMS underscores the importance of relying on evidenc
 In conclusion, Miracle Mineral Solution (MMS) lacks scientifically proven benefits for treating autism or any health condition. Its use is associated with significant health risks, and regulatory authorities strongly discourage its consumption. Individuals and families seeking interventions for autism are urged to prioritize evidence-based treatments and consult healthcare professionals for the well-being and safety of those with autism spectrum disorder.
 
 
-# Stem Cell Therapy
+## Stem Cell Therapy
 
 ::: {.callout-caution}
-As of 2022, the use of stem cell therapy as a treatment or cure for autism is prohibited in India. This restriction has been implemented due to misleading promotions and false claims. The only way to legally and ethically access stem cell therapy is to participate in an approved clinical trial. 
+As of 2022, the use of stem cell therapy as a treatment or cure for autism is prohibited in India. This restriction has been implemented due to misleading promotions and false claims. The only way to legally and ethically access stem cell therapy is to participate in an approved clinical trial.
 :::
-## What are stem cells?
+### What are stem cells?
 
 Stem cells are a group of cells that are present in our bodies through all stages of life. In fact, they are one of the first cells developed during the embryo stage. These cells, under the right environment, have the ability to generate new stem cells and also other cells with specialized functions (blood cells, brain cells, bone cells etc.) Because of this unique feature, stem cells play a key role in the development of newborn children and also in the restorative processes after a disease or an injury. Their ability to self-renew and multiply, ensures an ongoing source of new cells to replace old or injured ones. During the developmental years, this growth is vital for maturing into an adult. Once development is complete, this ongoing growth aids in healing and repairing damaged tissues or organs at a cellular level. These special characteristics make stem cells highly important in regenerative medicine, as they can create entire tissues and organs from just a small group of precursor cells.This characteristic of stem cells has kindled research interest in trying this as a treatment for various diseases.
 
-## What is stem cell therapy?
+### What is stem cell therapy?
 
 Stem cell therapy, also known as regenerative medicine, aids in fixing damaged, malfunctioning, or injured tissues using stem cells or their byproducts. It marks a new phase in organ transplantation, utilizing cells rather than donor organs that are limited.
 
 In laboratories, scientists cultivate stem cells under favorable conditions. These cells are modified to become specific cell types, like heart muscle, blood, or nerve cells. These specialized cells can be placed into a person's body. For instance, if someone has a heart condition, these cells might be inserted into the heart muscle. The transplanted healthy heart muscle cells may assist in repairing the damaged heart muscle.
 
-## History of stem cell therapy
+### History of stem cell therapy
 
-Zoologists Theodor Heinrich Boveri and Valentin Häcker used the term stem cell to describe cells committed to give rise to the germline. 
+Zoologists Theodor Heinrich Boveri and Valentin Häcker used the term stem cell to describe cells committed to give rise to the germline.
 
 + 1950s - scientists studied the potential of stem cells majorly through bone marrow and its role in generating various blood cells
 
@@ -164,9 +166,9 @@ Zoologists Theodor Heinrich Boveri and Valentin Häcker used the term stem cell 
 
 + Presently, stem cell therapy is applied in various areas of medicine. For example, bone marrow transplants are used in the treatment of leukemia and other blood disorders. Stem cells are being researched and utilized for regenerative medicine to potentially treat conditions such as heart disease, spinal cord injuries, Parkinson's disease, diabetes, and more. Clinical trials and research studies continue to explore the safety and efficacy of stem cell therapies for various health conditions.
 
-## Why was it tried for autism?
+### Why was it tried for autism?
 
-Stem cell therapy has been considered as a potential treatment for autism due to the belief that it might target certain biological mechanisms or symptoms (immune system regulation and inflammation, neural connectivity, etc.)  associated with the condition. 
+Stem cell therapy has been considered as a potential treatment for autism due to the belief that it might target certain biological mechanisms or symptoms (immune system regulation and inflammation, neural connectivity, etc.)  associated with the condition.
 
 Reasons why stem cell therapy is being explored for autism include:
 
@@ -178,13 +180,13 @@ Reasons why stem cell therapy is being explored for autism include:
 
 + Experimental Nature of Treatment: While conventional treatments for autism primarily focus on behavioral and therapeutic interventions, stem cell therapy is considered experimental. It aims to address potential underlying biological factors that traditional therapies might not directly target.
 
-However, it's essential to understand that while stem cell therapy has shown promise in various medical areas, its effectiveness and safety in treating autism are still being investigated. Clinical trials exploring the safety and potential efficacy of stem cell therapy for autism began in the early 2010s. These trials aimed to investigate the safety, feasibility, and any potential improvements in behavior, communication, and other symptoms associated with autism. It remains an experimental and unproven treatment for autism. 
+However, it's essential to understand that while stem cell therapy has shown promise in various medical areas, its effectiveness and safety in treating autism are still being investigated. Clinical trials exploring the safety and potential efficacy of stem cell therapy for autism began in the early 2010s. These trials aimed to investigate the safety, feasibility, and any potential improvements in behavior, communication, and other symptoms associated with autism. It remains an experimental and unproven treatment for autism.
 
 The scientific and medical community stress the necessity for further comprehensive research, including well-designed clinical trials, to determine its safety, efficacy, and long-term impact on individuals with autism.
 
-## Caution
+### Caution
 
-Stem cell therapy for Autism is still under investigation and there is no established finding of cure in using the treatment for autism. There are limited studies and no definitive results yet. Among the limited studies, the results cannot be generalized as all of the studies have a small sample size. Like any medical intervention, stem cell therapy also carries potential risks. 
+Stem cell therapy for Autism is still under investigation and there is no established finding of cure in using the treatment for autism. There are limited studies and no definitive results yet. Among the limited studies, the results cannot be generalized as all of the studies have a small sample size. Like any medical intervention, stem cell therapy also carries potential risks.
 
 
 + Unintended side effects or complications could arise from the procedure, such as infection, immune rejection, or the formation of tumors.
@@ -195,13 +197,13 @@ Stem cell therapy for Autism is still under investigation and there is no establ
 
 + Some facilities offering stem cell treatments might not adhere to strict regulatory standards or might lack sufficient scientific evidence supporting their procedures. If any medical center is experimenting and an individual is part of a clinical trial, they should be treated free of cost.
 
-+ There have been reports of adverse short-term effects associated with stem cell therapy, including aggressive behavior, nausea, vomiting, and seizures. Research on the long-term effects of stem cell therapy is still in its early stages, and a comprehensive understanding of its lasting impact is yet to be established. 
++ There have been reports of adverse short-term effects associated with stem cell therapy, including aggressive behavior, nausea, vomiting, and seizures. Research on the long-term effects of stem cell therapy is still in its early stages, and a comprehensive understanding of its lasting impact is yet to be established.
 
-## Current status in India
+### Current status in India
 
-Starting around 2010, stem cell therapy has been advertised as a potential cure for autism by many practitioners in India, despite no evidence for the same. Many parents have fallen victim to the unethical medical and business practice associated with stem cell treatment. 
+Starting around 2010, stem cell therapy has been advertised as a potential cure for autism by many practitioners in India, despite no evidence for the same. Many parents have fallen victim to the unethical medical and business practice associated with stem cell treatment.
 
-As of 2022, the use of stem cell therapy as a treatment or cure for autism is prohibited in India. This restriction has been implemented due to misleading promotions and false claims. 
+As of 2022, the use of stem cell therapy as a treatment or cure for autism is prohibited in India. This restriction has been implemented due to misleading promotions and false claims.
 Currently, stem cell therapy for conditions outlined in the National Guideline for Stem Cell Research (NGSCR) 2017, excluding Bone Marrow Transplant (BMT)/ hematopoietic stem cell transplant (HSCT), is neither accessible nor permitted. Individuals can only participate in stem cell treatment through a clinical trial if they meet the specified criteria for the trial.
 
 In this context, it's important to highlight that there is currently no clinical evidence validating the effectiveness of stem cell therapy for treating autism. Therefore, any facility claiming otherwise should be approached with caution and careful consideration. The National Medical Council (NMC) calls it professional misconduct when anybody practices, advertises, or promotes stem cell therapy as a treatment or cure for autism.
@@ -214,13 +216,13 @@ Here is a video created in 2023 by Yash Charitable Trust (YCT), and Forum for Au
 
 
 
-# Hyperbaric Oxygen Therapy (HBOT) 
+## Hyperbaric Oxygen Therapy (HBOT)
 
 In hyperbaric oxygen therapy (HBOT), the individual enters a pressurized chamber where they inhale pure oxygen. Inside this chamber, the air pressure is double compared to the normal air we breathe outside. This treatment increases the amount of oxygen dissolved in the blood, allowing it to reach the brain and other parts of the body.
 
 HBOT is based on the principle of delivering increased levels of oxygen to the body's tissues by exposing individuals to pure oxygen in a pressurized chamber. The primary components are increased atmospheric pressure and elevated oxygen concentration. It enables increased oxygen supply to organs that lack sufficient oxygen. The oxygen is dissolved in the blood, plasma, and cerebrospinal fluids.The increased oxygen levels stimulate and accelerate bodily functions that rely on oxygen, from essential processes like heartbeats to cognitive functions and movements. Due to this, HBOT has shown promising potential in addressing or lessening symptoms related to cognitive and mobility decline. Studies have indicated that the combination of high oxygen levels (hyperoxia) and pressure in a hyperbaric environment can boost tissue oxygenation. It is believed that this manipulation affects oxygen and pressure-sensitive genes, ultimately leading to improved tissue metabolism.
 
-## History of HBOT
+### History of HBOT
 
 The use of oxygen therapy goes back to 1662 when British physician Nathaniel Henshaw built the first pressurized room to treat pulmonary and digestive conditions. The basic principle behind Henshaw's work was the notion that breathing in a pressurized environment could have positive effects on health. However, the understanding of the physiological effects of increased pressure and the therapeutic applications of hyperbaric environments was in its infancy then.
 
@@ -234,9 +236,9 @@ The use of oxygen therapy goes back to 1662 when British physician Nathaniel Hen
 
 + 1928- Dr.Cunningham discovered that there is a difference in mortality rate between flu patients living in higher elevations compared to patients living at lower elevations. In higher elevations, one breathes in less oxygen. He built a 5 storey chamber that offered more than 60 rooms designed to treat flu patients. In addition, Harvard Medical School built its first hyperbaric chamber,
 
-+ 1937-1942: The U.S. military used hyperbaric oxygen to treat deep-sea divers with decompression sickness, also known as the bends. 
++ 1937-1942: The U.S. military used hyperbaric oxygen to treat deep-sea divers with decompression sickness, also known as the bends.
 
-+ 1955- Churchill-Davidson applied HBO to potentiate the effects of radiation therapy in cancer patients, while at the same time Boerema developed HBO as an adjunct to cardiac surgery, thus prolonging the time for circulatory arrest 
++ 1955- Churchill-Davidson applied HBO to potentiate the effects of radiation therapy in cancer patients, while at the same time Boerema developed HBO as an adjunct to cardiac surgery, thus prolonging the time for circulatory arrest
 
 + 1956: The U.S. Navy established the first hyperbaric research program to explore various therapeutic applications.
 
@@ -252,7 +254,7 @@ The use of oxygen therapy goes back to 1662 when British physician Nathaniel Hen
 
 + Present: Hyperbaric oxygen therapy is used as a standard treatment for conditions such as decompression sickness, chronic non-healing wounds, and certain infections. Ongoing research is exploring its potential applications in areas such as neurology, sports medicine, and chronic diseases.
 
-## Why was HBOT used for autism?
+### Why was HBOT used for autism?
 
 HBOT, given its principles, was believed to address the biological symptoms of autism such as immune system dysregulation and inflammation. It is still experimental and no regulatory body approves using HBOT as a treatment for autism. It was seen a as a potential treatment for autism due to:
 
@@ -268,7 +270,7 @@ HBOT, given its principles, was believed to address the biological symptoms of a
 
 Similar to other alternative treatments, hyperbaric oxygen therapy (HBOT) is categorized as an alternative treatment due to insufficient data, lack of conclusive evidence regarding its efficacy and impact. Comprehensive and definitive research is required before considering HBOT as a treatment for autism. Presently, studies suggesting its efficacy in treating autism are still experimental, and no definitive claims have been established. Therefore, like any alternative treatment, caution is advised when considering HBOT for autism.
 
-## Caution
+### Caution
 
 While hyperbaric oxygen therapy (HBOT) has demonstrated effectiveness for certain conditions like the flu and decompression sickness, its impact on individuals with autism remains unclear. Like any treatment, HBOT has associated side effects. Combined with the absence of conclusive evidence regarding its positive effects for autism, it is crucial to approach such treatments with caution and make informed decisions. Some reasons to exercise caution include:
 
@@ -286,13 +288,13 @@ While hyperbaric oxygen therapy (HBOT) has demonstrated effectiveness for certai
 
 In summary, caution is advised when considering HBOT for autism. Thoroughly understanding the current scientific evidence, potential risks, and the experimental nature of the treatment is essential. Consulting with healthcare professionals and participating in well-designed clinical trials, when available, can offer more guidance on the appropriateness of HBOT for individual cases.
 
-# Restrictive Diets
+## Restrictive Diets
 
 A diet is the combination and quantity of foods that an individual consumes. A healthy diet is one that provides all the necessary nutrients required for optimal well-being. Nutritional needs can vary based on factors such as geography, lifestyle, and health conditions. Therefore, individuals may benefit from diverse diets tailored to their specific requirements.
 
 One common symptom of autism is restricted eating patterns, making individuals with autism more susceptible to certain dietary challenges. Some individuals with autism may experience heightened sensitivity to taste and food textures, similar to their sensitivity to light and touch. This sensitivity can influence the types and quantities of food they consume. However, it's essential to note that the nutritional needs of individuals with autism are generally not significantly different from those of others in their age group. Therefore, exposing them to a healthy and varied diet is crucial for their overall development, unless there are specific allergies or intolerances to certain foods as some autistic individuals suffer from Gastrointestinal disturbances.
 
-## Diet - Autism Connection
+### Diet - Autism Connection
 
 The concept of diets impacting various autistic symptoms is rooted in the understanding of the gut-brain connection. The physical and biochemical connection between these two organs involves several mechanisms:
 
@@ -304,7 +306,7 @@ The concept of diets impacting various autistic symptoms is rooted in the unders
 
 In summary, the physical and biochemical interactions between the gut and brain involve the vagus nerve, neurotransmitters, and the activities of gut microbes. These connections influence emotional well-being, immune responses, and inflammation, contributing to the overall health of both the gut and the brain.
 
-## History of diet as therapy
+### History of diet as therapy
 
 The use of diets as a treatment for various medical conditions has a long and diverse history, and different diets have been proposed and implemented for therapeutic purposes.
 
@@ -330,14 +332,14 @@ The use of diets as a treatment for various medical conditions has a long and di
 
 It's important to note that while dietary interventions can play a role in managing certain health conditions, the effectiveness of specific diets varies, and not all dietary approaches have robust scientific support. Individuals considering dietary changes for therapeutic purposes should consult with respective healthcare professionals to ensure that nutritional needs are met and that the chosen diet is appropriate for their specific health condition. It also helps to do some self-study from reliable resources to see if a specific dietary approach will be feasible for the autistic individual and the family.
 
-## Types of diets for autism
+### Types of diets for autism
 
 In the light of gut brain connection, many diets have been suggested and tried as a treatment for various disorders including autistic symptoms. Diverse dietary interventions have been proposed for individuals with autism, yet it's crucial to note that the scientific evidence supporting the efficacy of these diets is often limited and varied. Here are some diet types suggested for autism:
 
 + Gluten-Free, Casein-Free (GFCF) Diet: This involves removing gluten (found in wheat, barley, and rye) and casein (found in dairy) from the individual's diet. Advocates claim potential improvements in behavior and social interactions. This is the most researched and commonly suggested intervention.
 
 + Specific Carbohydrate Diet (SCD): A restrictive diet eliminating complex carbohydrates, disaccharides, and polysaccharides. It permits specific easily digestible carbohydrates, aiming to positively impact gut health and alleviate autism-related symptoms.
- 
+
 + Ketogenic Diet: A high-fat, low-carb diet used for epilepsy. Some reports suggest potential positive effects on behavior and cognitive function in individuals with autism. It has been suggested that epilepsy drives the development for ASD.
 
 + Low-Oxalate Diet: Restricts foods high in oxalates, compounds found in some fruits, veggies, and nuts. Advocates claim it may alleviate sensory processing and gut-related symptoms in autism.
@@ -348,7 +350,7 @@ In the light of gut brain connection, many diets have been suggested and tried a
 
 Approaching these dietary interventions cautiously is crucial, given the often inconclusive evidence regarding their effectiveness for autism. Individual responses can vary, and restrictive diets may pose challenges in meeting nutritional needs.
 
-## Caution
+### Caution
 
 It's essential to clearly understand why a dietary approach is chosen to manage autism symptoms and carefully assess associated costs. The relationship between autism and diet is an ongoing area of study, with existing research often lacking robust methodology, relying on anecdotal reports or personal experiences. The mechanism underlying the effectiveness of a diet for autism remains an unresolved research question, primarily based on the assumption that individuals with autism having an imbalanced gut microbiota contribute to their autism symptoms. Considering autism's multifactorial nature, there is no evidence that only an imbalanced gut causes autism. Accepting an intervention solely based on authority or convenience should be avoided, especially if it compromises the health of the individual with autism. Each diet comes with its own benefits and costs. The side effects or consequences of following these diets can vary, and individual responses may differ. Here are some considerations:
 
@@ -368,13 +370,13 @@ It's essential to clearly understand why a dietary approach is chosen to manage 
 
 Consulting healthcare professionals, including accredited dietitians and specialists in autism, and thoroughly assessing the feasibility of the chosen approach in the context of the child's health and family circumstances is essential to ensure that the selected diet is safe and suitable for overall well-being. It is reiterated that there is no definitive evidence supporting the sole effectiveness of a diet for managing autism. In most studies, the change in behaviors post diet are reports from parents and there has been no objective measurement of the same.
 
-# Homeopathy
+## Homeopathy
 
-Homeopathy is a system of alternative medicine that was developed in the late 18th century by Samuel Hahnemann, a German physician. The central principle of homeopathy is the "law of similars," which states that a substance that can cause symptoms in a healthy person can be used to treat similar symptoms in a sick person. This concept is often expressed by the Latin phrase "similia similibus curentur," meaning "like cures like." Homeopathic remedies are prepared through a process called potentization, which involves a series of dilutions and succussions (vigorous shaking). The idea is that this process enhances the therapeutic properties of the substance while minimizing its toxic effects. The remedies are crafted for individuals based on the information shared about lifestyle, medical history, and current symptoms. It is thus believed to have a personalized and holistic approach to treatment. Homeopathy relies on the principle of individualization, suggesting that treatments should be tailored to each person's unique symptoms and constitution. 
+Homeopathy is a system of alternative medicine that was developed in the late 18th century by Samuel Hahnemann, a German physician. The central principle of homeopathy is the "law of similars," which states that a substance that can cause symptoms in a healthy person can be used to treat similar symptoms in a sick person. This concept is often expressed by the Latin phrase "similia similibus curentur," meaning "like cures like." Homeopathic remedies are prepared through a process called potentization, which involves a series of dilutions and succussions (vigorous shaking). The idea is that this process enhances the therapeutic properties of the substance while minimizing its toxic effects. The remedies are crafted for individuals based on the information shared about lifestyle, medical history, and current symptoms. It is thus believed to have a personalized and holistic approach to treatment. Homeopathy relies on the principle of individualization, suggesting that treatments should be tailored to each person's unique symptoms and constitution.
 
 However, this variability makes it challenging to conduct large-scale, double-blind, placebo-controlled studies that meet rigorous scientific standards. Consequently, the lack of standardized protocols and the individualized nature of homeopathy make it difficult to establish its effectiveness across diverse populations. While homeopathy has its proponents, it's essential to acknowledge that its efficacy is a subject of significant debate within the scientific and medical communities.
 
-## History of homeopathy
+### History of homeopathy
 
 Homeopathy was founded by Samuel Hahnemann (1755-1843), who obtained his medical degree in Erlangen in 1779. Despite struggling financially during his initial years as a physician, Hahnemann made a significant discovery that would shape his future. In an experiment, he began taking regular doses of cinchona, also known as 'the bark' or quinine. Remarkably, he experienced symptoms similar to those of intermittent fever (malaria) but in a milder form and without the characteristic rigors of the disease. This observation sparked a groundbreaking idea.
 
@@ -386,13 +388,13 @@ In 1796, Hahnemann published his findings in "Essay on a New Principle for Ascer
 + 1830s: Homeopathic schools and hospitals begin to open in the United States and Europe.
 + 1838: Repertory to the More Characteristic Symptoms of Materia Medica, a homeopathic reference, first appears in English.
 + 1842: Oliver Wendel Holmes Sr.—physician, critic of homeopathy and father of a Supreme Court justice—publishes the scathing “Homeopathy and Its Kindred Delusions.”
-+ 1847: The American Medical Association is founded, offering a decidedly unfavorable view of homeopathy. Homeopathy faced criticism and challenges, particularly from proponents of conventional medicine. 
++ 1847: The American Medical Association is founded, offering a decidedly unfavorable view of homeopathy. Homeopathy faced criticism and challenges, particularly from proponents of conventional medicine.
 + 1885: Hahnemann Hospital opens as a homeopathic facility in Philadelphia.
 + Mid-1900s: Homeopathic schools dwindle and disappear. Hahnemann Hospital is sold to new owners, who switch to allopathic medicine but retain a homeopathic library and some elective courses. The Flexner Report in the early 20th century, which led to the reform of medical education in the United States, marginalized homeopathy in favor of allopathic medicine.
 + 1972: The Center for Education and Development of Clinical Homeopathy was founded with the goal of teaching practical, pragmatic homeopathy at campuses across the country, including one in Philadelphia. In the latter half of the 20th century, there was a resurgence of interest in alternative and complementary medicine, including homeopathy. Some individuals sought out homeopathic treatments as an alternative or complementary approach to conventional medicine.
 + Current Status: Homeopathy is practiced in various parts of the world, and homeopathic remedies are available over the counter in many countries. However, its acceptance within the mainstream medical community varies, with skepticism regarding its scientific basis and efficacy. Homeopathy continues to be a subject of debate and controversy within the scientific and medical communities. Research on the efficacy of homeopathic treatments has yielded mixed results, and debates persist on issues such as the mechanisms of action and the significance of highly diluted substances.
 
-## Why homeopathy for autism?
+### Why homeopathy for autism?
 
 The multifaceted nature of autism has led to the exploration of various "cures" for the condition. The application of homeopathy to autism lacks a clear rationale. Considering homeopathy is often considered an alternative medicine, it is applied broadly across different conditions. The decision to try homeopathy for autism might stem from a dissatisfaction with the gradual outcomes of evidence-based management and a natural inclination to explore every possible way for improvement.
 
@@ -400,7 +402,7 @@ Advocates assert that homeopathy enhances behavioral symptoms associated with au
 
 Certain homeopathic practitioners argue against the use of randomized controlled trials, stating that patient satisfaction should be the sole criterion for judging the effectiveness of homeopathy. However, when clinical trials and systematic reviews have been conducted, the outcomes remain uncertain. While a few studies suggested slight effectiveness, a majority indicated that homeopathy had no therapeutic effect. It's important to note that many trials included in systematic reviews were deemed imperfect in terms of design, application, or sample size. This highlights the challenges in establishing conclusive evidence regarding the efficacy of homeopathy through rigorous scientific methods.
 
-## The Process of homeopathy for autism
+### The Process of homeopathy for autism
 
 Homeopathic treatment for autism follows a personalized approach rooted in the principles of homeopathy. The process involves the following steps:
 
@@ -412,7 +414,7 @@ Administration of the remedy: Providing the homeopathic remedy in a highly dilut
 + Follow-Up consultations: Regular follow-up sessions to evaluate the individual's response to the remedy and make any necessary adjustments to the treatment plan. These consultations help monitor changes in symptoms and emotional well-being.
 + Monitoring progress: Continuously assessing the person's progress, considering changes in behavioral symptoms, sensory sensitivities, and communication skills relevant to autism. Adjustments to the homeopathic remedy may be made based on the individual's response.
 
-## Caution
+### Caution
 
 Caution should be exercised when contemplating homeopathy as a treatment for autism, given several compelling reasons, despite its popularity in certain alternative medicine circles. Here are key factors contributing to the need for caution:
 
@@ -427,7 +429,7 @@ Caution should be exercised when contemplating homeopathy as a treatment for aut
 
 In summary, exercising caution is important when considering homeopathy for autism, considering the lack of scientific validation, the potential for the placebo effect, individual variability, the risk of delaying evidence-based interventions, financial costs, the potential for harm, and the unregulated nature of homeopathic products. Prioritizing evidence-based interventions and consulting with healthcare professionals ensures informed decisions regarding the management of autism spectrum disorder.
 
-# Ayurveda
+## Ayurveda
 
 Ayurveda, an ancient natural system of medicine said to have originated in India over 3,000 years ago, derives its name from the Sanskrit words "ayur" (life) and "veda" (science or knowledge), translating to “knowledge of life”. Advocates of Complementary and Alternative Medicine (CAM), such as Ayurveda, subscribe to the belief that the world operates in a state of balance. According to this perspective, optimal health is achieved when living creatures are in harmony with the universe. Conversely, disruptions in this balance are thought to lead to illnesses. Ayurveda treatment approaches health by focusing on restoring this balance as a means of addressing and treating various health conditions. It advocates for specific lifestyle interventions and natural therapies to restore balance among the body, mind, spirit, and the environment.
 
@@ -435,7 +437,7 @@ According to Ayurveda, every person is made of the five basic elements found in 
 
 In India, Ayurveda holds the status of a recognized form of medical care, alongside conventional Western medicine, traditional Chinese medicine, naturopathic medicine, and homeopathic medicine. When utilized as a complementary therapy alongside standard conventional medical care, Ayurveda has demonstrated some positive effects. However, it's crucial to note that many Ayurvedic materials have not undergone extensive research in both Western and Indian contexts. Some products used in Ayurvedic medicine may include herbs, metals, minerals, or other substances that could pose harm if used improperly or without the guidance of a trained practitioner. Therefore, caution and expert guidance are advised when considering Ayurvedic treatments.
 
-## Ayurveda and Autism
+### Ayurveda and Autism
 
 The idea of using Ayurveda for autism is a relatively recent development and is part of the broader interest in alternative and complementary therapies for managing various health conditions. Ayurveda, as an ancient system of medicine, has a long history, but its application to autism spectrum disorder (ASD) gained attention in the latter part of the 20th century and the early 21st century. There is limited scientific evidence supporting the efficacy of Ayurveda in improving autism symptoms. Ayurveda, a traditional system of medicine, encompasses a holistic approach to health and well-being. While some proponents suggest that Ayurvedic practices may offer benefits for individuals with autism spectrum disorder (ASD), it's crucial to note that research in this area is limited. The scientific community remains cautious about making definitive claims regarding the effectiveness of Ayurveda for autism.
 Some individuals and families may explore Ayurveda as a complementary or alternative therapy for autism based on the following principles:
@@ -450,7 +452,7 @@ It's crucial to highlight the need for rigorous scientific research to establish
 
 If individuals or families are considering Ayurveda for autism, it is strongly advised to consult with healthcare professionals, particularly those with expertise in autism. Integrating Ayurveda into an overall care plan in collaboration with conventional evidence-based interventions is essential. Open communication with healthcare providers ensures that any therapeutic approach aligns with the best interests and well-being of individuals with autism.
 
-## History of Ayurveda
+### History of Ayurveda
 
 The history of Ayurveda is deeply rooted in ancient Indian civilization, and its principles have been passed down through oral traditions and written texts. Its foundations are deeply rooted in the ancient schools of Hindu Philosophical teachings, specifically the Vaisheshika school and the school of logic known as Nyaya. Additionally, Ayurveda is closely connected to the manifestation framework, commonly recognized as Samkhya. It emerged during the same period when the schools of Nyaya and Vaisheshika were flourishing. Ayurveda is also said to have a divine origin, believed to come from the Hindu God Brahma, who is considered the creator of the universe. Before the establishment of philosophical schools, this holistic knowledge of healing was passed from Brahma to sages, who then shared it with their disciples and the general population through writings and spoken stories. They described the healing properties of herbs in poetic verses called "Shlokas."
 
@@ -468,7 +470,7 @@ Following is an overview of the history of Ayurveda:
 
 Today, Ayurveda continues to be practiced in India and other parts of the world. It has influenced various alternative and complementary medicine practices and is recognized for its holistic approach to health and well-being. Despite its rich history, it's important to note that scientific validation and standardization of Ayurvedic practices remain ongoing challenges.
 
-## Caution
+### Caution
 While some individuals and families may consider exploring Ayurveda as a complementary or alternative therapy for autism, it's important to approach it with caution and consider several factors. Here are some key points to keep in mind when seeking Ayurveda for autism:
 
 + Limited Scientific Evidence: There is limited scientific evidence supporting the efficacy of Ayurveda specifically for autism. Rigorous research, including well-designed clinical trials, is needed to establish its safety and effectiveness.
