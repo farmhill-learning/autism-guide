@@ -2,8 +2,9 @@ project:
   type: book
 
 book:
-  title: "Autism Guide"
-  author: "Venu GVGK"
+  title: "Autism: A spectrum of possibilies"
+  subtitle: "Handbook for people living with Autism in India"
+  author: "Farmhill Learning Community"
   date: "9/24/2024"
 
   repo-url: https://github.com/farmhill-learning/autism-guide/
@@ -11,12 +12,14 @@ book:
   chapters:
     - index.qmd
     - about.qmd
-    - identification-causes.qmd
     - history.qmd
+    - identification-causes.qmd
     - perspectives.qmd
-    - diagnosis.qmd
-    - next-steps.qmd
-    - early-intervention.qmd
+    - part: Diagnosis & Early Intervention
+      chapters:
+      - diagnosis.qmd
+      - next-steps.qmd
+      - early-intervention.qmd
     - cures-and-remedies.qmd
     - education.qmd
     - work.qmd

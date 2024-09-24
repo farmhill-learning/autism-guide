@@ -1,5 +1,4 @@
-# Autism Spectrum Disorder
-
+# Preface  {.unnumbered}
 This guide deals with autism and various aspects of living with it.
 
 We start with an overview of autism outlining the entire autism lifecycle as a precursor. Then we discuss how to identify autism, how common it is, what causes and what does not cause autism.
