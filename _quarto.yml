@@ -28,11 +28,25 @@ book:
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
-
-
+# format:
+#   html:
+#     theme: cosmo
+#   pdf:
+#     documentclass: scrreport
+#     papersize: a4
+#     toc: true
+#     toc-depth: 3
+#     toc-title: "Table of contents"
+#     number-sections: true
+#     number-depth: 2
+#     geometry:
+#       - inner=3cm
+#       - outer=4cm
+#       - top=3cm
+#       - bottom=4cm
+#       - headsep=22pt
+#       - headheight=11pt
+#       - footskip=33pt
+#       - ignorehead
+#       - ignorefoot
+#       - heightrounded
