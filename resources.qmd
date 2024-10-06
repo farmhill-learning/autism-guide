@@ -4,8 +4,6 @@
 
 Battles around food are an unavoidable part of being a parent. Children and parents seem to have completely different opinions about pretty much every aspect of food - what to eat, when to eat and how to eat. 
 
-![](images/sambhavam.png){fig-align="center"}
-
 Eating more than what we need, ‘indulging’, seems to be becoming a cultural norm. It does not help that more and more junk food is being engineered to create cravings. “No one can eat just one” is not a cute advertisement tagline any more, it is starting to sound more and more like a warning on an addictive substance!
 
 At the same time, issues like picky eating, eating in a hurry, refusing to chew, not being able to maintain oral hygiene are on the rise. These issues become much more pronounced and difficult to handle with neurodiverse children, whose sensitivities and anxieties are as such difficult to live with. 
@@ -92,8 +90,16 @@ Typically, in either case, the child does not chew properly and it affects diges
 ### Intervention for the quick eaters
 
 The key is to create some delay between one mouthful and the next, encouraging them to eat slowly and chew properly. 
-1. The child has a smiley chart and a bowl. 
+1. The child has a smiley chart and a bowl of smileys. 
+
+![](images/smiley_empty_chart.jpg){fig-align="center"}
+
+![](images/smileydubba.jpg){fig-align="center"}
+
 2. Once the child takes one spoonful of food into the mouth, they fix the smileys from the bowl, on the chart. During this time, they keep chewing and the rule is they cannot take another mouthful till all the smileys are fixed. 
+
+![](images/smileychart.jpg){fig-align="center"}
+
 3. Once all smileys are fixed, they take another spoonful of food. 
 4. This time, they pick the smileys from the chart and put them in the bowl. 
 5. Keep doing this till the food is finished.
@@ -106,6 +112,8 @@ Here is a video showing a child using a smiley chart to maintain a delay between
 Once, we came across a child who would touch food and everything around with both hands. Smiley chart would have been unhygienic. We modified the intervention. 
 
 1. A table mat, with spaces drawn for the child’s plate, glass and hands was created. The child was expected to keep the plate and glass on the mat, as well as keep their hands on the spaces indicated on the mat. 
+![](images/mat_goodhands.jpg){fig-align="center"}
+
 2. A number line with numbers 1 to 10 was also drawn on the top of the mat. 
 3. The child takes a spoonful of food, and uses fingers to count from one to ten on the numberline. They chew while doing this. 
 4. Once the numbers are counted, they can take the next spoonful. 
