@@ -24,6 +24,7 @@ book:
     - education.qmd
     - work.qmd
     - adulting.qmd
+    - resources.qmd 
     - references.qmd
 
 bibliography: references.bib
