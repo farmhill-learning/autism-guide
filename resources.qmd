@@ -58,12 +58,6 @@ Reading books about food, learning about different kinds of food and tastes, com
 
 Here is a video sample of a social story about a boy eating lunch, that can help a child get comfortable around eating. 
 
-{{< video https://www.youtube.com/shorts/VSJxiK-k8EM >}}
-
-https://youtube.com/shorts/VSJxiK-k8EM?si=WzOuaeGKaUNvT5Qa
-
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VSJxiK-k8EM?si=WzOuaeGKaUNvT5Qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 All members of the family eating together as frequently as you can is important. While you eat together, talk about food and how you enjoy good food. Model to children that one can safely try new food, it is okay to try and that sometimes you may end up liking new food too!
@@ -75,7 +69,8 @@ All members of the family eating together as frequently as you can is important.
 
 Here is a video that shows a child using tokens to eat a minimum quantity. 
 
-{{< video https://www.youtube.com/shorts/8WvTDR4SS-U >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8WvTDR4SS-U?si=RlyaK0MmYRmKmtDP
+" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 3. Once the child gets comfortable eating that portion for a few days, gradually increase the measure over a number of days. Decide the pace of increment carefully so we do not overwhelm the child with suddenly increasing demands. 
 4. Clearly inform the child whenever demand is increased. 
@@ -103,7 +98,8 @@ The key is to create some delay between one mouthful and the next, encouraging t
 
 Here is a video showing a child using a smiley chart to maintain a delay between mouthfuls. 
 
-{{< video https://www.youtube.com/shorts/D9h2FLKNSUg >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D9h2FLKNSUg?si=OW2wg2rkqX_3UZG0
+" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Once, we came across a child who would touch food and everything around with both hands. Smiley chart would have been unhygienic. We modified the intervention. 
 
@@ -115,7 +111,8 @@ Once, we came across a child who would touch food and everything around with bot
 
 Here is a video showing a child using a mat like that to maintain a healthy pace of eating. 
 
-{{< video https://www.youtube.com/shorts/vkLJ6zYQ4Rw >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vkLJ6zYQ4Rw?si=ThC4thUIwpGF5iih
+" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In both the above cases, the children were older than ten. All the prompts used to remind them to follow the sequence were either written or pictorial so there was not much verbal input, repeated instructions or anyone losing temper. 
 
