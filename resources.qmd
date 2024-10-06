@@ -60,6 +60,12 @@ Here is a video sample of a social story about a boy eating lunch, that can help
 
 {{< video https://www.youtube.com/shorts/VSJxiK-k8EM >}}
 
+https://youtube.com/shorts/VSJxiK-k8EM?si=WzOuaeGKaUNvT5Qa
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VSJxiK-k8EM?si=WzOuaeGKaUNvT5Qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 All members of the family eating together as frequently as you can is important. While you eat together, talk about food and how you enjoy good food. Model to children that one can safely try new food, it is okay to try and that sometimes you may end up liking new food too!
 
 ### Intervention for quantity
