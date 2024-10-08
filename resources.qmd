@@ -58,7 +58,7 @@ Reading books about food, learning about different kinds of food and tastes, com
 
 Here is a video sample of a social story about a boy eating lunch, that can help a child get comfortable around eating. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VSJxiK-k8EM?si=WzOuaeGKaUNvT5Qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/VSJxiK-k8EM >}}
 
 All members of the family eating together as frequently as you can is important. While you eat together, talk about food and how you enjoy good food. Model to children that one can safely try new food, it is okay to try and that sometimes you may end up liking new food too!
 
@@ -69,8 +69,7 @@ All members of the family eating together as frequently as you can is important.
 
 Here is a video that shows a child using tokens to eat a minimum quantity. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8WvTDR4SS-U?si=RlyaK0MmYRmKmtDP
-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/8WvTDR4SS-U >}}
 
 3. Once the child gets comfortable eating that portion for a few days, gradually increase the measure over a number of days. Decide the pace of increment carefully so we do not overwhelm the child with suddenly increasing demands. 
 4. Clearly inform the child whenever demand is increased. 
