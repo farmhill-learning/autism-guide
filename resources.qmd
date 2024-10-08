@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # Resource: Eating Interventions
 
 ## Children and Eating

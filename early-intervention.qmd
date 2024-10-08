@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # Early Intervention
 
 Once a child is diagnosed with autism and the parents have made some sort of peace with the diagnosis, the next question is, what do we do to help the child?

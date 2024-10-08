@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
 
 # Getting a diagnosis
 

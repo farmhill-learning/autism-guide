@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # Caution: Cures and Remedies
 In this section we examine some of the alternative treatments to autism.
 

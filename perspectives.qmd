@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # People's Perspectives
 
 In this section, we present perspectives of different people living with and working with autism. You will find perspectives of people on the spectrum and their parents at different stages of their autism journeys. We also include a few perspectives of profesionals working with autism.

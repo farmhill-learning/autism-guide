@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # Just Diagnosed - Next Steps for parents
 So your child is just diagnosed with autism.
 
