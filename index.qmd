@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
 # Preface  {.unnumbered}
 
 This guide deals with autism and various aspects of living with it.

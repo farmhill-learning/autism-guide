@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # A short history of autism
 
 *Why is the history of autism important? Why is the history of any scientific idea important, for that matter?*
