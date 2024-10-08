@@ -106,8 +106,7 @@ The key is to create some delay between one mouthful and the next, encouraging t
 
 Here is a video showing a child using a smiley chart to maintain a delay between mouthfuls. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D9h2FLKNSUg?si=OW2wg2rkqX_3UZG0
-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/D9h2FLKNSUg >}}
 
 Once, we came across a child who would touch food and everything around with both hands. Smiley chart would have been unhygienic. We modified the intervention. 
 
@@ -122,8 +121,7 @@ Once, we came across a child who would touch food and everything around with bot
 
 Here is a video showing a child using a mat like that to maintain a healthy pace of eating. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vkLJ6zYQ4Rw?si=ThC4thUIwpGF5iih
-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/vkLJ6zYQ4Rw >}}
 
 In both the above cases, the children were older than ten. All the prompts used to remind them to follow the sequence were either written or pictorial so there was not much verbal input, repeated instructions or anyone losing temper. 
 
