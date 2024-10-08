@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
 # Introduction
 
 Autism spectrum disorder (ASD) is a way to talk about a group of complex brain-related conditions. These conditions can make it harder for people to communicate and behave in typical ways. In other words, it affects how they talk, interact with others, and act in various situations. Autism is called a "spectrum" since ASD can affect people differently, with some individuals experiencing milder challenges and others more significant ones. There are a range of possibilities, with each person's experience being unique.
