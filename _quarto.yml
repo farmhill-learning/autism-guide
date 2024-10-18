@@ -16,7 +16,7 @@ book:
     - identification-causes.qmd
     - part: People's Perspectives
       chapters:
-    - perspectives.qmd
+    - parents-of-teens.qmd
     - part: Diagnosis & Early Intervention
       chapters:
       - diagnosis.qmd
