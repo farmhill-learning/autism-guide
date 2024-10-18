@@ -14,6 +14,8 @@ book:
     - about.qmd
     - history.qmd
     - identification-causes.qmd
+    - part: People's Perspectives
+      chapters:
     - perspectives.qmd
     - part: Diagnosis & Early Intervention
       chapters:
