@@ -17,6 +17,7 @@ book:
     - part: People's Perspectives
       chapters:
       - perspectives.qmd
+      - early-intervention-perspectives.qmd
     - part: Diagnosis & Early Intervention
       chapters:
       - diagnosis.qmd
