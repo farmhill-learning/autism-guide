@@ -5,7 +5,7 @@ format:
        - "_includes/load-comments.html"
 ---
 
-# Perspectives - Parents of teenagers in a community learning space
+# Parents of teenagers in a community learning space
 
 The following are the perspectives gathered from four sets of parents whose children are in their pre-teens/early teens. 
 
