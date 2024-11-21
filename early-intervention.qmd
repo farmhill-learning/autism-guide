@@ -17,23 +17,23 @@ However, before we go further into what these therapies are and how to choose th
 
 To start with, early childhood development goals for children on the spectrum are not different from the same goals for children in general. In both cases, one is looking for development along physical, social, cognitive, and emotional dimensions. However, children on the spectrum are likely to have a variety of specific challenges in these areas, and therefore, the goals are likely to be more specific. They may also find it difficult to learn these behaviors from the environment by observing and copying adults and other children, and so, may need suitably designed interventions and therapies.
 
-## Communication Goals
+### Communication Goals
 
 Children on the spectrum tend to face challenges related to speech, language, and communication. Some children may not be able to speak at all, due to poor motor coordination and other physical and neurological difficulties. Some children may be able to produce all sounds but limit their verbal interaction to a few words and not sentences. In some cases, children may be able to produce language fluently, as in be able to speak full sentences, recite poems etc. but may not be able to use language to communicate by asking questions, making observations etc. Many children may not understand verbal inputs and instructions. Some may be able to understand but may not be able to respond. Even in cases where children are unable to speak, they may show a willingness to communicate if the speech barrier is removed. In most cases, parents manage by trying to guess what the child means or wants. As the child grows up, this does not work and the inability to communicate leads to anxiety and other difficulties. So, an important goal is to help children develop a channel for two-way communication either using speech or using other alternative forms of communication.
 
-## Social Goals
+### Social Goals
 
 Children on the spectrum also have a variety of social difficulties, starting with not responding when parents call their name, not being able to interact with parents. Children may not want to interact with peers or may not know how to take part in interactive games. They may behave inappropriately as they do not understand the rules of social behavior. For example, when in a play area, they may just follow other children around, copy their actions or snatch toys from others. So, teaching appropriate social behaviors and helping children cope with the demands of everyday social interactions at home, play areas and public places is another goal.
 
-## Physical Goals
+### Physical Goals
 
 Children on the spectrum may have physical challenges, with movement and balance. For example, many children walk on their toes, or find it difficult to hold erect posture while walking. Some are not able to balance naturally and so might find it difficult to walk up and down stairs, step over small obstacles like doorsteps etc. A few children may experience significant difficulties in coordinating their movements, to the extent of not being able to move around or use their hands without assistance. Many children also present with low muscle tone and overall poor motor coordination. One of the goals of early intervention is to help children develop better motor coordination and be able to navigate their world comfortably.
 
-## Sensory Goals
+### Sensory Goals
 
 Children also present a variety of sensory challenges. Due to their neurological uniqueness, some children may have a different sensory experience than others. For example, some children are overly sensitive to the sound of a pressure cooker whistling. They may close their ears, run away, or show other unusual forms of distress around the noise. Some children find it difficult to handle different textures either to touch or to mouth. They may refuse to eat certain kinds of foods and may prefer to stick to one or two items of food. This preference might pose significant challenges when children end up eating only chicken nuggets or fruits and milk for years together. The interventions we choose need to address the sensory challenges of the child.
 
-## Behavioral and Emotional Goals
+### Behavioral and Emotional Goals
 
 They may also experience a variety of behavioral and emotional challenges. Many children do not like to be disturbed when they are engaged in an activity and may find it difficult to transition from one activity or physical space to another. For example, a child might go to the play area and might resist coming back home. Or she might be playing with toys and may resist moving to the dining area for lunch. Children may also appear to not understand emotions – they find it challenging to read the emotion from facial expression and body language. Young children may not have enough linguistic and cognitive ability to understand emotions in the abstract. Guiding and helping children manage these variety of challenges needs to be among the goals of early intervention.
 
@@ -130,6 +130,12 @@ This is not to say that speech is not necessary or important. Speaking and under
 AAC can provide a communication channel for people on the spectrum who have difficulties with speech and communication. It has been shown that even with people who speak, the use of AAC can make communication more effective, by providing a necessary scaffold. Also, the common apprehension that use of AAC stops children from acquiring speech is not true, as shown by a 2021 study, among others.
 
 **In summary, communication is a key element of working with autism and needs to be highly prioritized. People who find it difficult to speak should be supported with augmented and alternative communication as needed.**
+
+## Video - Make it Visual - help your child understand you
+
+In the video below, Dr. Nanditha De Souza of [Sethu](https://sethu.in) talks about how visual support help a child understand information better. Visual support is a form of AAC that helps a child communicate easily. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1t9MU28VV6c?si=CGBeq8Xz8HpWBG-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Speech Therapy is not just about speech
 
