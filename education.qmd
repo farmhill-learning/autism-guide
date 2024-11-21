@@ -9,6 +9,11 @@ format:
 
 When considering schooling and education options for their children on the autism spectrum, parents often start with: "Can my child go to school?" Sometimes this question is also phrased as a need - “my child needs to go to school. How will he get an education otherwise?” This seemingly simple thought opens the doors on a variety of questions and concerns that parents often struggle with.
 
+::: {.callout-tip}
+## Video Available
+This [video](#video---education-for-all---schooling-issues-in-autism) is about making school choices for childern on the autism spectrum. 
+:::
+
 However, before addressing this question, it's important to think about what schooling and education mean and how they are different. Education is the acquisition of knowledge through formal learning and instruction. In contrast, schooling pertains to obtaining an education within a formal school setup. This difference is important as it helps us move beyond mere attendance and focus on a comprehensive educational journey for children on the autism spectrum. While we are at a point to choose between the both, it is worthy to note that education is more important than schooling.
 
 Recognizing that traditional education systems may pose challenges for autistic children is the key. Unlike neurotypical children, the learning experience for autistic children can be difficult within conventional educational frameworks. This realization sets the stage for reimagining education to better suit the unique needs of children with autism.
@@ -30,3 +35,17 @@ In this section, we address a few questions, concerns and thoughts relating to e
 ## Homeschooling
 
 ## A mix of approaches
+
+## Video - Education for All - schooling issues in autism
+
+In the video below, Giselle Lobo, a special educator and head of inclusive education services at [Sethu](https://sethu.in), Goa, addresses parents to help them understand what goes into making choices for finding the right school and to provide them with a few guidelines when it comes to selecting a school for their children. Here is a summry:
+
+* making a decision where to place your child in which school to place your child is extremely difficult especially for parents of kids with autism
+* in order to make the right choice as to which school you are going to admit your child into you have to have a very good understanding of your child - the level of skills that your child has in self-help, being able to follow instructions and play
+* you also need to understand the background of the school does the school welcome children is it willing to be accommodative, modify curriculum and the environment to support your child
+* you also need to be aware of the curriculum that your child will benefit from most a functional curriculum or an academic curriculum 
+* do you have the option to place your child in a mainstream school with a life skills resource room or an academic resource room 
+* and finally, be aware of the supports your child needs - a visual schedule, a shadow teacher, buddies, activity based instruction, and see if the school is willing to provide them
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DgyjwT8MiYg?si=-qELCc-U6YTFYXQ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
