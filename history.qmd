@@ -11,6 +11,11 @@ format:
 
 The history of a scientific idea is important because science develops in the context of the challenges faced in a particular time and place. People who are doing science do not work in a vacuum, so what they notice and the way they interpret what they see, both depend on the context in which they are operating. However, when these interpretations become part of the science, they are sometimes seen to be somehow ‘objective’ by later day practitioners and students. This leads to a loss of context and inhibits the ability to critically examine older ideas, thereby giving them a longer life than they deserve.
 
+::: {.callout-tip}
+## Video Available
+This [TED Talk](#video---ted-talk-by-steve-silberman) by Steve Silberman covers some key points in the history of autism. 
+:::
+
 Nowhere is this more visible than in the case of autism.
 
 The acknowledged pioneer of autism research in the US was also the proponent of the claim that ‘refrigerator mothers’ caused autism. He focused on one specific end of the autism spectrum, ended up conveying the idea that it is a severely disabling, rare condition, and that led to a certain stigma around autism.
@@ -25,11 +30,7 @@ Coming a little later, a parent of an autistic child, who worked tirelessly to d
 
 Then it took a British woman psychiatrist, also the mother of a severely autistic child, to bring these accounts together and help us see autism for the spectrum it is. It took the accounts of a few autistic adults like Temple Grandin and Judy Singer, movies like Rainman, the recent tireless work of journalists like Steve Silberman, as well as countless others, to put the idea of neurodiversity as the basis of looking at and understanding autism, as we do today.
 
-So, yes, the history of autism is interesting and informative. Here is a TED talk by Steve Silberman that touches upon some of the developments in the history of autism.
-
-{{< video https://www.youtube.com/embed/_MBiP3G2Pzc?si=fahLdja2XgMe4D9F >}}
-
-Let's dive in for more detail!
+So, yes, the history of autism is interesting and informative. Let's dive in for more detail!
 
 ## Autism – Initial definition and refrigerator mother hypothesis
 
@@ -201,3 +202,8 @@ Today, "autism" refers to a spectrum of neurodevelopmental disorders characteriz
 
 “Working in different political, cultural and research settings might have influenced the way each of them perceived autism. Ultimately, it took a spectrum of these researchers to define autism’s full spectrum.”
 
+## Video - TED talk by Steve Silberman
+
+Here is a TED talk by Steve Silberman that touches upon some of the developments in the history of autism.
+
+{{< video https://www.youtube.com/embed/_MBiP3G2Pzc?si=fahLdja2XgMe4D9F >}}

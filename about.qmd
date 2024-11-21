@@ -9,6 +9,11 @@ format:
 
 Autism spectrum disorder (ASD) is a way to talk about a group of complex brain-related conditions. These conditions can make it harder for people to communicate and behave in typical ways. In other words, it affects how they talk, interact with others, and act in various situations. Autism is called a "spectrum" since ASD can affect people differently, with some individuals experiencing milder challenges and others more significant ones. There are a range of possibilities, with each person's experience being unique.
 
+::: {.callout-tip}
+## Video Available
+This [video](#understanding-autism---a-video-from-sethu) covers key points in understanding autism.
+:::
+
 ## The onset of Autism
 
 Autism in children usually becomes noticeable around the age of 2 to 3 years, all though with increasing awareness, early identification is becoming more common these days.
@@ -60,3 +65,22 @@ When one looks at the variety of difficulties, their varying levels and the diff
 
 At present, the support and employment opportunities for autistic adults in India are still evolving and will need significant strengthening as we go forward.
 
+## Understanding Autism - A video from Sethu
+
+Here is a video on "Understanding Autism" from [Sethu](https://sethu.in), a child development and family guidance center based in Goa. This video talks about the importance of getting a diagnosis, the causes of autism, and the challenges faced by people with autism. 
+
+A brief summary of the video in bullet points: 
+
+* Autism exists everywhere
+* Getting a diagnosis means that you now have the chance to access the right kind of intervention program for your child
+* There is no known cause of autism, but we know that it's nothing that you or anyone did that has caused your child to have autism
+* It is a spectrum disorder, and your child is unique in terms of their strengths, interests and challenges
+* Your child experiences the world around in a very different way 
+* Children with autism need support with their social communication and social interaction skills
+* They have a difficulty in processing all the information that their senses are taking in
+* Autism is not the same as an intellectual disability
+* Autism is not a disease, and it does not need a cure
+
+*Note*: The video talks about understanding autism as "piecing together the puzzle". It may be useful to note that the puzzle analogy for autism is not approved by all the people living on the spectrum. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HeG6T_4jKrk?si=A2MsZdx8rVclHt9d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
