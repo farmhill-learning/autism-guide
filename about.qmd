@@ -84,4 +84,5 @@ A brief summary of the video in bullet points:
 
 *Note*: The video talks about understanding autism as "piecing together the puzzle". It may be useful to note that the puzzle analogy for autism is not approved by all the people living on the spectrum. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HeG6T_4jKrk?si=A2MsZdx8rVclHt9d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{ < video https://youtu.be/HeG6T_4jKrk?si=bJifBom8hExY0gkY  > }}
+
