@@ -33,9 +33,9 @@ book:
 
 bibliography: references.bib
 
-# format:
-#   html:
-#     theme: cosmo
+format:
+  html:
+   theme: cosmo
 #   pdf:
 #     documentclass: scrreport
 #     papersize: a4
