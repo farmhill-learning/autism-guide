@@ -5,7 +5,8 @@ format:
        - "_includes/load-comments.html"
 ---
 
-# Preface {.unnumbered}
+# About the guide {.unnumbered}
+
 
 This guide deals with autism and various aspects of living with it in India. Our aim is to make reliable and current information available in one place, in an accessible form. The work on this guide started in 2023 and it is up to date so far.
 
