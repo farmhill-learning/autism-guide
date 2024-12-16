@@ -1,0 +1,36 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+# Preface  {.unnumbered}
+
+This guide deals with autism and various aspects of living with it in India. Our aim is to put together reliable and current information in an accessible form. The work on this guide started in 2023 and it is up to date so far. 
+
+The idea of a comprehensive guide to special needs populations in India started out as a shared thought between Azim Premji Foundation and a few partners working in special needs space. [Farmhill Learning Community](farmhill.in)
+
+We are glad to have access to the resources and thinking developed over the years at AFA, Sethu, Ummeed. T
+
+
+We start with an overview of autism outlining the entire autism lifecycle as a precursor. Then we discuss how to identify autism, how common it is, what causes and what does not cause autism.
+
+In the next section, we outline a history of autism, starting from early definitions and trace the path down to various developments in understanding and dealing with autism.
+
+We then present perspectives of people living with autism, including people on the spectrum, families living with autism, medical professionals, and social workers. We attempot to cover the lifecycle of autism by including perspectives from different age groups.
+
+In the next section, we address the diagnosis process starting from the need to diagnosis to the actual process of getting a diagnosis. We also include diagnosis for older people.
+
+In the next two sections, we outline the immediate steps a family can take when they receive a diagnosis and proceed to explore various approaches to early intervention.
+
+We then strike a cautionary note as we talk about alternative approaches to autism that are consider ineffective and sometimes, dangerous. This is done to ensure we provide all the necessary information.
+
+We then proceed to education and schooling where we examine the goals and approaches to education and schooling in the Indian context.
+
+The next section covers employment where we outline how people on the spectrum can train for work. We also provide some resources that can help them find and keep work.
+
+The final section deals with being an adult on the spectrum.
+
+
+
+
