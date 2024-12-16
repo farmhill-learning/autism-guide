@@ -30,6 +30,7 @@ book:
     - resources.qmd 
     - resources-communication.qmd
     - references.qmd
+    - new-preface.qmd
 
 bibliography: references.bib
 
