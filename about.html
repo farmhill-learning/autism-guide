@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-78faf54a06e50be45dc6d83ab59297a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -288,7 +288,7 @@ Video Available
 <section id="the-onset-of-autism" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="the-onset-of-autism"><span class="header-section-number">1.1</span> The onset of Autism</h2>
 <p>Autism in children usually becomes noticeable around the age of 2 to 3 years, all though with increasing awareness, early identification is becoming more common these days.</p>
-<p>Parents initially start noticing differences in the way the child plays, communicates and responds to the environment. Many children do not respond to their name or make eye contact. They may not use any words or stop using the few words they have been using till then. They may not be interested in the usual things other children are interested in. They may seem to be obsessed with some unusual ways of occupying themselves like watching fans go round and round, flapping their hands, rocking themselves, singing to themselves constantly, lining up play things etc.</p>
+<p>Parents initially start noticing differences in the way the child plays, communicates and responds to the environment. Many children do not respond to their name or make eye contact. They may not use any words or stop using the few words they have been using till then. They may not be interested in the usual things other children are interested in. They may seem to be deeply involved with some unusual ways of occupying themselves like watching fans go round and round, flapping their hands, rocking themselves, singing to themselves constantly, lining up play things etc.</p>
 <p>Children often show unusual amounts of distress when they are disturbed or they need to go from one activity to the other. They appear preoccupied and may not notice the presence of other children or adults around them. Parents typically struggle to understand why the child is in constant distress.The child appears adamant, uncommunicative and becomes unmanageable.</p>
 <p>Usually this is the time when parents seek help from medical professionals. Pediatricians refer children to developmental pediatricians or developmental psychologists. The child may initially be identified to have a developmental delay and eventually handed a diagnosis of being on the Autism Spectrum.</p>
 </section>
@@ -433,8 +433,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -545,7 +543,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
