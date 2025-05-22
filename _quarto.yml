@@ -27,7 +27,7 @@ book:
     - education.qmd
     - work.qmd
     - adulting.qmd
-    - resources.qmd 
+    - resources.qmd
     - resources-communication.qmd
     - references.qmd
     - new-preface.qmd
@@ -36,7 +36,10 @@ bibliography: references.bib
 
 format:
   html:
-   theme: cosmo
+    theme: cosmo
+    include-after-body:
+      - text: |
+          <script src="/js/bot.js"></script>
 #   pdf:
 #     documentclass: scrreport
 #     papersize: a4
