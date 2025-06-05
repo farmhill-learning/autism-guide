@@ -97,7 +97,16 @@ The social story focuses on basic oral hygiene practices. Read this story repeat
 
 ### Oral Hygiene Graphic Story Book and activities
 
-This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. 
+This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. Sample pages and a download link are below. 
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/cover.jpg" alt="Oral Hygiene" style="width: 32%; min-width: 180px;">
+  <img src="images/healthy-teeth.jpg" alt="Healthy Teeth" style="width: 32%; min-width: 180px;">
+  <img src="images/eat-foods.jpg" alt="Eat all foods" style="width: 32%; min-width: 180px;">
+</div>
+
+{{< downloadthis downloads/graphic-book-oral-hygiene.pdf dname=oral-hygiene-graphic-book label="Download Oral Hygiene Graphic Book" icon=file-earmark-pdf type=success >}}
+
 
 
 
