@@ -4,7 +4,9 @@ format:
     include-after-body:
        - "_includes/load-comments.html"
 ---
+
 # Resource: Dental Care
+
 
 Dental care is a difficult to deal with aspect of autism, as it relates to many sensory triggers that people on the spectrum experience. In the presence of oral sensitivities, children find it difficult to open mouth, allow a brush inside, use appropriate pressure to brush etc. The resulting lack of oral hygiene causes issues starting from gum infections to dental carries, causes pain, restricts eating, and negatively impacts the overall health of individuals on the spectrum. 
 
@@ -94,7 +96,6 @@ The social story focuses on basic oral hygiene practices. Read this story repeat
 
 {{< downloadthis downloads/social-story-eat-right.pdf dname=eat-right-social-story label="Download Eat Right Social Story" icon=file-earmark-pdf type=success >}}
 
-
 ### Oral Hygiene Graphic Story Book and activities
 
 This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. Sample pages and a download link are below. 
@@ -106,6 +107,41 @@ This Oral Hygiene book introduces ideas like the importance of healthy teeth, av
 ![](images/oral-hygiene-healthy-teeth.JPG)
 
 {{< downloadthis downloads/graphic-book-oral-hygiene.pdf dname=oral-hygiene-graphic-book label="Download Oral Hygiene Graphic Book" icon=file-earmark-pdf type=success >}}
+
+### Chewing Graphic Story Book and Activities
+
+The graphic story book below focuses on the importance of chewing food, what to chew and what not to etc. The accompanying activities reinforce the same ideas. 
+
+![](images/chewing-book-cover.JPG)
+![](images/chewing-count-10.JPG)
+![](images/chewing-teeth-gums.JPG)
+
+{{< downloadthis downloads/graphic-book-chewing.pdf dname=chewing-graphic-book label="Download Chewing Graphic Book" icon=file-earmark-pdf type=success >}}
+
+## Tooth Brushing
+
+Most of the children with autism face issues with brushing. Tooth brushing is managed 'some how'. Some times, the strategies that are used to ensure children brush their teeth can result in trauma for the child, engendering negative attitudes to brushing, resulting in a lot of chaos and distress. 
+
+A variety of issues that are often seen with children on the spectrum are - Unable to open mouth to brush, Unable to allow a brush inside the mouth, eats away the toothpaste, Unable to gargle, Unable to spit, Putting too much or too little pressure while brushing etc. 
+
+**What can a parent do**
+
+*Identify the issue* - The specific issue that a child has to be identified correctly so an intervention can be planned. The person facilitating brushing needs to be clear with what the autistic person finds challenging and plan support accordingly. Not everyone needs everything. If it is a sensory issue, a separate intervention needs to be planned based on the issue - for example, getting specific kinds of toothbrushes like vibration brush, using specific flavoured toothpastes, planning specific massages to prepare the child for brushing. 
+
+*Acknowledge the difficulty* - It is important to acknowledge the issues that the autistic person has with brushing Avoid feedback such as ‘Drama, ‘Too much’, 'everyone does brushing, what’s your problem’ etc. Rather, you can say, ‘I understand you are quite upset about brushing. Let us follow schedule and I am here to help you go through it'. 
+
+*Preparation* - Preparation plays a huge role in developing a favourable attitude to brushing. Having a visual schedule which shows when it is time to brush is one of the key steps. Social stories and general story books about brushing can also help preparation. 
+
+### Tooth brushing graphic story book
+
+
+
+## Visiting a 
+
+
+
+
+
 
 
 
