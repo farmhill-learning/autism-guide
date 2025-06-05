@@ -90,7 +90,7 @@ Children may have restrictive eating habits, texture sensitivities, chewing issu
 
 The social story focuses on basic oral hygiene practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-eat-right.jpg){width=80%}
+![](images/social-story-eat-right.jpg)
 
 {{< downloadthis downloads/social-story-eat-right.pdf dname=eat-right-social-story label="Download Eat Right Social Story" icon=file-earmark-pdf type=success >}}
 
@@ -99,11 +99,11 @@ The social story focuses on basic oral hygiene practices. Read this story repeat
 
 This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. Sample pages and a download link are below. 
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="images/cover.jpg" alt="Oral Hygiene" style="width: 32%; min-width: 180px;">
-  <img src="images/healthy-teeth.jpg" alt="Healthy Teeth" style="width: 32%; min-width: 180px;">
-  <img src="images/eat-foods.jpg" alt="Eat all foods" style="width: 32%; min-width: 180px;">
-</div>
+![](images/oral-hygiene-cover.JPG)
+
+![](images/oral-hygiene-eat-foods.JPG)
+
+![](images/oral-hygiene-healthy-teeth.JPG)
 
 {{< downloadthis downloads/graphic-book-oral-hygiene.pdf dname=oral-hygiene-graphic-book label="Download Oral Hygiene Graphic Book" icon=file-earmark-pdf type=success >}}
 
