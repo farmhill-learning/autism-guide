@@ -10,55 +10,43 @@ Dental care is a difficult to deal with aspect of autism, as it relates to many 
 
 Dental issues develop over a period of time when oral hygiene is not maintained. Dental problems also tend to be very painful impacting the mood and behavior of the autistic individual. On top of everything, going to dentist is also a difficult experience for many autistics. Therefore, preventive care becomes very important. The following information is focused on enabling dental care for young children. 
 
-## Tools included and how to use
+**Tools included and how to use**
 
 This resource includes two types of tools - Social Stories and Visual Lessons.
 
-### Social Stories
+***Social Stories***
 
 Social stories are a widely used tool to support autistic children in understanding and navigating everyday situations. These stories are simple, tailored narratives that break down complex behaviors into clear, manageable steps, helping children learn what to expect and how to respond in various settings. Social stories are also used to introduce and reinforce various day to day behaviours. 
 
 Social stories can be presented in various formats, including written narratives, pictures, or even videos. **They are often read repeatedly to reinforce learning and are most effective when used just before the situation they describe**
 
-### Visual Lessons
+***Visual Lessons***
 
 Lessons and activities built around a visual structure like a graphic story book offer several advantages for helping autistic children learn activities of daily living (ADLs) by leveraging their visual learning strengths and providing structured, engaging ways to practice essential life skills.
 
 Here are some ways to use visual lessons. 
 
-#### Joint Reading and Shared Attention
+* Joint Reading and Shared Attention: Read the book together, pointing to pictures and discussing each step. Encourage the child to ask questions or make comments about the story.
 
-Read the book together, pointing to pictures and discussing each step. Encourage the child to ask questions or make comments about the story.
+* Visual Schedules: Use illustrations from the book to create visual schedules or checklists for daily routines, breaking down complex tasks into manageable steps.
 
-#### Visual Schedules and Task Analysis
+* Role-Playing and Reenactment: After reading, have the child practice the activity by following the sequence shown in the book. For example, after reading a story about brushing teeth, guide the child through the real-life steps using the book as a reference.
 
-Use illustrations from the book to create visual schedules or checklists for daily routines, breaking down complex tasks into manageable steps.
+* Activities: Select appropriate activities included in the graphic story book and do them with the child. 
 
-#### Role-Playing and Reenactment
+* Personalization: Optionally, you can customize the books or activities to include the child’s own experiences, familiar people, or specific routines to increase relevance and engagement.
 
-After reading, have the child practice the activity by following the sequence shown in the book. For example, after reading a story about brushing teeth, guide the child through the real-life steps using the book as a reference.
+* Repetition and Reinforcement Read the same book multiple times to reinforce learning. Repetition helps children internalize routines and build confidence in performing ADLs independently.
 
-#### Activities
-
-Select appropriate activities included in the graphic story book and do them with the child. 
-
-#### Personalization
-
-Optionally, you can customize the books or activities to include the child’s own experiences, familiar people, or specific routines to increase relevance and engagement.
-
-#### Repetition and Reinforcement
-
-Read the same book multiple times to reinforce learning. Repetition helps children internalize routines and build confidence in performing ADLs independently.
-
-### A note for parents 
+**A note for parents**
 
 All parents want their childrren to learn and look forward to that happy moment of learning. However, it is important to remember each child is different and has their own ways of being and responding. We can learn to understand there are and will be differences between parents' expectations and what the child is able to do or demonstrate at any point in time. Please seek help from an expert or the child’s therapist when you are unable to get a desired response from the child or feel stuck at any point. 
 
-### About the activities
+**About the activities**
 
 All the activities included with the graphic story books are anchored around conversations and discussions, which depend on facilitator's ability to ask the right questions, modify them as necessary and go with the responses. The objective of the activities is to ensure the learner participates and engages along with the facilitator, and not to test the knowledge or to challenge the learner. The nature of the activities, the visuals and the discussions, is such that by engaging in these activities, the learner is bound to learn. Therefore the key is to get the learner's cooperation, participation and engagement. Even if the learner does not respond with completely correct answers, it is likely they will learn to implement the steps in their daily lives. 
 
-# Preventive Dental care
+## Preventive Dental care
 
 Preventive dental care includes three important, related areas - food and Hygiene habits, Toothbrushing, Visiting a dentist. By focusing on enabling preventive care, we empower autistic individuals to engage in dental care mindfully, to self manage wherever possible and to make healthy choices. The following information is focused on enabling preventive dental care in young children. 
 
@@ -76,19 +64,17 @@ Key things to keep in mind are:
 
 * Fizzy drinks, acidic fruits and sweets are bad for teeth.
 
-### Common Behaviors that impact dental health
+**Common Behaviors that impact dental health**
 
-Mouthing:  Some children tend to keep everything in the mouth. That results in many bacteria going into the body. 
+*Mouthing*: Some children tend to keep everything in the mouth. That results in many bacteria going into the body. 
 
-Chewing: Some children keep everything in their mouth and also chew on them. This is bad for oral hygiene and may also cause injury to teeth and gums. 
+*Chewing*: Some children keep everything in their mouth and also chew on them. This is bad for oral hygiene and may also cause injury to teeth and gums. 
 
-Biting: Some children bite everything, like the edge of a table. Biting into really hard surfaces or things may damage the teeth.
+*Biting*: Some children bite everything, like the edge of a table. Biting into really hard surfaces or things may damage the teeth.
 
-Brushing pressure: Using very less or more pressure while brushing. 
+## Recources and tools for Food and Hygiene Habits
 
-### Recources and tools for Food and Hygiene Habits
-
-#### Planning to eat healthy
+### Planning to eat healthy
 
 Eating is a part of lifestyle. Also, modelling is very powerful. So, any change we expect in the food habits of the child has to be implemented by the entire family.
 
@@ -96,11 +82,11 @@ The family should have a good routine for waking up and getting physical activit
 
 It is important to plan balanced meals. Have a weekly meeting to plan the menu. Make space for favourite foods like samosas, popcorn or chicken burgers. Decide on the quantities. Even if your child is not verbal, make them a part of the meeting and let them respond with yes or no. All this activity builds predictability and reduces anxiety about favourite foods. You can use the menu as an opportunity to build communication, create a sense of time through the calendar, build it into their weekly schedule, help them get into the habit of checking written instructions or schedules instead of asking the same questions again and again…the possibilities are endless! Remember children love food and it is a great motivator. Refer to our [resource on eating](/resources-eating.qmd) for more about managing children's eating habits. 
 
-#### Addressing eating issues
+### Addressing eating issues
 
 Children may have restrictive eating habits, texture sensitivities, chewing issues or may eat too fast or too slow. Based on the severity of the problem, we can choose eating interventions to address these issues. Refer to our [resource on eating](/resources-eating.qmd) for more about addressing eating issues. 
 
-#### Eating right for healthy teeth - Social Story
+### Eating right for healthy teeth - Social Story
 
 The social story focuses on basic oral hygiene practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
@@ -109,9 +95,11 @@ The social story focuses on basic oral hygiene practices. Read this story repeat
 {{< downloadthis downloads/social-story-eat-right.pdf dname=eat-right-social-story label="Download Eat Right Social Story" icon=file-earmark-pdf type=success >}}
 
 
-#### Oral Hygiene Graphic Story Book and activities
+### Oral Hygiene Graphic Story Book and activities
 
 This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. 
+
+
 
 
 
