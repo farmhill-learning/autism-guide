@@ -1,0 +1,230 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
+# Resource: Schedules
+
+## Supporting Executive Function and Independence in Autism and ADHD
+
+**Executive functioning** includes skills such as planning, organizing, and carrying out tasks to completion. Many autistic and ADHD individuals experience unique challenges in these areas, which often means they need support from caregivers or family members during everyday routines.
+
+### Understanding the Cycle of Dependency
+
+When executive functioning is tricky, it’s natural for caregivers to step in with lots of help, instructions, and reminders. As a result:
+
+- Children may begin relying heavily on caregivers for “what to do next,” even when they actually know the answer.
+- Caregivers can unintentionally set a pattern where their child waits for instructions or approval before acting.
+- This cycle makes it harder for children and young people to build confidence in making their own choices or completing tasks on their own.
+
+**Example routines affected**:
+
+- Brushing teeth
+- Eating meals
+- Completing homework or learning activities
+- Engaging in relaxing activities like drawing or listening to music
+
+### How This Affects the Whole Family
+
+Over time, both the child and caregiver can become **overwhelmed**:
+
+- Parents/caregivers feel exhausted by constantly giving instructions and worrying about the next step.
+- Children may feel demotivated and lose interest in tasks, sometimes refusing to participate at all.
+- Both may experience emotional outbursts, increased rigidity, and frustration, impacting their connection and the enjoyment of daily life.
+
+### Putting Agency in the Hands of Autistic and ADHD Individuals
+
+Fostering **agency** means supporting individuals with autism and ADHD to make choices and lead parts of their routines. Key steps include:
+
+- **Creating a shared workspace**: A safe, collaborative space where the autistic or ADHD individual and their caregiver can work together to set goals and decide how to approach tasks.
+- **Making independence a goal**: Gradually shifting the focus from caregiver-led to self-led routines, even if small steps are needed.
+- **Encouraging decision-making**: Allowing individuals to choose how and when to complete certain activities or tackle challenges.
+- **Using visual supports and schedules**: Tools like checklists or picture guides can reduce reliance on verbal instructions and boost independence.
+
+### Tips for Families and Caregivers
+
+- **Be patient and flexible**—progress toward independence can take time.
+- **Break tasks into small, achievable steps**, celebrating each success.
+- **Provide choices** whenever possible, so the individual feels ownership over tasks.
+- **Use consistent routines** with clear expectations, but allow for flexibility as skills grow.
+- **Notice and reduce “prompt dependency”**—pause before stepping in, giving the individual a chance to try on their own.
+
+### Building Towards Independence
+
+The journey toward greater independence is unique for every individual. By sharing responsibility, setting mutual goals, and trusting the capabilities of people with autism or ADHD, families can create a more positive, less stressful experience for everyone.
+
+## Schedules: A Path to Independence
+
+### Understanding Schedules
+
+A **schedule** is a structured list of events or activities, laid out in a way that fits the person using it. Schedules can be visual, written, or digital, and are especially supportive for autistic and neurodivergent individuals. A schedule is not something imposed—it's a shared tool that respects agency, adapts to preferences, and grows with the individual.
+
+### Why Use a Schedule?
+
+Schedules are more than just plans; they're companions for the day. They:
+
+- **Organize** your day, giving a sense of what’s coming next.
+- **Create calm** by reducing surprises.
+- **Reduce overwhelm and anxiety**, especially when the world feels unpredictable.
+
+A truly helpful schedule is *personal* and *meaningful.* It isn’t just followed—it belongs to the person who uses it. Any change should be discussed together.
+
+## How Schedules Foster Agency
+
+### Getting Started
+
+- At first, a caregiver may plan the schedule.
+- The goal is collaboration: plan *with* the person using the schedule, not only *for* them.
+- Refer to examples like the 'Managing children at home' guide for varied age groups.
+
+### Helping with Choices
+
+- Agency starts with choosing.
+- Offer visuals of activities (e.g., two pictures), let the person pick what to add.
+- If someone is distressed, offer a choice: "Do you want this activity?" If the answer is "No," gently ask or present another option.
+- Use *yes/no* questions and let the person’s voice lead the process.
+
+### Growing Independence as a Skill
+
+Independence is learned over time. It's not an abstract value—it's a skill you develop, with support.
+
+* Within an Activity
+
+To become independent in an activity:
+- Know the steps.
+- Have the skills to do each step.
+- Use visual cues or transitions to move between steps.
+
+* Within a Schedule
+
+For independent use of a schedule:
+- Understand how to transition between activities.
+- Identify the next activity and gather the right items.
+- Signal for help when needed.
+
+* Over a Day
+
+To manage an entire day:
+- Recognize the day's activities.
+- Adjust for what’s planned each day (e.g., weekdays vs. weekends).
+- Manage time as well as tasks.
+
+* Owning the Whole Process
+
+For full independence:
+- Set personal goals.
+- Break down big tasks into manageable steps over several days.
+- Track progress, add breaks and self-care, and balance both short-term needs and long-term hopes.
+
+## What a Schedule Does (And Doesn’t Do)
+
+- A schedule says *what* to do, not *how* to do it.
+- Skills for each activity need to be taught and practiced separately.
+
+### Practical Uses of Schedules
+
+Schedules can support:
+
+- Daily routines from wake-up to bedtime (full-day schedules).
+- Specific periods (partial schedules).
+- Repeating favorite activities.
+- Waiting for turn or favorite activities.
+- Easing into activities that are harder to start.
+- Handling anxiety about new or non-preferred tasks.
+- Completing every step in multi-step routines (like morning or night routines).
+
+### Functional Benefits
+
+- **Gives visibility:** See what comes next in the day.
+- **Supports transitions:** Clear beginnings and endings make change easier.
+- **Helps with priming:** Knowing when a less-favorite activity is coming makes it more manageable.
+- **Reduces repetitive questioning:** Reliance shifts from checking with a caregiver to checking the schedule, fostering independence.
+- **Builds executive functioning:** Practicing planning, organizing, and carrying out tasks.
+
+## Types of Schedules - by duration
+
+- **Full-Day Schedule:** Outlines events from wake-up to sleep, including free time.
+- **Partial Schedule:** Focuses on segments (e.g., morning, school time, play time).
+- **Activity Schedule:** Breaks down steps in routines (e.g., morning routine: wake up, fold bed, brush teeth, use the washroom).
+
+During *free time*, support the person in choosing their favorite activities. Guide the process at first. Gradually, allow for independent planning—step by step.
+
+
+## Types of Schedules - Visual and Written
+
+| Type             | How it Looks                            | Who It's For                 |
+| ---------------- | --------------------------------------- | ---------------------------- |
+| Visual schedule  | Pictures (plus words), Velcro board     | All ages—non-readers or visual thinkers |
+| Written schedule | List of words with checkboxes/notebook  | Readers and writers          |
+
+- **Visual schedules**: Attach 3-4 activities at a time, add more as needed. Some might need to see the whole day at once.
+- **Written schedules**: Use simple language, check off as you go.
+
+Schedules can be chunked for part of a day or a single activity (e.g., steps for brushing or an exercise routine). Some may use digital versions (like Google Keep).
+
+## Making Changes to Schedules
+
+Change is part of life. Schedules can flex, but these steps help:
+
+1. **Inform** the person about the change (don't surprise them, unless it's urgent).
+2. **Make the change together**—update the schedule in front of them.
+3. **Pause** when upset; use emotion charts or yes/no questions to discuss feelings and new choices.
+4. **Offer alternatives:** Let the person pick what comes next.
+5. **Example:**  
+   - If painting can’t happen (no paints at home), acknowledge the disappointment, apologize, and suggest options (like going for a walk). Change the schedule together.
+
+## Common Concerns and Responses
+
+| Challenge                                 | Response                                                                 |
+| ------------------------------------------ | ------------------------------------------------------------------------ |
+| "Schedules are rigid"                      | Schedules add variety and predictability, which eases transitions.       |
+| "Needs a caregiver always"                 | Early on, yes—but schedules build independence over time.                |
+| "What to add (or not add)?"                | Include both fun and challenging activities. Make the schedule balanced. |
+| "Too many activities/too long"             | Define clear beginnings and endings using visual cues or timers.         |
+| "Need to get things ready"                 | Being organized helps the process—model and encourage prep habits.       |
+| "Requires adults’ time"                    | Caregivers can take turns; agency grows and everyone gets more space.    |
+| "Child gets bored"                         | Mix things up; see schedules as sequences, not static routines.          |
+| "Emotionally overwhelming"                 | Go at a pace that feels right; self-care for parents is important too.   |
+| "How long are schedules needed?"           | Schedules help throughout life, for everyone; focus shifts to self-agency over time. |
+| "People become dependent on schedules"     | Schedules support independent living—*not* dependency.                   |
+| "Both parents are busy"                    | Take turns, support each other, and transition towards independence.     |
+
+## Common reasons people say "schedules don't work"
+
+Scheduling can feel really difficult for the caregivers in the beginning. Scheduling and sticking to the schedule are difficult even with adults. 
+
+A schedule demands accountability, responsibility and consistency from the parent/facilitator. If the person holding it together is not organised, schedules are likely to cause more distress and disharmony. This is likely to foster sense of failure and lead to procrastination at pathological levels. 
+
+* The most common reasons for scheuduling "not working" are:
+
+- Putting an activity in the schedule and not doing it. One needs to ensure to plan such that the child learns to think about schedule as essential to be followed.
+- Making changes to the schedule however we want. Any changes can be made only after informing the child. Even then, it is ideal to reason why it is being done. 
+- Doing some activities and leaving some activities. 
+- Doing on some days and not doing on some days.
+- Bringing in schedule only when there are challenging behaviors. Then the autistic person feels its a punishment for their bad behavior resulting in resentment towards schedule.
+
+## Without a Schedule
+
+The alternative is rarely easier. Not having a schedule can mean:
+
+- More corrections and redirections.
+- Less predictability.
+- Difficulty starting or completing activities.
+- Disordered routines, like snacking or screen time at odd hours.
+- More emotional dysregulation (for everyone).
+
+A schedule offers direction, agency, and calm.
+
+## Final Thoughts
+
+Schedules are not just tools—they’re bridges to agency, independence, and calmer days. They can be as flexible and creative as needed, always centered around the neurodivergent person’s right to choice, respect, and joyful participation in life.
+
+
+*When agency is shared and supported, daily living skills become more manageable, motivation increases, and the bond between caregiver and child grows stronger.*
+
+
+
+*Please note that these interventions are shared for general guidance. Designing and executing interventions - more importantly - noticing how the child responds and modifying the interventions so the child does not get distressed, is a specialist job. Consult qualified therapists as necessary.*
+
