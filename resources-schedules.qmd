@@ -5,15 +5,15 @@ format:
        - "_includes/load-comments.html"
 ---
 
-# Resource: Schedules
+# Resource: Building Independence
 
-## Supporting Executive Function and Independence in Autism and ADHD
+## Supporting Executive Function and Independence through schedules 
 
 **Executive functioning** includes skills such as planning, organizing, and carrying out tasks to completion. Many autistic and ADHD individuals experience unique challenges in these areas, which often means they need support from caregivers or family members during everyday routines.
 
-### Understanding the Cycle of Dependency
+### Understanding the Cycle of Dependence{.unnumbered}
 
-When executive functioning is tricky, it’s natural for caregivers to step in with lots of help, instructions, and reminders. As a result:
+When executive functioning is not well established in an individual, it’s natural for caregivers to step in with lots of help, instructions, and reminders. As a result:
 
 - Children may begin relying heavily on caregivers for “what to do next,” even when they actually know the answer.
 - Caregivers can unintentionally set a pattern where their child waits for instructions or approval before acting.
@@ -26,7 +26,7 @@ When executive functioning is tricky, it’s natural for caregivers to step in w
 - Completing homework or learning activities
 - Engaging in relaxing activities like drawing or listening to music
 
-### How This Affects the Whole Family
+### How This Affects the Whole Family{.unnumbered}
 
 Over time, both the child and caregiver can become **overwhelmed**:
 
@@ -34,7 +34,7 @@ Over time, both the child and caregiver can become **overwhelmed**:
 - Children may feel demotivated and lose interest in tasks, sometimes refusing to participate at all.
 - Both may experience emotional outbursts, increased rigidity, and frustration, impacting their connection and the enjoyment of daily life.
 
-### Putting Agency in the Hands of Autistic and ADHD Individuals
+### Putting Agency in the Hands of Autistic and ADHD Individuals{.unnumbered}
 
 Fostering **agency** means supporting individuals with autism and ADHD to make choices and lead parts of their routines. Key steps include:
 
@@ -43,7 +43,7 @@ Fostering **agency** means supporting individuals with autism and ADHD to make c
 - **Encouraging decision-making**: Allowing individuals to choose how and when to complete certain activities or tackle challenges.
 - **Using visual supports and schedules**: Tools like checklists or picture guides can reduce reliance on verbal instructions and boost independence.
 
-### Tips for Families and Caregivers
+### Tips for Families and Caregivers{.unnumbered}
 
 - **Be patient and flexible**—progress toward independence can take time.
 - **Break tasks into small, achievable steps**, celebrating each success.
@@ -51,17 +51,17 @@ Fostering **agency** means supporting individuals with autism and ADHD to make c
 - **Use consistent routines** with clear expectations, but allow for flexibility as skills grow.
 - **Notice and reduce “prompt dependency”**—pause before stepping in, giving the individual a chance to try on their own.
 
-### Building Towards Independence
+### Building Towards Independence{.unnumbered}
 
 The journey toward greater independence is unique for every individual. By sharing responsibility, setting mutual goals, and trusting the capabilities of people with autism or ADHD, families can create a more positive, less stressful experience for everyone.
 
 ## Schedules: A Path to Independence
 
-### Understanding Schedules
+### Understanding Schedules{.unnumbered}
 
 A **schedule** is a structured list of events or activities, laid out in a way that fits the person using it. Schedules can be visual, written, or digital, and are especially supportive for autistic and neurodivergent individuals. A schedule is not something imposed—it's a shared tool that respects agency, adapts to preferences, and grows with the individual.
 
-### Why Use a Schedule?
+### Why Use a Schedule?{.unnumbered}
 
 Schedules are more than just plans; they're companions for the day. They:
 
@@ -73,49 +73,53 @@ A truly helpful schedule is *personal* and *meaningful.* It isn’t just followe
 
 ## How Schedules Foster Agency
 
-### Getting Started
+### Getting Started{.unnumbered}
 
 - At first, a caregiver may plan the schedule.
 - The goal is collaboration: plan *with* the person using the schedule, not only *for* them.
 - Refer to examples like the 'Managing children at home' guide for varied age groups.
 
-### Helping with Choices
+### Helping with Choices{.unnumbered}
 
 - Agency starts with choosing.
 - Offer visuals of activities (e.g., two pictures), let the person pick what to add.
 - If someone is distressed, offer a choice: "Do you want this activity?" If the answer is "No," gently ask or present another option.
 - Use *yes/no* questions and let the person’s voice lead the process.
 
-### Growing Independence as a Skill
+### Growing Independence as a Skill{.unnumbered}
 
 Independence is learned over time. It's not an abstract value—it's a skill you develop, with support.
 
-* Within an Activity
+**Within an Activity - To become independent in an activity:**
 
-To become independent in an activity:
 - Know the steps.
+
 - Have the skills to do each step.
+
 - Use visual cues or transitions to move between steps.
 
-* Within a Schedule
+**Within a Schedule - For independent use of a schedule:** 
 
-For independent use of a schedule:
 - Understand how to transition between activities.
+
 - Identify the next activity and gather the right items.
+
 - Signal for help when needed.
 
-* Over a Day
+**Over a Day - To manage an entire day:**
 
-To manage an entire day:
 - Recognize the day's activities.
+
 - Adjust for what’s planned each day (e.g., weekdays vs. weekends).
+
 - Manage time as well as tasks.
 
-* Owning the Whole Process
+**Owning the Whole Process - For full independence:** 
 
-For full independence:
 - Set personal goals.
+
 - Break down big tasks into manageable steps over several days.
+
 - Track progress, add breaks and self-care, and balance both short-term needs and long-term hopes.
 
 ## What a Schedule Does (And Doesn’t Do)
@@ -123,7 +127,7 @@ For full independence:
 - A schedule says *what* to do, not *how* to do it.
 - Skills for each activity need to be taught and practiced separately.
 
-### Practical Uses of Schedules
+### Practical Uses of Schedules{.unnumbered}
 
 Schedules can support:
 
@@ -135,7 +139,7 @@ Schedules can support:
 - Handling anxiety about new or non-preferred tasks.
 - Completing every step in multi-step routines (like morning or night routines).
 
-### Functional Benefits
+### Functional Benefits{.unnumbered}
 
 - **Gives visibility:** See what comes next in the day.
 - **Supports transitions:** Clear beginnings and endings make change easier.
