@@ -91,7 +91,7 @@ Children may have restrictive eating habits, texture sensitivities, chewing issu
 
 The social story focuses on basic oral hygiene practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-eat-right.jpg){width=50% .lightbox .img-border}
+![](images/social-story-eat-right.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/social-story-eat-right.pdf dname=eat-right-social-story label="Download Eat Right Social Story" icon=file-earmark-pdf type=success >}}
 
@@ -101,11 +101,12 @@ This Oral Hygiene book introduces ideas like the importance of healthy teeth, av
 
 ::: {layout="[[1,1], [1]]"}
 
-![Cover Page](images/oral-hygiene-cover.JPG){group="OH-GSB" .img-border}
+![Cover Page](images/oral-hygiene-cover.JPG){group="OH-GSB" .img-border .lightbox}
 
-![Sample page 1](images/oral-hygiene-eat-foods.JPG){group="OH-GSB".img-border}
+![Sample page 1](images/oral-hygiene-eat-foods.JPG){group="OH-GSB".img-border .lightbox}
 
-![Sample page 2](images/oral-hygiene-healthy-teeth.JPG){group="OH-GSB".img-border}
+![Sample page 2](images/oral-hygiene-healthy-teeth.JPG){group="OH-GSB".img-border .lightbox}
+
 :::
 
 
@@ -115,9 +116,15 @@ This Oral Hygiene book introduces ideas like the importance of healthy teeth, av
 
 The graphic story book below focuses on the importance of chewing food, what to chew and what not to etc. The accompanying activities reinforce the same ideas. 
 
-![](images/chewing-book-cover.JPG)
-![](images/chewing-count-10.JPG)
-![](images/chewing-teeth-gums.JPG)
+::: {layout="[[1,1], [1]]"}
+
+![Cover Page](images/chewing-book-cover.JPG){group="chew-GSB" .img-border .lightbox}
+
+![Sample Page 1](images/chewing-count-10.JPG){group="chew-GSB" .img-border .lightbox}
+
+![Sample page 2](images/chewing-teeth-gums.JPG){group="chew-GSB" .img-border .lightbox}
+
+:::
 
 {{< downloadthis downloads/graphic-book-chewing.pdf dname=chewing-graphic-book label="Download Chewing Graphic Book" icon=file-earmark-pdf type=success >}}
 
@@ -139,7 +146,7 @@ A variety of issues that are often seen with children on the spectrum are - Unab
 
 The social story focuses on tooth brushing practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-tooth-brushing.jpg)
+![](images/social-story-tooth-brushing.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/social-story-tooth-brushing.pdf dname=social-story-tooth-brushing label="Download Tooth Brushing Social Story" icon=file-earmark-pdf type=success >}}
 
@@ -147,9 +154,16 @@ The social story focuses on tooth brushing practices. Read this story repeatedly
 
 Tooth brushing graphic story book focuses on the importance of brushing teeth, and provides a visual structure for tooth brushing. The activities included reinforce the same. 
 
-![](images/tooth-brushing-cover.JPG)
-![](images/tooth-brushing-brush-twice-daily.JPG)
-![](images/tooth-brushing-visual.JPG)
+::: {layout="[[1,1], [1]]"}
+
+![Cover Page](images/tooth-brushing-cover.JPG){group="TB-GSB" .img-border .lightbox}
+
+![Sample page 1](images/tooth-brushing-brush-twice-daily.JPG){group="TB-GSB" .img-border .lightbox}
+
+![Sample page 2](images/tooth-brushing-visual.JPG){group="TB-GSB" .img-border .lightbox}
+
+::: 
+
 
 {{< downloadthis downloads/graphic-book-tooth-brushing.pdf dname=tooth-brushing-graphic-book label="Download Tooth Brushing Graphic Book" icon=file-earmark-pdf type=success >}}
 
@@ -199,13 +213,13 @@ Do not hesitate to take a step back if the person wants to stop the process mid 
 
 The social story focuses on tooth brushing practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-visiting-dentist.jpg)
+![](images/social-story-visiting-dentist.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/social-story-visiting-dentist.pdf dname=Visiting-dentist-social-story label="Download Visiting Dentist Social Story" icon=file-earmark-pdf type=success >}}
 
 ### Visiting a dentist check list{.unnumbered}
 
-![](images/visiting-dentist-checklist.jpg)
+![](images/visiting-dentist-checklist.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/visiting-dentist-checklist.pdf dname=Visiting-dentist-checklist label="Download Visiting Dentist Sample checklist" icon=file-earmark-pdf type=success >}}
 
