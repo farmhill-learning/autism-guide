@@ -39,6 +39,7 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
     include-after-body:
       - text: |
           <script src="/js/bot.js"></script>

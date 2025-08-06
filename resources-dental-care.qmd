@@ -7,7 +7,6 @@ format:
 
 # Resource: Dental Care
 
-
 Dental care is a difficult to deal with aspect of autism, as it relates to many sensory triggers that people on the spectrum experience. In the presence of oral sensitivities, children find it difficult to open mouth, allow a brush inside, use appropriate pressure to brush etc. The resulting lack of oral hygiene causes issues starting from gum infections to dental carries, causes pain, restricts eating, and negatively impacts the overall health of individuals on the spectrum. 
 
 Dental issues develop over a period of time when oral hygiene is not maintained. Dental problems also tend to be very painful impacting the mood and behavior of the autistic individual. On top of everything, going to dentist is also a difficult experience for many autistics. Therefore, preventive care becomes very important. The following information is focused on enabling dental care for young children. 
@@ -92,7 +91,7 @@ Children may have restrictive eating habits, texture sensitivities, chewing issu
 
 The social story focuses on basic oral hygiene practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-eat-right.jpg)
+![](images/social-story-eat-right.jpg){width=50% .lightbox .img-border}
 
 {{< downloadthis downloads/social-story-eat-right.pdf dname=eat-right-social-story label="Download Eat Right Social Story" icon=file-earmark-pdf type=success >}}
 
@@ -100,11 +99,15 @@ The social story focuses on basic oral hygiene practices. Read this story repeat
 
 This Oral Hygiene book introduces ideas like the importance of healthy teeth, avoding sugary foods, and the need to brush daily. The activities included reinforce these ideas. Sample pages and a download link are below. 
 
-![](images/oral-hygiene-cover.JPG)
+::: {layout="[[1,1], [1]]"}
 
-![](images/oral-hygiene-eat-foods.JPG)
+![Cover Page](images/oral-hygiene-cover.JPG){group="OH-GSB" .img-border}
 
-![](images/oral-hygiene-healthy-teeth.JPG)
+![Sample page 1](images/oral-hygiene-eat-foods.JPG){group="OH-GSB".img-border}
+
+![Sample page 2](images/oral-hygiene-healthy-teeth.JPG){group="OH-GSB".img-border}
+:::
+
 
 {{< downloadthis downloads/graphic-book-oral-hygiene.pdf dname=oral-hygiene-graphic-book label="Download Oral Hygiene Graphic Book" icon=file-earmark-pdf type=success >}}
 
