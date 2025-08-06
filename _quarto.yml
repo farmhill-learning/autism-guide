@@ -40,9 +40,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    include-after-body:
-      - text: |
-          <script src="/js/bot.js"></script>
+#    include-after-body:
+#      - text: |
+#          <script src="/js/bot.js"></script>
 #   pdf:
 #     documentclass: scrreport
 #     papersize: a4
