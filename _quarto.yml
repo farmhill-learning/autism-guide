@@ -18,6 +18,7 @@ book:
       chapters:
       - perspectives.qmd
       - early-intervention-perspectives.qmd
+      - perspectives-from-autistics.qmd
     - part: Diagnosis & Early Intervention
       chapters:
       - diagnosis.qmd

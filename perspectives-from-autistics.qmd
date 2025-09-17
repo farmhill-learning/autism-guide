@@ -1,0 +1,39 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
+# People on The Spectrum
+
+## Video - Celebrating Neurodiversity: Autistic Singers, Dancers & Down Syndrome Model 
+
+Here is a video showcasing experiences of four autistic adults made by Ummeed Child Development Center. They share their experiences and perspectives on art being a tool for self expression and empowerment.
+These are a few points covered in the video:
+
+- Priyankar Ganguly, Swara Swami, Zainika Jagasia and Usaid Shaikh are artists who express themselves through music, dance, designing and modelling.
+- They share their strengths and challenges they face in a society that often misunderstands or overlooks them.
+- They emphasize on the importance of autonomy, dignity and self-advocacy.
+- Family and community support play a crucial role in their journeys.
+- The four of them ask everyone to stop undermining autistics and to change their perceptions about disability and for greater inclusion.
+
+{{< video src="https://www.youtube.com/watch?v=3iKkMziYvd0" >}}
+
+## Video - Unmasking the Stigma Behind Autism in Females | Emmy Peach | TEDxUGA
+
+Emmy Peach, who got diagnosed at the age of 19 shares that even though her brother was diagnosed when he was 2, she was not because traditional diagnostic criterias are based on male presentations of autism. She adds that girls also learn to mask at a younger age which becomes more difficult to get help. 
+
+She talks about the impact of being diagnosed and the persistent stigma around autism. She encourages unmasking, embracing neurodiversity, and being authentic.
+
+{{< video src="https://www.youtube.com/watch?v=7KPK5sMar5w&list=PPSV" >}}
+
+## Video - Why autism portrayal is one-dimensional—and how to change it
+
+This Ted talk video is about the experiences of Chloe Hayden, an actress on the spectrum. The below are a few key points that Chloe talks about in the video.
+- The mainstream portrayal of autism in the movies, series and media is problematic
+- There is harm in viewing autistics as only people who can or can not contribute to the capitalist society
+- Chloe emphasizes on listening to autistic people
+- She also stresses on valuing people for the way they are and that it is okay to "just be."
+
+{{< video src="https://www.youtube.com/watch?v=wKUDd58CrY4&list=PPSV" >}}
