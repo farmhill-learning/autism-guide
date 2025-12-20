@@ -51,3 +51,27 @@
       subtitle: Evidence-based approaches to early intervention and how to access support for young children.
       color: "#E67E50"
 
+      color: "#E67E50"
+
+
+- title: The Autism Life Journey
+  description: Comprehensive guidance for every stage of life
+  classname: "section-d"
+  card_style: "resource-item"
+  entries:
+    - title: Identification & Early Years
+      href: identification-causes.qmd
+      number: "01"
+      subtitle: Recognizing early signs, getting a diagnosis, and accessing early intervention services to support your child's development.
+    - title: Education & Schooling
+      href: education.qmd
+      number: "02"
+      subtitle: Navigating educational options, IEPs, inclusive education, and supporting learning for children on the spectrum.
+    - title: The Teen Years
+      href: teen-years-parents.qmd
+      number: "03"
+      subtitle: Supporting teenagers through puberty, social challenges, mental health, and preparing for transition to adulthood.
+    - title: Employment & Independence
+      href: work.qmd
+      number: "04"
+      subtitle: Finding work, building independence, and accessing support for autistic adults navigating employment and daily life.
