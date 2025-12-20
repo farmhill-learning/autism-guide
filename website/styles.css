@@ -297,6 +297,19 @@ body.homepage section {
   /* Ensure distinct number alignment */
 }
 
+@media (max-width: 768px) {
+  .resource-item {
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+  }
+
+  .resource-number {
+    min-width: auto;
+    font-size: 1.5rem;
+  }
+}
+
 /* Quarto Overrides */
 /* Navbar */
 .navbar {
