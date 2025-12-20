@@ -1,14 +1,14 @@
 
 - title: Start Your Journey
   description: Find the information most relevant to your situation
-  classname: ""
+  classname: "section-b"
   card_style: "card-with-icon"
   entries:
     - title: Just Diagnosed
       href: diagnosis.qmd
       icon: users
       subtitle: Essential next steps for parents and families who recently received an autism diagnosis
-      color: "#E67E50 "
+      color: "#E67E50"
     - title: Educators
       href: education.qmd
       icon: school
@@ -29,7 +29,7 @@
 
 - title: Understanding Autism
   description: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
-  classname: "section-alt"
+  classname: "section-c"
   card_style: "card-read-more"
   entries:
     - title: What is Autism?
@@ -37,7 +37,7 @@
       icon_text: 🧩
       label: Basics
       subtitle: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
-      color: "#E67E50 "
+      color: "#E67E50"
     - title: Getting a Diagnosis
       href: diagnosis.qmd
       icon_text: 🔍 

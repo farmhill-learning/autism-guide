@@ -25,6 +25,12 @@
   --space-lg: 2.5rem;
   --space-xl: 4rem;
 
+  --section-bg-a: white;
+  --section-bg-b: #FFF0E6;
+  --section-bg-c: #E8F5F0;
+  --section-bg-d: #FFF9F0;
+  --section-bg-e: #F5F0FA;
+
   /* Typography */
   --font-heading: 'Lora', serif;
   --font-body: 'Inter', sans-serif;
@@ -77,9 +83,14 @@ a:hover {
   border-width: 0;
 }
 
+body.homepage .quarto-listing {
+  padding: 0px !important;
+}
+
 body.homepage .section-title {
   border-bottom: none;
-  /* padding-top: 2rem; */
+  padding-top: 2rem;
+  margin-top: 0px;
 }
 
 body.homepage section {
@@ -142,6 +153,26 @@ body.homepage section {
 .section-alt {
   background: var(--light-gray);
   padding: var(--space-xl) 0;
+}
+
+.section-a {
+  background: var(--section-bg-a);
+}
+
+.section-b {
+  background: var(--section-bg-b);
+}
+
+.section-c {
+  background: var(--section-bg-c);
+}
+
+.section-d {
+  background: var(--section-bg-d);
+}
+
+.section-e {
+  background: var(--section-bg-e);
 }
 
 .section-header {
