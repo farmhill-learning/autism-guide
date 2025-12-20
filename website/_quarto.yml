@@ -84,7 +84,8 @@ format:
       #- custom-design.css
     toc: true
     toc-depth: 3
-    # include-in-header:
-    #  - _includes/lucide-icons.html
+    include-in-header:
+      - _includes/lucide-icons.html
     include-after-body:
       - _includes/load-comments.html
+      - _includes/custom-footer.html
