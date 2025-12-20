@@ -1,0 +1,21 @@
+```{=html}
+<% for (const item of items) { %>
+<section class="<%= item.classname %>" style="padding-bottom: 2rem;">
+<div class="container">
+
+    <h2 class="section-title">
+        <%= item.title %>
+    </h2>
+    <p class="section-description">
+        <%= item.description %>
+    </p>
+
+    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <% for (const entry of item.entries) { %>
+            <%= include(item.card_style + ".ejs", entry) %>
+        <% } %>
+    </div>
+</div>
+</section>
+<% } %>
+```

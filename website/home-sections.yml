@@ -1,0 +1,53 @@
+
+- title: Start Your Journey
+  description: Find the information most relevant to your situation
+  classname: ""
+  card_style: "card-with-icon"
+  entries:
+    - title: Just Diagnosed
+      href: diagnosis.qmd
+      icon: users
+      subtitle: Essential next steps for parents and families who recently received an autism diagnosis
+      color: "#E67E50 "
+    - title: Educators
+      href: education.qmd
+      icon: school
+      subtitle: Resources for teachers, therapists, and professionals working with autistic individuals
+      color: "#4A9B8E"
+    - title: Parents of Teens
+      href: teen-years-parents.qmd
+      icon: baby
+      subtitle: Support and guidance for caregivers of teenagers on the spectrum
+      color: "#D66B8B"
+    - title: Autistic Adults
+      href: adulting.qmd
+      icon: briefcase
+      subtitle: Information for adults on the spectrum navigating work, relationships, and independence
+      color: "#34A8B7"
+
+
+
+- title: Understanding Autism
+  description: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
+  classname: "section-alt"
+  card_style: "card-read-more"
+  entries:
+    - title: What is Autism?
+      href: about.qmd
+      icon_text: 🧩
+      label: Basics
+      subtitle: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
+      color: "#E67E50 "
+    - title: Getting a Diagnosis
+      href: diagnosis.qmd
+      icon_text: 🔍 
+      label: Diagnosis
+      subtitle: Understanding the diagnosis process, what to expect, and how to access evaluation services in India. 
+      color: "#E67E50"
+    - title: Early Intervention
+      href: early-intervention.qmd
+      icon_text: 🌱
+      label: Early Support
+      subtitle: Evidence-based approaches to early intervention and how to access support for young children.
+      color: "#E67E50"
+
