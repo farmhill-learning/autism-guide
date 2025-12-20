@@ -16,8 +16,6 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "The Guide"
-        href: guide.qmd
       - text: "About"
         href: about.qmd
       - text: "Resources"
@@ -86,7 +84,7 @@ format:
       #- custom-design.css
     toc: true
     toc-depth: 3
-    include-in-header:
-      - _includes/lucide-icons.html
+    # include-in-header:
+    #  - _includes/lucide-icons.html
     include-after-body:
       - _includes/load-comments.html
