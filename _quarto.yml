@@ -1,66 +1,92 @@
 project:
-  type: book
+  type: website
+  output-dir: _site
 
-book:
-  title: "Autism: A spectrum of possibilities"
-  subtitle: "A Handbook for people living with Autism in India"
-  author: "Farmhill Learning Community"
-  date: "9/24/2024"
-
+website:
+  title: "Autism Bharat"
+  # subtitle: "A spectrum of possibilities"
+  site-url: "https://autism.farmhill.in"
   repo-url: https://github.com/farmhill-learning/autism-guide/
 
-  chapters:
-    - index.qmd
-    - about.qmd
-    - history.qmd
-    - identification-causes.qmd
-    - part: People's Perspectives
-      chapters:
-      - perspectives.qmd
-      - early-intervention-perspectives.qmd
-      - perspectives-from-autistics.qmd
-    - part: Diagnosis & Early Intervention
-      chapters:
-      - diagnosis.qmd
-      - next-steps.qmd
-      - early-intervention.qmd
-    - cures-and-remedies.qmd
-    - education.qmd
-    - teen-years-parents.qmd
-    - work.qmd
-    - adulting.qmd
-    - resources-eating.qmd
-    - resources-communication.qmd
-    - resources-dental-care.qmd
-    - resources-schedules.qmd
-    - references.qmd
-    - new-preface.qmd
+  navbar:
+    background: "#FDFCFB"
+    foreground: "#2A2A2A"
+    collapse-below: md  # Hamburger menu below 768px
+
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "The Guide"
+        href: guide.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Resources"
+        menu:
+          - text: "Communication"
+            href: resources-communication.qmd
+          - text: "Eating & Nutrition"
+            href: resources-eating.qmd
+          - text: "Dental Care"
+            href: resources-dental-care.qmd
+          - text: "Visual Schedules"
+            href: resources-schedules.qmd
+
+    right:
+      - icon: search
+        href: search.html
+
+  sidebar:
+    - title: "Guide Contents"
+      style: "floating"
+      collapse-level: 2
+      contents:
+        - section: "Understanding Autism"
+          contents:
+            - about.qmd
+            - history.qmd
+            - identification-causes.qmd
+
+        - section: "People's Perspectives"
+          contents:
+            - perspectives.qmd
+            - early-intervention-perspectives.qmd
+            - perspectives-from-autistics.qmd
+
+        - section: "Diagnosis & Intervention"
+          contents:
+            - diagnosis.qmd
+            - next-steps.qmd
+            - early-intervention.qmd
+
+        - section: "Life Stages"
+          contents:
+            - education.qmd
+            - teen-years-parents.qmd
+            - work.qmd
+            - adulting.qmd
+
+        - section: "Practical Resources"
+          contents:
+            - resources-eating.qmd
+            - resources-communication.qmd
+            - resources-dental-care.qmd
+            - resources-schedules.qmd
+
+        - cures-and-remedies.qmd
+        - new-preface.qmd
+        - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
-    css: styles.css
-#    include-after-body:
-#      - text: |
-#          <script src="/js/bot.js"></script>
-#   pdf:
-#     documentclass: scrreport
-#     papersize: a4
-#     toc: true
-#     toc-depth: 3
-#     toc-title: "Table of contents"
-#     number-sections: true
-#     number-depth: 2
-#     geometry:
-#       - inner=3cm
-#       - outer=4cm
-#       - top=3cm
-#       - bottom=4cm
-#       - headsep=22pt
-#       - headheight=11pt
-#       - footskip=33pt
-#       - ignorehead
-#       - ignorefoot
-#       - heightrounded
+    css:
+      - styles.css
+      #- custom-design.css
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      - _includes/lucide-icons.html
+    include-after-body:
+      - _includes/load-comments.html
