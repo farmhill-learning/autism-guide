@@ -13,79 +13,80 @@ website:
     foreground: "#2A2A2A"
     collapse-below: md  # Hamburger menu below 768px
 
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "About"
-        href: about.qmd
-      - text: "Resources"
-        menu:
-          - text: "Communication"
-            href: resources-communication.qmd
-          - text: "Eating & Nutrition"
-            href: resources-eating.qmd
-          - text: "Dental Care"
-            href: resources-dental-care.qmd
-          - text: "Visual Schedules"
-            href: resources-schedules.qmd
+    # left:
+    #   - text: "Home"
+    #     href: index.qmd
+    #   - text: "About"
+    #     href: about.qmd
+    #   - text: "Resources"
+    #     menu:
+    #       - text: "Communication"
+    #         href: resources-communication.qmd
+    #       - text: "Eating & Nutrition"
+    #         href: resources-eating.qmd
+    #       - text: "Dental Care"
+    #         href: resources-dental-care.qmd
+    #       - text: "Visual Schedules"
+    #         href: resources-schedules.qmd
 
-    right:
-      - icon: search
-        href: search.html
+    # right:
+    #   - icon: search
+    #     href: search.html
 
-  sidebar:
-    - title: "Guide Contents"
-      style: "floating"
-      collapse-level: 2
-      contents:
-        - section: "Understanding Autism"
-          contents:
-            - about.qmd
-            - history.qmd
-            - identification-causes.qmd
+  # sidebar:
+  #   - title: "Guide Contents"
+  #     style: "floating"
+  #     collapse-level: 2
+  #     contents:
+  #       - section: "Understanding Autism"
+  #         contents:
+  #           - about.qmd
+  #           - history.qmd
+  #           - identification-causes.qmd
 
-        - section: "People's Perspectives"
-          contents:
-            - perspectives.qmd
-            - early-intervention-perspectives.qmd
-            - perspectives-from-autistics.qmd
+  #       - section: "People's Perspectives"
+  #         contents:
+  #           - perspectives.qmd
+  #           - early-intervention-perspectives.qmd
+  #           - perspectives-from-autistics.qmd
 
-        - section: "Diagnosis & Intervention"
-          contents:
-            - diagnosis.qmd
-            - next-steps.qmd
-            - early-intervention.qmd
+  #       - section: "Diagnosis & Intervention"
+  #         contents:
+  #           - diagnosis.qmd
+  #           - next-steps.qmd
+  #           - early-intervention.qmd
 
-        - section: "Life Stages"
-          contents:
-            - education.qmd
-            - teen-years-parents.qmd
-            - work.qmd
-            - adulting.qmd
+  #       - section: "Life Stages"
+  #         contents:
+  #           - education.qmd
+  #           - teen-years-parents.qmd
+  #           - work.qmd
+  #           - adulting.qmd
 
-        - section: "Practical Resources"
-          contents:
-            - resources-eating.qmd
-            - resources-communication.qmd
-            - resources-dental-care.qmd
-            - resources-schedules.qmd
+  #       - section: "Practical Resources"
+  #         contents:
+  #           - resources-eating.qmd
+  #           - resources-communication.qmd
+  #           - resources-dental-care.qmd
+  #           - resources-schedules.qmd
 
-        - cures-and-remedies.qmd
-        - new-preface.qmd
-        - references.qmd
+  #       - cures-and-remedies.qmd
+  #       - new-preface.qmd
+  #       - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
+    page-layout: full
+    toc: false
     theme: cosmo
     css:
       - styles.css
       #- custom-design.css
-    toc: true
-    toc-depth: 3
+    # toc-depth: 3
     include-in-header:
       - _includes/lucide-icons.html
     include-after-body:
-      - _includes/load-comments.html
+      # - _includes/load-comments.html
       - _includes/custom-footer.html
