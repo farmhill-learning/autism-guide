@@ -33,7 +33,7 @@
   card_style: "card-read-more"
   entries:
     - title: What is Autism?
-      href: about.qmd
+      href: resources/overview-of-autism/index.qmd
       icon_text: 🧩
       label: Basics
       subtitle: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
