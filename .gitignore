@@ -10,3 +10,5 @@ wheels/
 .venv
 
 _site/
+.quarto/
+_book/

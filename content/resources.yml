@@ -6,4 +6,10 @@ resources:
             - life-as-an-adult-autistic.md
             - way-forward.md
             - understanding-autism-video-from-setu.md
+    identifying-autism:
+        title: Identifying Autism
+        pages:
+            - index.md
+            - observable-signs.md
+    
 
