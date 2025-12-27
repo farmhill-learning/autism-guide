@@ -1,10 +1,4 @@
----
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
----
-## Observable signs of autism
+# Observable signs of autism
 
 When you notice any of the following signs in the children around you, it is useful to consult a developmental psychologist or a developmental pediatrician at the earliest. It is possible that these signs do not mean autism, but if they do, then you would have recognized these differences a little earlier and started providing support, thereby helping the child access resources and understanding sooner.
 

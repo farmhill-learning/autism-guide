@@ -1,0 +1,43 @@
+---
+format:
+  html:
+    include-after-body:
+       - "_includes/load-comments.html"
+---
+
+# Lorna Wing – Bringing the ends together
+
+Building on the work of Leo Kanner and Hans Asperger, Lorna Wing proposed the concept of the "autism spectrum." She emphasized that autism is a spectrum of disorders with a wide range of presentations, including different degrees of severity and a diverse set of characteristics. Adding on, Wing also introduced the concept of the "triad of impairments" to describe the core features of autism. This triad includes difficulties in social interaction, communication, and imagination (often manifested as repetitive and stereotyped behaviors). The triad of impairments became a foundational framework for understanding and diagnosing autism spectrum disorders. Along with Judith Gould, she also developed the Autism Diagnostic Interview (ADI), a structured interview for parents or caregivers of individuals with autism. The ADI became an essential tool for clinicians and researchers in diagnosing autism and gathering information about a person's behavior and development.
+
+Wing, apart from actively being involved in advocating for individuals with autism and their families, contributed to better recognition and understanding of autism in girls and women by highlighting the underrepresentation of females on the autism spectrum. Her work drew attention to the fact that autism might present differently in females compared to males.
+
+Her work has had a lasting impact on autism research, diagnosis, and support systems.
+
+## Autism in Adults – Temple Grandin – 1986
+
+*As one of the first adults to break the stigma and publicly disclose her autism, Temple Grandin made enormous contributions to the field of autism by drawing attention to the lived experience of autistics.*
+
+Temple Grandin (1947-) was born in Boston into a wealthy family. She was among the first adults to publicly disclose she was autistic, in her 1986 book ‘Emergence: labelled autistic.’
+Born at a time when children like her were routinely institutionalized, Temple was supported by her mother and developed into the autistic savant as she is recognized today. Her book was based on experiences of an autistic, rooted in her personal experiences, observations, and advocacy. Grandin has provided invaluable insights into the lived experience of autism. Her book "Thinking in Pictures," offers a first-person account of the sensory experiences, challenges, and strengths associated with autism.
+
+Grandin's unique cognitive style, characterized by visual thinking, has been a focal point of her contributions. She coined the term "thinking in pictures" to describe her thought processes, emphasizing the importance of visual cognition in understanding the world. This perspective has influenced how educators and researchers approach autism, and Grandin's insights have extended to recommendations for creating sensory-friendly environments that support individuals with autism. Her suggestions for adapting educational settings and incorporating sensory considerations have played a role in shaping the design of spaces to meet the needs of individuals on the autism spectrum.
+
+Beyond her literary contributions, Temple Grandin's professional endeavors in animal science and her innovative designs for livestock handling facilities reflect her understanding of sensory sensitivities, a common trait in individuals with autism. Her work in enhancing animal welfare demonstrates her ability to apply a unique perspective to real-world challenges. In addition to her autobiographical writings, Grandin has authored numerous books and articles on autism, animal behavior, and related subjects, contributing to the widespread knowledge about autism in both academic and popular contexts.
+
+Stories of Grandin and other adult autistics like her, and the 1988 movie Rainman, also gave rise to the idea that autistics are unusually good at arts or math – a condition called savant syndrome.
+
+## Emergence of neurodiversity paradigm-1990s
+
+*Neurodiversity describes the idea that people experience and interact with the world around them in many different ways; there is no one "right" way of thinking, learning, and behaving, and differences are not viewed as deficits.*
+
+Lorna Wing and Temple Grandin changed how people think about autism. They showed that autism is different for each person. Earlier, people thought of autism as the same for everyone. Wing created the idea of the "autism spectrum," and Grandin talked about the strengths of people with autism. This changed how society saw disabilities. People started thinking about how society makes it hard for people with disabilities. This change made room for a more positive and inclusive view of neurological differences.
+
+A movement for disability rights also started in the 1960s in the US. This movement said that people with disabilities have rights, and society should include them. The movement challenged old ideas that said having a disability is a problem. People with autism also spoke up for themselves. They said that autism is not just a problem but also a part of who they are. They wanted to show that they have strengths and unique ways of thinking.
+
+Judy Singer, a key figure in the development of the concept of neurodiversity, learned about the idea of autism as a spectrum from the Autism Association of Australia. This understanding, influenced by British psychologist Lorna Wing's work, recognized autism as a diverse condition that extends into the broader human experience. Singer's daughter's diagnosis with Asperger's syndrome led her to recognize similar traits in herself, such as difficulty making eye contact and being disorganized.
+
+Singer, who worked in the IT industry, later pursued studies in sociology and disability at the University of Technology in Sydney. With the advent of the internet, she engaged in online communities, including one called ILMV, where she collaborated with Harvey Blume. Through their discussions, Singer coined the term "neurodiversity," in the mid 1990-s, emphasizing the value of diverse neurological conditions inspired by biodiversity in nature, which is about valuing different species.
+
+Singer undertook a thesis titled "Odd People In," exploring the emergence of a new social movement based on neurological diversity. The thesis focused on online communities and the need for autistic people's voices to be heard and respected. Singer's work contributed to the growing neurodiversity movement, advocating for the rights and inclusion of neurodivergent individuals. Neurodiversity is the idea that we should value and include people with different ways of thinking, like autism, ADHD, dyslexia, and more. It says that being different is not a bad thing; it adds to the richness of human experience.
+
+Neurodiversity has become an important idea. It changed how we talk about and see neurological differences. The neurodiversity movement works for the rights and inclusion of people with different ways of thinking in all parts of life.
