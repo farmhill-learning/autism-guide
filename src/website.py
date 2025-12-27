@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Website generator for Autism Bharat.
-Generates index.html from Jinja2 templates and resources.yml configuration.
+Generates index.html from Jinja2 templates by auto-discovering resources from content directories.
 """
 
 from __future__ import annotations
@@ -34,15 +34,13 @@ class Website:
         self.home_data = self.load_home()
 
     def load_resources(self):
-        resources_file = content_root / 'resources.yml'
-        with open(resources_file, 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
-        
         resources = []
-        if data and 'resources' in data:
-            for resource_name, resource_data in data['resources'].items():
-                resource = Resource.load(resource_name, resource_data)
-                resources.append(resource)
+        for item in content_root.iterdir():
+            if item.is_dir() and item.name != 'static':
+                index_file = item / 'index.md'
+                if index_file.exists():
+                    resource = Resource.load(item)
+                    resources.append(resource)
         return resources
 
     def load_home(self):
@@ -63,7 +61,7 @@ class Website:
     def render_static(self):
         static_dir = content_root / 'static'
         output_static_dir = project_root / '_site' / 'static'
-        
+
         if static_dir.exists():
             if output_static_dir.exists():
                 shutil.rmtree(output_static_dir)
@@ -100,31 +98,32 @@ class Resource:
     pages: list[Page]
 
     @staticmethod
-    def load(name, data):
-        title = data.get('title', name)
-        pages_data = data.get('pages', [])
-        
-        pages = []
-        resources_dir = content_root / name
-        for page_file in pages_data:
-            markdown_file = resources_dir / page_file
-            if markdown_file.exists():
-                page = Page.load(markdown_file, resource_name=name)
-                pages.append(page)
-        
+    def load(resource_dir):
+        name = resource_dir.name
+
+        # Find all .md files and sort them
+        md_files = [f.name for f in sorted(resource_dir.glob('*.md')) if f.name != 'index.md']
+        md_files = ["index.md"] + md_files
+
+        pages = [Page.load(resource_dir / filename, resource_name=name) for filename in md_files]
+
+        # Get title from index page
+        title = name.replace('-', ' ').title()  # fallback
+        if pages and pages[0].name == 'index':
+            title = pages[0].title
         return Resource(name=name, title=title, pages=pages)
 
     def render(self, all_resources):
-        
+
         resources_dict = {r.name: {'title': r.title} for r in all_resources}
-        
+
         for page in self.pages:
             self.render_page(page, resources_dict)
 
     def render_page(self, page: Page, resources_dict):
         html_content = convert_markdown_to_html(page.body)
         page_description = page.metadata.get('description-meta') or page.metadata.get('description')
-        
+
         next_page = self.get_next_page(page)
         prev_page = self.get_previous_page(page)
 
@@ -181,42 +180,44 @@ class Page:
 
     def get_url(self) -> str:
         """Generate the URL path for this page."""
+        name = re.sub("^\d+-", self.name, "")
+
         if self.name == 'index':
             return f"/{self.resource_name}/"
         else:
-            return f"/{self.resource_name}/{self.name}/"
+            return f"/{self.resource_name}/{name}/"
 
     def get_searchable_text(self) -> str:
         """Extract plain text from markdown body for searching."""
         # Remove markdown syntax patterns
         text = self.body
-        
+
         # Remove code blocks
         text = re.sub(r'```[\s\S]*?```', '', text)
         text = re.sub(r'`[^`]+`', '', text)
-        
+
         # Remove links but keep text: [text](url) -> text
         text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
-        
+
         # Remove images: ![alt](url) -> alt
         text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
-        
+
         # Remove headers but keep text: # Header -> Header
         text = re.sub(r'^#{1,6}\s+(.+)$', r'\1', text, flags=re.MULTILINE)
-        
+
         # Remove bold/italic markers
         text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', text)
         text = re.sub(r'\*([^\*]+)\*', r'\1', text)
         text = re.sub(r'__([^_]+)__', r'\1', text)
         text = re.sub(r'_([^_]+)_', r'\1', text)
-        
+
         # Remove HTML tags if any
         text = re.sub(r'<[^>]+>', '', text)
-        
+
         # Remove extra whitespace
         text = re.sub(r'\s+', ' ', text)
         text = text.strip()
-        
+
         return text
 
     def get_headings(self) -> list[str]:
@@ -253,7 +254,7 @@ class Page:
 
         page_name = markdown_file.stem
         title = metadata.get('title')
-        
+
         # If no title in frontmatter, check if first line is a header
         if not title:
             lines = markdown_content.strip().split('\n')
