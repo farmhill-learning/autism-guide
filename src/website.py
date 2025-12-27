@@ -148,10 +148,8 @@ class Resource:
 
     def render(self, all_resources):
         self.copy_images()
-        resources_dict = {r.name: {'title': r.title} for r in all_resources}
-
         for page in self.pages:
-            self.render_page(page, resources_dict)
+            self.render_page(page)
 
     def copy_images(self):
         """Copy all .jpg and .png files from resource directory to output directory."""
@@ -167,23 +165,11 @@ class Resource:
                     shutil.copy2(image_file, output_file)
                     print(f'  {output_file.relative_to(project_root)}')
 
-    def render_page(self, page: Page, resources_dict):
-        html_content = convert_markdown_to_html(page.body)
-        page_description = page.metadata.get('description-meta') or page.metadata.get('description')
-
-        next_page = self.get_next_page(page)
-        prev_page = self.get_previous_page(page)
-
+    def render_page(self, page: Page):
         rendered_html = render_template(
             'page.html',
-            page_title=page.title,
-            page_description=page_description,
-            content=html_content,
-            resource_key=self.name,
-            resource_title=self.title,
-            resources=resources_dict,
-            next_page=next_page,
-            prev_page=prev_page
+            page=page,
+            resource=self
         )
 
         output_base_dir = project_root / '_site'
@@ -305,6 +291,14 @@ class Page:
     body: str
     metadata: dict[str,Any]
     resource_name: str = ""
+
+    @property
+    def description(self):
+        return self.metadata.get('description-meta') or self.metadata.get("description") or ""
+
+    @property
+    def url(self):
+        return self.get_url()
 
     def get_url(self) -> str:
         """Generate the URL path for this page."""
@@ -442,6 +436,13 @@ def convert_markdown_to_html(markdown_content):
     from md import VideoExtension
     md = markdown.Markdown(extensions=['extra', 'codehilite', 'toc', VideoExtension()])
     return md.convert(markdown_content)
+
+def to_markdown(markdown_content):
+    """Convert markdown content to HTML."""
+    return convert_markdown_to_html(markdown_content)
+
+# Register to_markdown as a global function in Jinja environment
+jinja_env.globals['to_markdown'] = to_markdown
 
 
 def generate_page_html(env, markdown_file, resource_key, resource_title, output_dir, resources):

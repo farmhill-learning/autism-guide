@@ -1,62 +1,60 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page_title }} - Autism Bharat{% endblock %}
+{% block title %}{{ page.title }} - Autism Bharat{% endblock %}
 
-{% block meta_description %}{% if page_description %}{{ page_description }}{% else %}Autism Bharat resource page{% endif %}{% endblock %}
+{% block meta_description %}{% if page.description %}{{ page.description }}{% else %}Autism Bharat resource page{% endif %}{% endblock %}
 
 {% block content %}
 <article class="container py-5">
-    <div class="row">
-        <div class="col-lg-8 mx-auto">
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="mb-4">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    {% if resource_key %}
-                        <li class="breadcrumb-item"><a href="/{{ resource_key }}/">{{ resource_title }}</a></li>
-                    {% endif %}
-                    <li class="breadcrumb-item active" aria-current="page">{{ page_title }}</li>
-                </ol>
-            </nav>
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            {% if resource.name %}
+                <li class="breadcrumb-item"><a href="/{{ resource.name }}/">{{ resource.title }}</a></li>
+            {% endif %}
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        </ol>
+    </nav>
 
-            <!-- Page Header -->
-            <header class="mb-4">
-                <h1 class="display-4 fw-bold">{{ page_title }}</h1>
-                {% if page_description %}
-                    <p class="lead text-muted">{{ page_description }}</p>
+    <!-- Page Header -->
+    <header class="mb-4">
+        <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+        {% if page.description %}
+            <p class="lead text-muted">{{ page.description }}</p>
+        {% endif %}
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        {{ to_markdown(page.body)|safe }}
+    </div>
+
+    <!-- Navigation -->
+    <div class="mt-5 pt-4 border-top">
+        <div class="d-flex justify-content-between">
+            <div>
+                {% set prev_page = resource.get_previous_page(page) %}
+                {% if prev_page %}
+                    <a href="{{ prev_page.url }}" class="btn btn-outline-primary">
+                        ← {{ prev_page.title }}
+                    </a>
                 {% endif %}
-            </header>
-
-            <!-- Page Content -->
-            <div class="page-content">
-                {{ content|safe }}
             </div>
-
-            <!-- Navigation -->
-            <div class="mt-5 pt-4 border-top">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        {% if prev_page %}
-                            <a href="/{{ resource_key }}/{% if prev_page.name != 'index' %}{{ prev_page.name }}/{% endif %}" class="btn btn-outline-primary">
-                                ← {{ prev_page.title }}
-                            </a>
-                        {% endif %}
-                    </div>
-                    <div>
-                        {% if resource_key %}
-                            <a href="/{{ resource_key }}/" class="btn btn-outline-secondary">
-                                Back to {{ resource_title }}
-                            </a>
-                        {% endif %}
-                    </div>
-                    <div>
-                        {% if next_page %}
-                            <a href="/{{ resource_key }}/{% if next_page.name != 'index' %}{{ next_page.name }}/{% endif %}" class="btn btn-outline-primary">
-                                {{ next_page.title }} →
-                            </a>
-                        {% endif %}
-                    </div>
-                </div>
+            <div>
+                {% if resource.name %}
+                    <a href="/{{ resource.name }}/" class="btn btn-outline-secondary">
+                        Back to {{ resource.title }}
+                    </a>
+                {% endif %}
+            </div>
+            <div>
+                {% set next_page = resource.get_next_page(page) %}
+                {% if next_page %}
+                    <a href="{{ next_page.url }}" class="btn btn-outline-primary">
+                        {{ next_page.title }} →
+                    </a>
+                {% endif %}
             </div>
         </div>
     </div>
