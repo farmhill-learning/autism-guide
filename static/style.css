@@ -237,7 +237,7 @@ article li {
 .hero-section-page {
   background: linear-gradient(135deg, #4A9B8E 0%, #3A7A8E 100%);
   color: white;
-  padding: var(--space-xl) 0;
+  padding: var(--space-md) 0;
   margin-bottom: var(--space-lg);
 }
 
