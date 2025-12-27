@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Autism Bharat - Home{% endblock %}
+
+{% block meta_description %}Autism Bharat provides resources and information about autism in India. Explore our comprehensive guides and support materials.{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section bg-primary text-white py-5 mb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 fw-bold mb-3">Autism Bharat</h1>
+                <p class="lead mb-4">
+                    Empowering individuals, families, and communities with comprehensive resources and information about autism in India.
+                </p>
+                <a href="#resources" class="btn btn-light btn-lg" aria-label="Explore resources">Explore Resources</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Home Sections from home.yml -->
+{% if items %}
+    {% include 'home-section.html' %}
+{% endif %}
+
+<!-- About Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="display-6 fw-bold mb-4">About Autism Bharat</h2>
+                <p class="lead">
+                    Autism Bharat is dedicated to providing accessible, accurate, and comprehensive information about autism spectrum disorders in the Indian context. Our mission is to support individuals with autism, their families, educators, and healthcare professionals with reliable resources and guidance.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

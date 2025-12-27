@@ -1,0 +1,52 @@
+{% macro CardWithIcon(href, color, icon, title, subtitle) %}
+<a href="{{ href }}" class="card-base" style="padding: 2.5rem; display: block; text-decoration: none; color: inherit;">
+    <div
+        style="width: 56px; height: 56px; background: {{ color }}1a; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+        <i data-lucide="{{ icon }}" style="color: {{ color }}; width: 28px; height: 28px;"></i>
+    </div>
+    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">
+        {{ title }}
+    </h3>
+    <p style="color: var(--text-secondary); font-size: 0.95rem;">
+        {{ subtitle }}
+    </p>
+</a>
+{% endmacro %}
+
+{% macro CardReadMore(icon_text, label, title, subtitle, href) %}
+<div class="card-base" style="overflow: hidden;">
+    <div
+        style="height: 200px; background: linear-gradient(135deg, #E8F4F2 0%, #FDF5F0 100%); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+        {{ icon_text }}
+    </div>
+    <div style="padding: 2.5rem;">
+        <span
+            style="display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--primary-teal); margin-bottom: 1rem;">
+            {{ label }}
+        </span>
+        <h3 style="font-size: 1.35rem; margin-bottom: 1rem;">
+            {{ title }}
+        </h3>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+            {{ subtitle }}
+        </p>
+        <a href="{{ href }}" style="font-weight: 600;">Read more →</a>
+    </div>
+</div>
+{% endmacro %}
+
+{% macro ResourceItem(href, number, title, subtitle) %}
+<a href="{{ href }}" class="resource-item">
+    <span class="resource-number">
+        {{ number }}
+    </span>
+    <div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">
+            {{ title }}
+        </h3>
+        <p style="color: var(--text-secondary);">
+            {{ subtitle }}
+        </p>
+    </div>
+</a>
+{% endmacro %}
