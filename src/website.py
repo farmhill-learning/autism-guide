@@ -33,17 +33,21 @@ DEFAULT_IMAGE_URL = "/overview-of-autism/overview-of-autism.jpg"
 class Website:
     def __init__(self):
         self.resources = self.load_resources()
-        self._resource_dict = {r.name: r for r in self.resources}
+        self._resources_dict = {r.name: r for r in self.resources}
 
         # Register resources_dict as a Jinja2 global so all templates can access it
         resources_dict = {r.name: {'title': r.title} for r in self.resources}
         jinja_env.globals['resources'] = resources_dict
 
         self.collections = self.load_collections()
-        self.home_data = self.load_home()
+        self._collections_dict = {c.name: c for c in self.collections}
+        self.sections = self.load_sections()
 
     def get_resource(self, name):
-        return self._resource_dict[name]
+        return self._resources_dict[name]
+
+    def get_collection(self, name):
+        return self._collections_dict[name]
 
     def load_resources(self):
         resources = []
@@ -64,13 +68,42 @@ class Website:
                 collections.append(collection)
         return collections
 
-    def load_home(self):
+    def load_sections(self):
         home_file = content_root / 'home.yml'
-        if home_file.exists():
-            with open(home_file, 'r', encoding='utf-8') as f:
-                data = yaml.safe_load(f)
-            return data.get('sections', []) if data else []
-        return []
+        if not home_file.exists():
+            return []
+
+        with open(home_file, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+
+        if not data:
+            return []
+
+        sections = []
+        for section_data in data.get('sections', []):
+            title = section_data.get('title', '')
+            description = section_data.get('description', '')
+            classname = section_data.get('classname', '')
+            collection_names = section_data.get('collections', [])
+
+            # Convert collection names to Collection objects
+            collections = []
+            for collection_name in collection_names:
+                try:
+                    collection = self.get_collection(collection_name)
+                    collections.append(collection)
+                except KeyError:
+                    print(f"Warning: Collection '{collection_name}' not found in section '{title}'", file=sys.stderr)
+
+            section = Section(
+                title=title,
+                description=description,
+                classname=classname,
+                collections=collections
+            )
+            sections.append(section)
+
+        return sections
 
     def render(self):
         self.render_static()
@@ -94,12 +127,10 @@ class Website:
             output_static_dir.mkdir(parents=True, exist_ok=True)
 
     def render_home(self):
-        resources_dict = {r.name: {'title': r.title} for r in self.resources}
         output_file = project_root / '_site' / 'index.html'
         html_content = render_template(
             'index.html',
-            resources=resources_dict,
-            items=self.home_data,
+            sections=self.sections,
             site_title="Autism Bharat",
             site_description="Resources and information about autism in India"
         )
@@ -215,6 +246,14 @@ class Resource:
         return None
 
 @dataclass
+class Section:
+    title: str
+    description: str
+    classname: str
+    collections: list[Collection]
+
+
+@dataclass
 class Collection:
     name: str
     title: str
@@ -228,7 +267,9 @@ class Collection:
 
     @property
     def image_url(self):
-        return self.resources[0].image_url
+        if self.resources:
+            return self.resources[0].image_url
+        return DEFAULT_IMAGE_URL
 
     @staticmethod
     def load(website, markdown_file):

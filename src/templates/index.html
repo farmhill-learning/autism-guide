@@ -5,6 +5,8 @@
 {% block meta_description %}Autism Bharat provides resources and information about autism in India. Explore our comprehensive guides and support materials.{% endblock %}
 
 {% block content %}
+{% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem %}
+
 <!-- Hero Section -->
 <section class="hero-section bg-primary text-white py-5 mb-5">
     <div class="container">
@@ -21,8 +23,26 @@
 </section>
 
 <!-- Home Sections from home.yml -->
-{% if items %}
-    {% include 'home-section.html' %}
+{% if sections %}
+    {% for section in sections %}
+    <section class="{{ section.classname }}" style="padding-bottom: 2rem;">
+    <div class="container">
+
+        <h2 class="section-title">
+            {{ section.title }}
+        </h2>
+        <p class="section-description">
+            {{ section.description }}
+        </p>
+
+        <div class="grid-cards">
+            {% for collection in section.collections %}
+                {{ CardWithImage(collection.title, collection.description, collection.image_url, "collection", "/" + collection.name + "/") }}
+            {% endfor %}
+        </div>
+    </div>
+    </section>
+    {% endfor %}
 {% endif %}
 
 <!-- About Section -->
