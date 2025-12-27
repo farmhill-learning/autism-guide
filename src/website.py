@@ -492,8 +492,8 @@ def parse_markdown_file(markdown_file):
 
 
 def convert_markdown_to_html(markdown_content):
-    from md import VideoExtension
-    md = markdown.Markdown(extensions=['extra', 'codehilite', 'toc', VideoExtension()])
+    from md import VideoExtension, DownloadThisExtension
+    md = markdown.Markdown(extensions=['extra', 'codehilite', 'toc', VideoExtension(), DownloadThisExtension()])
     return md.convert(markdown_content)
 
 def to_markdown(markdown_content):
