@@ -34,36 +34,66 @@
 </section>
 
 <article class="container">
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-lg-9">
+            <div class="page-content bg-white rounded-3 p-4">
 
-
-    <div class="page-content bg-white rounded-3 p-4">
-        {% if page.name != "index" %}
-            <h1>{{page.title}}</h1>
-        {% endif %}
-
-        {{ to_markdown(page.body)|safe }}
-    </div>
-
-    <!-- Navigation -->
-    <div class="mt-5 pt-4 border-top">
-        <div class="d-flex justify-content-between">
-            <div>
-                {% set prev_page = resource.get_previous_page(page) %}
-                {% if prev_page %}
-                    <a href="{{ prev_page.url }}" class="btn btn-outline-primary">
-                        ← {{ prev_page.title }}
-                    </a>
+                {% if page.name == "index" and resource.image_url %}
+                <div class="sidebar-image mb-3">
+                    <img src="{{ resource.image_url }}" alt="{{ resource.title }}" class="img-fluid rounded">
+                </div>
                 {% endif %}
+
+
+                {% if page.name != "index" %}
+                    <h1>{{page.title}}</h1>
+                {% endif %}
+
+                {{ to_markdown(page.body)|safe }}
             </div>
-            <div>
-                {% set next_page = resource.get_next_page(page) %}
-                {% if next_page %}
-                    <a href="{{ next_page.url }}" class="btn btn-outline-primary">
-                        {{ next_page.title }} →
-                    </a>
-                {% endif %}
+
+            <!-- Navigation -->
+            <div class="mt-5 pt-4 border-top">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        {% set prev_page = resource.get_previous_page(page) %}
+                        {% if prev_page %}
+                            <a href="{{ prev_page.url }}" class="btn btn-outline-primary">
+                                ← {{ prev_page.title }}
+                            </a>
+                        {% endif %}
+                    </div>
+                    <div>
+                        {% set next_page = resource.get_next_page(page) %}
+                        {% if next_page %}
+                            <a href="{{ next_page.url }}" class="btn btn-outline-primary">
+                                {{ next_page.title }} →
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Sidebar: Hidden on small screens, visible on lg+ -->
+        <aside class="col-lg-3 d-none d-lg-block">
+            <div class="resource-sidebar sticky-top" style="top: 1rem;">
+                <h3 class="sidebar-title">Contents</h3>
+                <nav class="sidebar-nav" aria-label="Resource pages">
+                    <ul class="sidebar-nav-list">
+                        {% for resource_page in resource.pages %}
+                            <li class="sidebar-nav-item">
+                                <a href="{{ resource_page.url }}"
+                                   class="sidebar-nav-link {% if resource_page.name == page.name %}active{% endif %}">
+                                    {{ resource_page.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </aside>
     </div>
 </article>
 {% endblock %}
