@@ -45,6 +45,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #f8f9fa;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -179,9 +181,59 @@ article li {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #FDF5F0 0%, #F0F5F3 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   padding: var(--space-xl) 0;
-  border-bottom: 1px solid var(--medium-gray);
+  margin-bottom: var(--space-lg);
+}
+
+.hero-section h1,
+.hero-section .lead {
+  color: white;
+}
+
+.hero-section .badge {
+  background-color: white;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.hero-section .badge i {
+  color: var(--primary-orange);
+}
+
+/* Breadcrumb styling in hero section */
+.hero-section .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.hero-section .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-section .breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.hero-section .breadcrumb-item a:hover {
+  color: white;
+}
+
+.hero-section .breadcrumb-item.active {
+  color: white;
+}
+
+/* Responsive adjustments for hero section */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: var(--space-lg) 0;
+  }
+  
+  .hero-section .display-4 {
+    font-size: 2rem;
+  }
 }
 
 /* Sections */
@@ -531,7 +583,3 @@ article li {
     }
 }
 
-
-.collection-header {
-  background: #ddd;
-}
