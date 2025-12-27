@@ -492,7 +492,7 @@ article li {
         max-width: 100%;
         margin-top: 0.5rem;
     }
-    
+
     .search-results {
         max-height: 400px;
         left: 0;
@@ -510,9 +510,14 @@ article li {
     .footer-content {
         padding: 0 1rem;
     }
-    
+
     .footer-content .grid {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+}
+
+
+.collection-header {
+  background: #ddd;
 }
