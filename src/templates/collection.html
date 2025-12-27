@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% from 'cards.html' import CardReadMore %}
+
+{% block title %}{{ page_title }} - Autism Bharat{% endblock %}
+
+{% block meta_description %}{% if page_description %}{{ page_description }}{% else %}Autism Bharat collection page{% endif %}{% endblock %}
+
+{% block content %}
+<!-- Collection Header -->
+<header class="collection-header py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">{{ page_title }}</h1>
+        {% if page_description %}
+            <p class="lead text-muted">{{ page_description }}</p>
+        {% endif %}
+    </div>
+</header>
+
+<article class="container py-5">
+    <div class="page-content">
+        {{ content|safe }}
+    </div>
+
+    {% if collection_resources %}
+    <section class="mt-5 pt-4">
+        <div class="grid-cards">
+            {% for resource in collection_resources %}
+                {{ CardReadMore("📚", "Resource", resource.title, "Explore " + resource.title + " resource", "/" + resource.name + "/") }}
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+</article>
+{% endblock %}

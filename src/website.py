@@ -31,6 +31,7 @@ def render_template(template_name, **kwargs):
 class Website:
     def __init__(self):
         self.resources = self.load_resources()
+        self.collections = self.load_collections()
         self.home_data = self.load_home()
 
     def load_resources(self):
@@ -42,6 +43,15 @@ class Website:
                     resource = Resource.load(item)
                     resources.append(resource)
         return resources
+
+    def load_collections(self):
+        collections = []
+        collections_dir = content_root / 'collections'
+        if collections_dir.exists() and collections_dir.is_dir():
+            for md_file in sorted(collections_dir.glob('*.md')):
+                collection = Collection.load(md_file, self.resources)
+                collections.append(collection)
+        return collections
 
     def load_home(self):
         home_file = content_root / 'home.yml'
@@ -56,6 +66,8 @@ class Website:
         self.render_home()
         for resource in self.resources:
             resource.render(self.resources)
+        for collection in self.collections:
+            collection.render(self.resources)
         self.build_search_index()
 
     def render_static(self):
@@ -169,6 +181,86 @@ class Resource:
         except ValueError:
             pass
         return None
+
+@dataclass
+class Collection:
+    name: str
+    title: str
+    body: str
+    resource_names: list[str]
+
+    @staticmethod
+    def load(markdown_file, all_resources):
+        with open(markdown_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        frontmatter_pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+        match = re.match(frontmatter_pattern, content, re.DOTALL)
+
+        if match:
+            frontmatter_yaml = match.group(1)
+            markdown_content = match.group(2)
+            try:
+                metadata = yaml.safe_load(frontmatter_yaml) or {}
+            except yaml.YAMLError:
+                metadata = {}
+        else:
+            metadata = {}
+            markdown_content = content
+
+        page_name = markdown_file.stem
+        title = metadata.get('title')
+
+        # If no title in frontmatter, check if first line is a header
+        if not title:
+            lines = markdown_content.strip().split('\n')
+            if lines and lines[0].strip().startswith('#'):
+                title = lines[0].strip().lstrip('#').strip()
+                markdown_content = '\n'.join(lines[1:]).strip()
+            else:
+                title = page_name.replace('-', ' ').title()
+
+        resource_names = metadata.get('resources', [])
+        if not isinstance(resource_names, list):
+            resource_names = []
+
+        return Collection(
+            name=page_name,
+            title=title,
+            body=markdown_content,
+            resource_names=resource_names
+        )
+
+    def render(self, all_resources):
+        resources_dict = {r.name: {'title': r.title} for r in all_resources}
+
+        # Get resource objects for the resources mentioned in this collection
+        collection_resources = []
+        for resource_name in self.resource_names:
+            for resource in all_resources:
+                if resource.name == resource_name:
+                    collection_resources.append(resource)
+                    break
+
+        html_content = convert_markdown_to_html(self.body)
+        page_description = None  # Collections don't have description metadata yet
+
+        rendered_html = render_template(
+            'collection.html',
+            page_title=self.title,
+            page_description=page_description,
+            content=html_content,
+            resources=resources_dict,
+            collection_resources=collection_resources
+        )
+
+        output_dir = project_root / '_site' / self.name
+        output_file = output_dir / 'index.html'
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(rendered_html)
+
+        print(output_file.relative_to(project_root))
 
 @dataclass
 class Page:
