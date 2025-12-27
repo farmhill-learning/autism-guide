@@ -1,4 +1,4 @@
-{% from 'cards.html' import CardWithIcon, CardReadMore, ResourceItem %}
+{% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem %}
 
 {% for item in items %}
 <section class="{{ item.classname }}" style="padding-bottom: 2rem;">
@@ -14,6 +14,7 @@
     {% set layout_map = {
         "card-with-icon": "grid-cards",
         "card-read-more": "grid-cards",
+        "card-with-image": "grid-cards",
         "resource-item": "resource-list"
     } %}
     {% set layout_class = layout_map.get(item.card_style, "grid-cards") %}
@@ -24,6 +25,8 @@
                 {{ CardWithIcon(entry.href, entry.color, entry.icon, entry.title, entry.subtitle) }}
             {% elif item.card_style == "card-read-more" %}
                 {{ CardReadMore(entry.icon_text, entry.label, entry.title, entry.subtitle, entry.href) }}
+            {% elif item.card_style == "card-with-image" %}
+                {{ CardWithImage(entry.title, entry.description, entry.image_src, entry.label, entry.href) }}
             {% elif item.card_style == "resource-item" %}
                 {{ ResourceItem(entry.href, entry.number, entry.title, entry.subtitle) }}
             {% endif %}

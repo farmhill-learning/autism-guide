@@ -27,6 +27,7 @@ def render_template(template_name, **kwargs):
     template = jinja_env.get_template(template_name)
     return template.render(**kwargs)
 
+DEFAULT_IMAGE_URL = "/overview-of-autism/overview-of-autism.jpg"
 
 class Website:
     def __init__(self):
@@ -107,7 +108,26 @@ class Website:
 class Resource:
     name: str
     title: str
+    description: str
     pages: list[Page]
+
+    @property
+    def url(self):
+        return "/" + self.name
+
+    @property
+    def root(self):
+        return content_root / self.name
+
+    @property
+    def image_url(self):
+        pages = self.pages
+        if pages and pages[0].name == 'index':
+            image = pages[0].metadata.get('image')
+            if image:
+                image_path = self.root / image
+                return "/" + str(image_path.relative_to(content_root))
+        return DEFAULT_IMAGE_URL
 
     @staticmethod
     def load(resource_dir):
@@ -123,14 +143,29 @@ class Resource:
         title = name.replace('-', ' ').title()  # fallback
         if pages and pages[0].name == 'index':
             title = pages[0].title
-        return Resource(name=name, title=title, pages=pages)
+            description = pages[0].metadata.get("description") or ""
+        return Resource(name=name, title=title, description=description, pages=pages)
 
     def render(self, all_resources):
-
+        self.copy_images()
         resources_dict = {r.name: {'title': r.title} for r in all_resources}
 
         for page in self.pages:
             self.render_page(page, resources_dict)
+
+    def copy_images(self):
+        """Copy all .jpg and .png files from resource directory to output directory."""
+        image_extensions = ['.jpg', '.jpeg', '.png']
+        output_dir = project_root / '_site' / self.name
+
+        for ext in image_extensions:
+            # Check both lowercase and uppercase extensions for case-insensitive matching
+            for pattern in [f'*{ext}', f'*{ext.upper()}']:
+                for image_file in self.root.glob(pattern):
+                    output_file = output_dir / image_file.name
+                    output_file.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(image_file, output_file)
+                    print(f'  {output_file.relative_to(project_root)}')
 
     def render_page(self, page: Page, resources_dict):
         html_content = convert_markdown_to_html(page.body)
@@ -188,6 +223,7 @@ class Collection:
     title: str
     body: str
     resource_names: list[str]
+
 
     @staticmethod
     def load(markdown_file, all_resources):

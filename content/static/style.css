@@ -241,8 +241,22 @@ article li {
 /* Grid layouts */
 .grid-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 0.33fr));
+  gap: 1rem;
+}
+
+/* <= lg → max 1/2 */
+@media (max-width: 992px) {
+  .grid-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 0.5fr));
+  }
+}
+
+/* <= md → allow full width */
+@media (max-width: 768px) {
+  .grid-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 }
 
 .resource-list {

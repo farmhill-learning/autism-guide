@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from 'cards.html' import CardReadMore %}
+{% from 'cards.html' import CardWithImage %}
 
 {% block title %}{{ page_title }} - Autism Bharat{% endblock %}
 
@@ -25,7 +25,7 @@
     <section class="mt-5 pt-4">
         <div class="grid-cards">
             {% for resource in collection_resources %}
-                {{ CardReadMore("📚", "Resource", resource.title, "Explore " + resource.title + " resource", "/" + resource.name + "/") }}
+                {{ CardWithImage(resource.title, resource.description, image_src=resource.image_url, label="resource", href=resource.url) }}
             {% endfor %}
         </div>
     </section>
