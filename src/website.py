@@ -141,6 +141,7 @@ class Resource:
 
         # Get title from index page
         title = name.replace('-', ' ').title()  # fallback
+        description = ""
         if pages and pages[0].name == 'index':
             title = pages[0].title
             description = pages[0].metadata.get("description") or ""
@@ -302,12 +303,10 @@ class Page:
 
     def get_url(self) -> str:
         """Generate the URL path for this page."""
-        name = re.sub("^\d+-", self.name, "")
-
         if self.name == 'index':
             return f"/{self.resource_name}/"
         else:
-            return f"/{self.resource_name}/{name}/"
+            return f"/{self.resource_name}/{self.name}/"
 
     def get_searchable_text(self) -> str:
         """Extract plain text from markdown body for searching."""
@@ -375,6 +374,10 @@ class Page:
             markdown_content = content
 
         page_name = markdown_file.stem
+
+        # replace number prefix from page name
+        page_name = re.sub("^\d+-", "", page_name)
+
         title = metadata.get('title')
 
         # If no title in frontmatter, check if first line is a header

@@ -225,6 +225,60 @@ article li {
   color: white;
 }
 
+/* Page hero section - distinct from collection pages */
+/* Current: Teal to deeper blue gradient */
+/* Alternative options (uncomment to use):
+   Option 2 - Pink to purple: linear-gradient(135deg, #D66B8B 0%, #8B6B9B 100%);
+   Option 3 - Teal to green: linear-gradient(135deg, #4A9B8E 0%, #5A9B7A 100%);
+   Option 4 - Orange to pink: linear-gradient(135deg, #E67E50 0%, #D66B8B 100%);
+   Option 5 - Solid teal: #4A9B8E;
+   Option 6 - Solid orange: #E67E50;
+*/
+.hero-section-page {
+  background: linear-gradient(135deg, #4A9B8E 0%, #3A7A8E 100%);
+  color: white;
+  padding: var(--space-xl) 0;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-section-page h1,
+.hero-section-page .lead {
+  color: white;
+}
+
+.hero-section-page h1 a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.hero-section-page h1 a:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.hero-section-page .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.hero-section-page .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-section-page .breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.hero-section-page .breadcrumb-item a:hover {
+  color: white;
+}
+
+.hero-section-page .breadcrumb-item.active {
+  color: white;
+}
+
 /* Responsive adjustments for hero section */
 @media (max-width: 768px) {
   .hero-section {
@@ -232,6 +286,14 @@ article li {
   }
   
   .hero-section .display-4 {
+    font-size: 2rem;
+  }
+
+  .hero-section-page {
+    padding: var(--space-lg) 0;
+  }
+  
+  .hero-section-page .display-4 {
     font-size: 2rem;
   }
 }
