@@ -36,10 +36,20 @@
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search resources..." aria-label="Search resources">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input 
+                            id="search-input" 
+                            class="form-control search-input" 
+                            type="search" 
+                            placeholder="Type to search..." 
+                            aria-label="Search resources"
+                            autocomplete="off"
+                        >
+                    </div>
+                    <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+                </div>
             </div>
         </div>
     </nav>
@@ -56,7 +66,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                     
-                        <li class="breadcrumb-item"><a href="/identifying-autism/">Identifying Autism</a></li>
+                        <li class="breadcrumb-item"><a href="/identifying-autism/">Recognising Autism</a></li>
                     
                     <li class="breadcrumb-item active" aria-current="page">Observable signs of autism</li>
                 </ol>
@@ -145,7 +155,7 @@
                     <div>
                         
                             <a href="/identifying-autism/" class="btn btn-outline-secondary">
-                                Back to Identifying Autism
+                                Back to Recognising Autism
                             </a>
                         
                     </div>
@@ -187,9 +197,19 @@
                 <div class="footer-links">
                     
                     
+                    <a href="/diagnosis-note-for-professionals/">Screening and Diagnosis - A note for professionals</a>
+                    
+                    <a href="/causes-of-autism/">What causes autism?</a>
+                    
                     <a href="/overview-of-autism/">Overview of Autism</a>
                     
-                    <a href="/identifying-autism/">Identifying Autism</a>
+                    <a href="/early-intervention/">Early Intervention</a>
+                    
+                    <a href="/getting-a-diagnosis/">The importance of diagnosis</a>
+                    
+                    <a href="/history-of-autism/">The importance of a histroy of autism</a>
+                    
+                    <a href="/identifying-autism/">Recognising Autism</a>
                     
                     
                 </div>
