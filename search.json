@@ -16,7 +16,7 @@
     },
     {
       "title": "Revealing the diagnosis to parents",
-      "url": "/diagnosis-note-for-professionals//",
+      "url": "/diagnosis-note-for-professionals/revealing-the-diagnosis/",
       "description": "",
       "resource": "Screening and Diagnosis - A note for professionals",
       "resource_key": "diagnosis-note-for-professionals",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Screening tools",
-      "url": "/diagnosis-note-for-professionals//",
+      "url": "/diagnosis-note-for-professionals/screening-tools/",
       "description": "",
       "resource": "Screening and Diagnosis - A note for professionals",
       "resource_key": "diagnosis-note-for-professionals",
@@ -54,7 +54,7 @@
     },
     {
       "title": "How common is autism?",
-      "url": "/causes-of-autism//",
+      "url": "/causes-of-autism/how-common/",
       "description": "",
       "resource": "What causes autism?",
       "resource_key": "causes-of-autism",
@@ -63,7 +63,7 @@
     },
     {
       "title": "Do vaccines cause autism?",
-      "url": "/causes-of-autism//",
+      "url": "/causes-of-autism/vaccines-autism/",
       "description": "",
       "resource": "What causes autism?",
       "resource_key": "causes-of-autism",
@@ -75,7 +75,7 @@
     },
     {
       "title": "What does not cause autism?",
-      "url": "/causes-of-autism//",
+      "url": "/causes-of-autism/what-does-not-cause-autism/",
       "description": "",
       "resource": "What causes autism?",
       "resource_key": "causes-of-autism",
@@ -106,7 +106,7 @@
     },
     {
       "title": "Life as an adult autistic",
-      "url": "/overview-of-autism//",
+      "url": "/overview-of-autism/life-as-an-adult-autistic/",
       "description": "",
       "resource": "Overview of Autism",
       "resource_key": "overview-of-autism",
@@ -115,7 +115,7 @@
     },
     {
       "title": "What is the way forward?",
-      "url": "/overview-of-autism//",
+      "url": "/overview-of-autism/way-forward/",
       "description": "",
       "resource": "Overview of Autism",
       "resource_key": "overview-of-autism",
@@ -127,7 +127,7 @@
     },
     {
       "title": "Understanding Autism - A video from Sethu",
-      "url": "/overview-of-autism//",
+      "url": "/overview-of-autism/understanding-autism-video-from-setu/",
       "description": "",
       "resource": "Overview of Autism",
       "resource_key": "overview-of-autism",
@@ -145,7 +145,7 @@
     },
     {
       "title": "Autism, Speech and Communication",
-      "url": "/early-intervention//",
+      "url": "/early-intervention/autism-speech-communication/",
       "description": "",
       "resource": "Early Intervention",
       "resource_key": "early-intervention",
@@ -161,7 +161,7 @@
     },
     {
       "title": "Choosing a service provider",
-      "url": "/early-intervention//",
+      "url": "/early-intervention/choosing-service-providers/",
       "description": "",
       "resource": "Early Intervention",
       "resource_key": "early-intervention",
@@ -178,7 +178,7 @@
     },
     {
       "title": "Choosing therapies",
-      "url": "/early-intervention//",
+      "url": "/early-intervention/choosing-therapies/",
       "description": "",
       "resource": "Early Intervention",
       "resource_key": "early-intervention",
@@ -189,7 +189,7 @@
     },
     {
       "title": "Early Intervention Goals",
-      "url": "/early-intervention//",
+      "url": "/early-intervention/early-intervention-goals/",
       "description": "",
       "resource": "Early Intervention",
       "resource_key": "early-intervention",
@@ -205,7 +205,7 @@
     },
     {
       "title": "Occupational Therapy",
-      "url": "/early-intervention//",
+      "url": "/early-intervention/occupational-therapy/",
       "description": "",
       "resource": "Early Intervention",
       "resource_key": "early-intervention",
@@ -235,7 +235,7 @@
     },
     {
       "title": "Diagnosis for adults",
-      "url": "/getting-a-diagnosis//",
+      "url": "/getting-a-diagnosis/adult-autism-diagnosis/",
       "description": "",
       "resource": "The importance of diagnosis",
       "resource_key": "getting-a-diagnosis",
@@ -247,7 +247,7 @@
     },
     {
       "title": "Diagnostic Process",
-      "url": "/getting-a-diagnosis//",
+      "url": "/getting-a-diagnosis/diagnostic-process/",
       "description": "",
       "resource": "The importance of diagnosis",
       "resource_key": "getting-a-diagnosis",
@@ -261,7 +261,7 @@
     },
     {
       "title": "Just Diagnosed - Next Steps for parents",
-      "url": "/getting-a-diagnosis//",
+      "url": "/getting-a-diagnosis/next-steps/",
       "description": "",
       "resource": "The importance of diagnosis",
       "resource_key": "getting-a-diagnosis",
@@ -285,7 +285,7 @@
     },
     {
       "title": "An old, yet modern take on autism 2013",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/an-overlooked-pioneer/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -296,7 +296,7 @@
     },
     {
       "title": "‘Discovery’ of Asperger’s Syndrome and Autism as a spectrum - 1981",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/autism-aspergers-spectrum/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -308,7 +308,7 @@
     },
     {
       "title": "Autism – Initial definition and refrigerator mother hypothesis",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/autism-initial-story/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -324,7 +324,7 @@
     },
     {
       "title": "Current understanding – 2024",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/current-understanding-autism/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -335,7 +335,7 @@
     },
     {
       "title": "Lorna Wing – Bringing the ends together",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/towards-neurodiversity/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -347,7 +347,7 @@
     },
     {
       "title": "Another step back – Autism Vaccine connection – 1998-2010",
-      "url": "/history-of-autism//",
+      "url": "/history-of-autism/vaccine-connection-stepback/",
       "description": "",
       "resource": "The importance of a histroy of autism",
       "resource_key": "history-of-autism",
@@ -365,7 +365,7 @@
     },
     {
       "title": "Observable signs of autism",
-      "url": "/identifying-autism//",
+      "url": "/identifying-autism/observable-signs/",
       "description": "",
       "resource": "Recognising Autism",
       "resource_key": "identifying-autism",
