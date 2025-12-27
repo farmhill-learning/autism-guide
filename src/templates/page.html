@@ -55,26 +55,54 @@
 
             <!-- Navigation -->
             <div class="mt-5 pt-4 border-top">
-                <nav class="nav-stacked-v4">
+                <!-- Mobile Navigation (stacked with Contents) -->
+                <nav class="nav-container d-lg-none">
                     {% set next_page = resource.get_next_page(page) %}
                     {% if next_page %}
-                        <a href="{{ next_page.url }}" class="primary">
-                            <div>
-                                <div style="font-size: 12px; margin-bottom: 2px;">Continue reading</div>
-                                <div style="font-weight: 500;">Next: {{ next_page.title }}</div>
+                        <a href="{{ next_page.url }}" class="nav-next" aria-label="Next Chapter">
+                            <div class="next-content">
+                                <div class="label">Continue reading</div>
+                                <div class="title">Next: {{ next_page.title }}</div>
                             </div>
-                            <span class="chevron-right">›</span>
                         </a>
                     {% endif %}
+                    <div class="nav-top-row">
+                        {% set prev_page = resource.get_previous_page(page) %}
+                        {% if prev_page %}
+                            <a href="{{ prev_page.url }}" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous<span class="desktop-text">: {{ prev_page.title }}</span></span>
+                            </a>
+                        {% endif %}
+                        <button onclick="openTOC()" aria-label="Table of Contents" {% if not prev_page %}class="full-width"{% endif %}>
+                            <span class="icon-menu"></span>
+                            <span>Contents</span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Desktop Navigation (side by side) -->
+                <nav class="nav-container-desktop d-none d-lg-flex">
                     {% set prev_page = resource.get_previous_page(page) %}
-                    {% if prev_page %}
-                        <a href="{{ prev_page.url }}" class="secondary">
-                            <span class="chevron-left">‹</span>
-                            <div>
-                                <div style="font-size: 14px;">Previous: {{ prev_page.title }}</div>
-                            </div>
-                        </a>
-                    {% endif %}
+                    {% set next_page = resource.get_next_page(page) %}
+                    <div class="nav-desktop-row">
+                        {% if prev_page %}
+                            <a href="{{ prev_page.url }}" class="nav-prev-desktop" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous: {{ prev_page.title }}</span>
+                            </a>
+                        {% else %}
+                            <div></div>
+                        {% endif %}
+                        {% if next_page %}
+                            <a href="{{ next_page.url }}" class="nav-next-desktop" aria-label="Next Chapter">
+                                <span>Next: {{ next_page.title }}</span>
+                                <span class="chevron-right"></span>
+                            </a>
+                        {% else %}
+                            <div></div>
+                        {% endif %}
+                    </div>
                 </nav>
             </div>
         </div>
@@ -99,4 +127,47 @@
         </aside>
     </div>
 </article>
+
+<!-- TOC Modal -->
+<div id="tocModal" class="toc-modal" onclick="closeTOC(event)">
+    <div class="toc-content" onclick="event.stopPropagation()">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-close" onclick="closeTOC(event)" aria-label="Close">×</button>
+        </div>
+        <ul class="toc-list">
+            {% for resource_page in resource.pages %}
+                <li>
+                    <a href="{{ resource_page.url }}" class="{% if resource_page.name == page.name %}current{% endif %}">
+                        <span class="chapter-number d-none">{{ loop.index }}</span>
+                        <span class="chapter-title">{{ resource_page.title }}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<script>
+function openTOC() {
+    document.getElementById('tocModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTOC(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    document.getElementById('tocModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeTOC();
+    }
+});
+</script>
 {% endblock %}
