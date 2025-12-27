@@ -8,6 +8,7 @@ from __future__ import annotations
 import yaml
 import re
 import shutil
+import sys
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import markdown
@@ -32,8 +33,17 @@ DEFAULT_IMAGE_URL = "/overview-of-autism/overview-of-autism.jpg"
 class Website:
     def __init__(self):
         self.resources = self.load_resources()
+        self._resource_dict = {r.name: r for r in self.resources}
+
+        # Register resources_dict as a Jinja2 global so all templates can access it
+        resources_dict = {r.name: {'title': r.title} for r in self.resources}
+        jinja_env.globals['resources'] = resources_dict
+
         self.collections = self.load_collections()
         self.home_data = self.load_home()
+
+    def get_resource(self, name):
+        return self._resource_dict[name]
 
     def load_resources(self):
         resources = []
@@ -50,7 +60,7 @@ class Website:
         collections_dir = content_root / 'collections'
         if collections_dir.exists() and collections_dir.is_dir():
             for md_file in sorted(collections_dir.glob('*.md')):
-                collection = Collection.load(md_file, self.resources)
+                collection = Collection.load(self, md_file)
                 collections.append(collection)
         return collections
 
@@ -68,7 +78,7 @@ class Website:
         for resource in self.resources:
             resource.render(self.resources)
         for collection in self.collections:
-            collection.render(self.resources)
+            collection.render()
         self.build_search_index()
 
     def render_static(self):
@@ -209,11 +219,19 @@ class Collection:
     name: str
     title: str
     body: str
-    resource_names: list[str]
+    resources: list[Resource]
+    metadata: dict[str, Any]
 
+    @property
+    def description(self):
+        return self.metadata.get("description") or ""
+
+    @property
+    def image_url(self):
+        return self.resources[0].image_url
 
     @staticmethod
-    def load(markdown_file, all_resources):
+    def load(website, markdown_file):
         with open(markdown_file, 'r', encoding='utf-8') as f:
             content = f.read()
 
@@ -247,34 +265,27 @@ class Collection:
         if not isinstance(resource_names, list):
             resource_names = []
 
+        # Get resource objects using website.get_resource
+        resources = []
+        for resource_name in resource_names:
+            try:
+                resource = website.get_resource(resource_name)
+                resources.append(resource)
+            except KeyError:
+                print(f"Warning: Resource '{resource_name}' not found in collection '{page_name}'", file=sys.stderr)
+
         return Collection(
             name=page_name,
             title=title,
             body=markdown_content,
-            resource_names=resource_names
+            resources=resources,
+            metadata=metadata
         )
 
-    def render(self, all_resources):
-        resources_dict = {r.name: {'title': r.title} for r in all_resources}
-
-        # Get resource objects for the resources mentioned in this collection
-        collection_resources = []
-        for resource_name in self.resource_names:
-            for resource in all_resources:
-                if resource.name == resource_name:
-                    collection_resources.append(resource)
-                    break
-
-        html_content = convert_markdown_to_html(self.body)
-        page_description = None  # Collections don't have description metadata yet
-
+    def render(self):
         rendered_html = render_template(
             'collection.html',
-            page_title=self.title,
-            page_description=page_description,
-            content=html_content,
-            resources=resources_dict,
-            collection_resources=collection_resources
+            collection=self
         )
 
         output_dir = project_root / '_site' / self.name
