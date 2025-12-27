@@ -58,6 +58,7 @@ class Website:
         self.render_home()
         for resource in self.resources:
             resource.render(self.resources)
+        self.build_search_index()
 
     def render_static(self):
         static_dir = content_root / 'static'
@@ -86,6 +87,12 @@ class Website:
             f.write(html_content)
         print(output_file.relative_to(project_root))
 
+    def build_search_index(self):
+        """Build and save the search index."""
+        from search import build_search_index
+        output_path = project_root / '_site' / 'search.json'
+        build_search_index(self.resources, output_path)
+
 @dataclass
 class Resource:
     name: str
@@ -102,7 +109,7 @@ class Resource:
         for page_file in pages_data:
             markdown_file = resources_dir / page_file
             if markdown_file.exists():
-                page = Page.load(markdown_file)
+                page = Page.load(markdown_file, resource_name=name)
                 pages.append(page)
         
         return Resource(name=name, title=title, pages=pages)
@@ -170,9 +177,63 @@ class Page:
     title: str
     body: str
     metadata: dict[str,Any]
+    resource_name: str = ""
+
+    def get_url(self) -> str:
+        """Generate the URL path for this page."""
+        if self.name == 'index':
+            return f"/{self.resource_name}/"
+        else:
+            return f"/{self.resource_name}/{self.name}/"
+
+    def get_searchable_text(self) -> str:
+        """Extract plain text from markdown body for searching."""
+        # Remove markdown syntax patterns
+        text = self.body
+        
+        # Remove code blocks
+        text = re.sub(r'```[\s\S]*?```', '', text)
+        text = re.sub(r'`[^`]+`', '', text)
+        
+        # Remove links but keep text: [text](url) -> text
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+        
+        # Remove images: ![alt](url) -> alt
+        text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
+        
+        # Remove headers but keep text: # Header -> Header
+        text = re.sub(r'^#{1,6}\s+(.+)$', r'\1', text, flags=re.MULTILINE)
+        
+        # Remove bold/italic markers
+        text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', text)
+        text = re.sub(r'\*([^\*]+)\*', r'\1', text)
+        text = re.sub(r'__([^_]+)__', r'\1', text)
+        text = re.sub(r'_([^_]+)_', r'\1', text)
+        
+        # Remove HTML tags if any
+        text = re.sub(r'<[^>]+>', '', text)
+        
+        # Remove extra whitespace
+        text = re.sub(r'\s+', ' ', text)
+        text = text.strip()
+        
+        return text
+
+    def get_headings(self) -> list[str]:
+        """Extract headings from markdown content."""
+        headings = []
+        lines = self.body.split('\n')
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#'):
+                # Extract heading text (remove # markers)
+                heading = re.sub(r'^#+\s+', '', line).strip()
+                if heading:
+                    headings.append(heading)
+        return headings
 
     @staticmethod
-    def load(markdown_file):
+    def load(markdown_file, resource_name: str = ""):
         with open(markdown_file, 'r', encoding='utf-8') as f:
             content = f.read()
 
@@ -209,7 +270,8 @@ class Page:
             name=page_name,
             title=title,
             body=markdown_content,
-            metadata=metadata
+            metadata=metadata,
+            resource_name=resource_name
         )
 
 def load_resources(resources_file):

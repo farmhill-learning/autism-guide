@@ -14,10 +14,20 @@
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search resources..." aria-label="Search resources">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input 
+                            id="search-input" 
+                            class="form-control search-input" 
+                            type="search" 
+                            placeholder="Type to search..." 
+                            aria-label="Search resources"
+                            autocomplete="off"
+                        >
+                    </div>
+                    <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+                </div>
             </div>
         </div>
     </nav>
