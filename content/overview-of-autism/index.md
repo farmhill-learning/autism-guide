@@ -1,6 +1,7 @@
 ---
 title: "Overview of Autism"
-description-meta: "A resource for autism in India, compiled by people with deep personal and professional experience in working with autism, developmental disabilities, applied behaviour analysis, schooling for autism, adults on the autism spectrum."
+description: "A resource for autism in India, compiled by people with deep personal and professional experience in working with autism, developmental disabilities, applied behaviour analysis, schooling for autism, adults on the autism spectrum."
+image: overview-of-autism.jpg
 ---
 
 ## Introduction

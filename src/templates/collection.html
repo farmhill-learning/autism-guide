@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% from 'cards.html' import CardWithImage %}
+
+{% block title %}{{ page_title }} - Autism Bharat{% endblock %}
+
+{% block meta_description %}{% if page_description %}{{ page_description }}{% else %}Autism Bharat collection page{% endif %}{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="mb-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="text-white-50">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/resources" class="text-white-50">Resources</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">{{ page_title }}</li>
+                    </ol>
+                </nav>
+
+                <h1 class="display-4 fw-bold mb-3">{{ page_title }}</h1>
+                {% if page_description %}
+                <p class="lead mb-4">{{ page_description }}</p>
+                {% endif %}
+                <div class="d-flex flex-wrap gap-2">
+                    {% if collection_resources %}
+                    <span class="badge bg-white text-dark rounded-pill px-3 py-2">
+                        <i class="bi bi-book me-1"></i>
+                        {{ collection_resources|length }} Resource{% if collection_resources|length != 1 %}s{% endif %}
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<article class="container">
+    <div class="page-content bg-white rounded-3 p-4">
+        {{ content|safe }}
+    </div>
+
+    {% if collection_resources %}
+    <section class="mt-5">
+        <h2 class="h3 mb-4">
+            <i class="bi bi-collection text-primary me-2"></i>
+            Resources in This Collection
+        </h2>
+            <div class="grid-cards">
+            {% for resource in collection_resources %}
+                {{ CardWithImage(resource.title, resource.description, image_src=resource.image_url, label="resource", href=resource.url) }}
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+</article>
+{% endblock %}

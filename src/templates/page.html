@@ -1,64 +1,173 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page_title }} - Autism Bharat{% endblock %}
+{% block title %}{{ page.title }} - Autism Bharat{% endblock %}
 
-{% block meta_description %}{% if page_description %}{{ page_description }}{% else %}Autism Bharat resource page{% endif %}{% endblock %}
+{% block meta_description %}{% if page.description %}{{ page.description }}{% else %}Autism Bharat resource page{% endif %}{% endblock %}
 
 {% block content %}
-<article class="container py-5">
-    <div class="row">
-        <div class="col-lg-8 mx-auto">
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="mb-4">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    {% if resource_key %}
-                        <li class="breadcrumb-item"><a href="/{{ resource_key }}/">{{ resource_title }}</a></li>
-                    {% endif %}
-                    <li class="breadcrumb-item active" aria-current="page">{{ page_title }}</li>
-                </ol>
-            </nav>
+<!-- Hero Section -->
+<section class="hero-section-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="mb-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="text-white-50">Home</a></li>
+                        {% if resource.name %}
+                            <li class="breadcrumb-item"><a href="/{{ resource.name }}/" class="text-white-50">{{ resource.title }}</a></li>
+                        {% endif %}
+                        <li class="breadcrumb-item active text-white" aria-current="page">{{ page.title }}</li>
+                    </ol>
+                </nav>
 
-            <!-- Page Header -->
-            <header class="mb-4">
-                <h1 class="display-4 fw-bold">{{ page_title }}</h1>
-                {% if page_description %}
-                    <p class="lead text-muted">{{ page_description }}</p>
+                <h1 class="display-4 fw-bold mb-3">
+                    <a href="/{{ resource.name }}/" class="text-white text-decoration-none">{{ resource.title }}</a>
+                </h1>
+                {% if resource.description and page.name == "index" %}
+                <p class="lead mb-4">{{ resource.description }}</p>
                 {% endif %}
-            </header>
-
-            <!-- Page Content -->
-            <div class="page-content">
-                {{ content|safe }}
-            </div>
-
-            <!-- Navigation -->
-            <div class="mt-5 pt-4 border-top">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        {% if prev_page %}
-                            <a href="/{{ resource_key }}/{% if prev_page.name != 'index' %}{{ prev_page.name }}/{% endif %}" class="btn btn-outline-primary">
-                                ← {{ prev_page.title }}
-                            </a>
-                        {% endif %}
-                    </div>
-                    <div>
-                        {% if resource_key %}
-                            <a href="/{{ resource_key }}/" class="btn btn-outline-secondary">
-                                Back to {{ resource_title }}
-                            </a>
-                        {% endif %}
-                    </div>
-                    <div>
-                        {% if next_page %}
-                            <a href="/{{ resource_key }}/{% if next_page.name != 'index' %}{{ next_page.name }}/{% endif %}" class="btn btn-outline-primary">
-                                {{ next_page.title }} →
-                            </a>
-                        {% endif %}
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<article class="container">
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-lg-9">
+            <div class="page-content bg-white rounded-3 p-4">
+
+                {% if page.name == "index" and resource.image_url %}
+                <div class="sidebar-image mb-3">
+                    <img src="{{ resource.image_url }}" alt="{{ resource.title }}" class="img-fluid rounded">
+                </div>
+                {% endif %}
+
+
+                {% if page.name != "index" %}
+                    <h1>{{page.title}}</h1>
+                {% endif %}
+
+                {{ to_markdown(page.body)|safe }}
+            </div>
+
+            <!-- Navigation -->
+            <div class="mt-5 pt-4 border-top">
+                <!-- Mobile Navigation (stacked with Contents) -->
+                <nav class="nav-container d-lg-none">
+                    {% set next_page = resource.get_next_page(page) %}
+                    {% if next_page %}
+                        <a href="{{ next_page.url }}" class="nav-next" aria-label="Next Chapter">
+                            <div class="next-content">
+                                <div class="label">Continue reading</div>
+                                <div class="title">Next: {{ next_page.title }}</div>
+                            </div>
+                        </a>
+                    {% endif %}
+                    <div class="nav-top-row">
+                        {% set prev_page = resource.get_previous_page(page) %}
+                        {% if prev_page %}
+                            <a href="{{ prev_page.url }}" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous<span class="desktop-text">: {{ prev_page.title }}</span></span>
+                            </a>
+                        {% endif %}
+                        <button onclick="openTOC()" aria-label="Table of Contents" {% if not prev_page %}class="full-width"{% endif %}>
+                            <span class="icon-menu"></span>
+                            <span>Contents</span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Desktop Navigation (side by side) -->
+                <nav class="nav-container-desktop d-none d-lg-flex">
+                    {% set prev_page = resource.get_previous_page(page) %}
+                    {% set next_page = resource.get_next_page(page) %}
+                    <div class="nav-desktop-row">
+                        {% if prev_page %}
+                            <a href="{{ prev_page.url }}" class="nav-prev-desktop" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous: {{ prev_page.title }}</span>
+                            </a>
+                        {% else %}
+                            <div></div>
+                        {% endif %}
+                        {% if next_page %}
+                            <a href="{{ next_page.url }}" class="nav-next-desktop" aria-label="Next Chapter">
+                                <span>Next: {{ next_page.title }}</span>
+                                <span class="chevron-right"></span>
+                            </a>
+                        {% else %}
+                            <div></div>
+                        {% endif %}
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Sidebar: Hidden on small screens, visible on lg+ -->
+        <aside class="col-lg-3 d-none d-lg-block">
+            <div class="resource-sidebar sticky-top" style="top: 1rem;">
+                <h3 class="sidebar-title">Contents</h3>
+                <nav class="sidebar-nav" aria-label="Resource pages">
+                    <ul class="sidebar-nav-list">
+                        {% for resource_page in resource.pages %}
+                            <li class="sidebar-nav-item">
+                                <a href="{{ resource_page.url }}"
+                                   class="sidebar-nav-link {% if resource_page.name == page.name %}active{% endif %}">
+                                    {{ resource_page.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </div>
 </article>
+
+<!-- TOC Modal -->
+<div id="tocModal" class="toc-modal" onclick="closeTOC(event)">
+    <div class="toc-content" onclick="event.stopPropagation()">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-close" onclick="closeTOC(event)" aria-label="Close">×</button>
+        </div>
+        <ul class="toc-list">
+            {% for resource_page in resource.pages %}
+                <li>
+                    <a href="{{ resource_page.url }}" class="{% if resource_page.name == page.name %}current{% endif %}">
+                        <span class="chapter-number d-none">{{ loop.index }}</span>
+                        <span class="chapter-title">{{ resource_page.title }}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<script>
+function openTOC() {
+    document.getElementById('tocModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTOC(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    document.getElementById('tocModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeTOC();
+    }
+});
+</script>
 {% endblock %}

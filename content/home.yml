@@ -34,16 +34,16 @@ sections:
       card_style: "card-read-more"
       entries:
         - title: What is Autism?
-          href: /overview-of-autism/
+          href: /what-is-autism/
           icon_text: 🧩
           label: Basics
           subtitle: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
           color: "#E67E50"
         - title: Getting a Diagnosis
           href: /diagnosis/
-          icon_text: 🔍 
+          icon_text: 🔍
           label: Diagnosis
-          subtitle: Understanding the diagnosis process, what to expect, and how to access evaluation services in India. 
+          subtitle: Understanding the diagnosis process, what to expect, and how to access evaluation services in India.
           color: "#E67E50"
         - title: Early Intervention
           href: /early-intervention/

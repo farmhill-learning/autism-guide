@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Website generator for Autism Bharat.
-Generates index.html from Jinja2 templates and resources.yml configuration.
+Generates index.html from Jinja2 templates by auto-discovering resources from content directories.
 """
 
 from __future__ import annotations
@@ -27,23 +27,32 @@ def render_template(template_name, **kwargs):
     template = jinja_env.get_template(template_name)
     return template.render(**kwargs)
 
+DEFAULT_IMAGE_URL = "/overview-of-autism/overview-of-autism.jpg"
 
 class Website:
     def __init__(self):
         self.resources = self.load_resources()
+        self.collections = self.load_collections()
         self.home_data = self.load_home()
 
     def load_resources(self):
-        resources_file = content_root / 'resources.yml'
-        with open(resources_file, 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
-        
         resources = []
-        if data and 'resources' in data:
-            for resource_name, resource_data in data['resources'].items():
-                resource = Resource.load(resource_name, resource_data)
-                resources.append(resource)
+        for item in content_root.iterdir():
+            if item.is_dir() and item.name != 'static':
+                index_file = item / 'index.md'
+                if index_file.exists():
+                    resource = Resource.load(item)
+                    resources.append(resource)
         return resources
+
+    def load_collections(self):
+        collections = []
+        collections_dir = content_root / 'collections'
+        if collections_dir.exists() and collections_dir.is_dir():
+            for md_file in sorted(collections_dir.glob('*.md')):
+                collection = Collection.load(md_file, self.resources)
+                collections.append(collection)
+        return collections
 
     def load_home(self):
         home_file = content_root / 'home.yml'
@@ -58,11 +67,14 @@ class Website:
         self.render_home()
         for resource in self.resources:
             resource.render(self.resources)
+        for collection in self.collections:
+            collection.render(self.resources)
+        self.build_search_index()
 
     def render_static(self):
         static_dir = content_root / 'static'
         output_static_dir = project_root / '_site' / 'static'
-        
+
         if static_dir.exists():
             if output_static_dir.exists():
                 shutil.rmtree(output_static_dir)
@@ -86,51 +98,79 @@ class Website:
             f.write(html_content)
         print(output_file.relative_to(project_root))
 
+    def build_search_index(self):
+        """Build and save the search index."""
+        from search import build_search_index
+        output_path = project_root / '_site' / 'search.json'
+        build_search_index(self.resources, output_path)
+
 @dataclass
 class Resource:
     name: str
     title: str
+    description: str
     pages: list[Page]
 
+    @property
+    def url(self):
+        return "/" + self.name
+
+    @property
+    def root(self):
+        return content_root / self.name
+
+    @property
+    def image_url(self):
+        pages = self.pages
+        if pages and pages[0].name == 'index':
+            image = pages[0].metadata.get('image')
+            if image:
+                image_path = self.root / image
+                return "/" + str(image_path.relative_to(content_root))
+        return DEFAULT_IMAGE_URL
+
     @staticmethod
-    def load(name, data):
-        title = data.get('title', name)
-        pages_data = data.get('pages', [])
-        
-        pages = []
-        resources_dir = content_root / name
-        for page_file in pages_data:
-            markdown_file = resources_dir / page_file
-            if markdown_file.exists():
-                page = Page.load(markdown_file)
-                pages.append(page)
-        
-        return Resource(name=name, title=title, pages=pages)
+    def load(resource_dir):
+        name = resource_dir.name
+
+        # Find all .md files and sort them
+        md_files = [f.name for f in sorted(resource_dir.glob('*.md')) if f.name != 'index.md']
+        md_files = ["index.md"] + md_files
+
+        pages = [Page.load(resource_dir / filename, resource_name=name) for filename in md_files]
+
+        # Get title from index page
+        title = name.replace('-', ' ').title()  # fallback
+        description = ""
+        if pages and pages[0].name == 'index':
+            title = pages[0].title
+            description = pages[0].metadata.get("description") or ""
+        return Resource(name=name, title=title, description=description, pages=pages)
 
     def render(self, all_resources):
-        
-        resources_dict = {r.name: {'title': r.title} for r in all_resources}
-        
+        self.copy_images()
         for page in self.pages:
-            self.render_page(page, resources_dict)
+            self.render_page(page)
 
-    def render_page(self, page: Page, resources_dict):
-        html_content = convert_markdown_to_html(page.body)
-        page_description = page.metadata.get('description-meta') or page.metadata.get('description')
-        
-        next_page = self.get_next_page(page)
-        prev_page = self.get_previous_page(page)
+    def copy_images(self):
+        """Copy all .jpg and .png files from resource directory to output directory."""
+        image_extensions = ['.jpg', '.jpeg', '.png']
+        output_dir = project_root / '_site' / self.name
 
+        for ext in image_extensions:
+            # Check both lowercase and uppercase extensions for case-insensitive matching
+            for pattern in [f'*{ext}', f'*{ext.upper()}']:
+                for image_file in self.root.glob(pattern):
+                    output_file = output_dir / image_file.name
+                    output_file.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(image_file, output_file)
+                    print(f'  {output_file.relative_to(project_root)}')
+
+    def render_page(self, page: Page):
         rendered_html = render_template(
             'page.html',
-            page_title=page.title,
-            page_description=page_description,
-            content=html_content,
-            resource_key=self.name,
-            resource_title=self.title,
-            resources=resources_dict,
-            next_page=next_page,
-            prev_page=prev_page
+            page=page,
+            resource=self
         )
 
         output_base_dir = project_root / '_site'
@@ -165,14 +205,15 @@ class Resource:
         return None
 
 @dataclass
-class Page:
+class Collection:
     name: str
     title: str
     body: str
-    metadata: dict[str,Any]
+    resource_names: list[str]
+
 
     @staticmethod
-    def load(markdown_file):
+    def load(markdown_file, all_resources):
         with open(markdown_file, 'r', encoding='utf-8') as f:
             content = f.read()
 
@@ -192,7 +233,153 @@ class Page:
 
         page_name = markdown_file.stem
         title = metadata.get('title')
-        
+
+        # If no title in frontmatter, check if first line is a header
+        if not title:
+            lines = markdown_content.strip().split('\n')
+            if lines and lines[0].strip().startswith('#'):
+                title = lines[0].strip().lstrip('#').strip()
+                markdown_content = '\n'.join(lines[1:]).strip()
+            else:
+                title = page_name.replace('-', ' ').title()
+
+        resource_names = metadata.get('resources', [])
+        if not isinstance(resource_names, list):
+            resource_names = []
+
+        return Collection(
+            name=page_name,
+            title=title,
+            body=markdown_content,
+            resource_names=resource_names
+        )
+
+    def render(self, all_resources):
+        resources_dict = {r.name: {'title': r.title} for r in all_resources}
+
+        # Get resource objects for the resources mentioned in this collection
+        collection_resources = []
+        for resource_name in self.resource_names:
+            for resource in all_resources:
+                if resource.name == resource_name:
+                    collection_resources.append(resource)
+                    break
+
+        html_content = convert_markdown_to_html(self.body)
+        page_description = None  # Collections don't have description metadata yet
+
+        rendered_html = render_template(
+            'collection.html',
+            page_title=self.title,
+            page_description=page_description,
+            content=html_content,
+            resources=resources_dict,
+            collection_resources=collection_resources
+        )
+
+        output_dir = project_root / '_site' / self.name
+        output_file = output_dir / 'index.html'
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(rendered_html)
+
+        print(output_file.relative_to(project_root))
+
+@dataclass
+class Page:
+    name: str
+    title: str
+    body: str
+    metadata: dict[str,Any]
+    resource_name: str = ""
+
+    @property
+    def description(self):
+        return self.metadata.get('description-meta') or self.metadata.get("description") or ""
+
+    @property
+    def url(self):
+        return self.get_url()
+
+    def get_url(self) -> str:
+        """Generate the URL path for this page."""
+        if self.name == 'index':
+            return f"/{self.resource_name}/"
+        else:
+            return f"/{self.resource_name}/{self.name}/"
+
+    def get_searchable_text(self) -> str:
+        """Extract plain text from markdown body for searching."""
+        # Remove markdown syntax patterns
+        text = self.body
+
+        # Remove code blocks
+        text = re.sub(r'```[\s\S]*?```', '', text)
+        text = re.sub(r'`[^`]+`', '', text)
+
+        # Remove links but keep text: [text](url) -> text
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+
+        # Remove images: ![alt](url) -> alt
+        text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
+
+        # Remove headers but keep text: # Header -> Header
+        text = re.sub(r'^#{1,6}\s+(.+)$', r'\1', text, flags=re.MULTILINE)
+
+        # Remove bold/italic markers
+        text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', text)
+        text = re.sub(r'\*([^\*]+)\*', r'\1', text)
+        text = re.sub(r'__([^_]+)__', r'\1', text)
+        text = re.sub(r'_([^_]+)_', r'\1', text)
+
+        # Remove HTML tags if any
+        text = re.sub(r'<[^>]+>', '', text)
+
+        # Remove extra whitespace
+        text = re.sub(r'\s+', ' ', text)
+        text = text.strip()
+
+        return text
+
+    def get_headings(self) -> list[str]:
+        """Extract headings from markdown content."""
+        headings = []
+        lines = self.body.split('\n')
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#'):
+                # Extract heading text (remove # markers)
+                heading = re.sub(r'^#+\s+', '', line).strip()
+                if heading:
+                    headings.append(heading)
+        return headings
+
+    @staticmethod
+    def load(markdown_file, resource_name: str = ""):
+        with open(markdown_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        frontmatter_pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+        match = re.match(frontmatter_pattern, content, re.DOTALL)
+
+        if match:
+            frontmatter_yaml = match.group(1)
+            markdown_content = match.group(2)
+            try:
+                metadata = yaml.safe_load(frontmatter_yaml) or {}
+            except yaml.YAMLError:
+                metadata = {}
+        else:
+            metadata = {}
+            markdown_content = content
+
+        page_name = markdown_file.stem
+
+        # replace number prefix from page name
+        page_name = re.sub("^\d+-", "", page_name)
+
+        title = metadata.get('title')
+
         # If no title in frontmatter, check if first line is a header
         if not title:
             lines = markdown_content.strip().split('\n')
@@ -209,7 +396,8 @@ class Page:
             name=page_name,
             title=title,
             body=markdown_content,
-            metadata=metadata
+            metadata=metadata,
+            resource_name=resource_name
         )
 
 def load_resources(resources_file):
@@ -251,6 +439,13 @@ def convert_markdown_to_html(markdown_content):
     from md import VideoExtension
     md = markdown.Markdown(extensions=['extra', 'codehilite', 'toc', VideoExtension()])
     return md.convert(markdown_content)
+
+def to_markdown(markdown_content):
+    """Convert markdown content to HTML."""
+    return convert_markdown_to_html(markdown_content)
+
+# Register to_markdown as a global function in Jinja environment
+jinja_env.globals['to_markdown'] = to_markdown
 
 
 def generate_page_html(env, markdown_file, resource_key, resource_title, output_dir, resources):
