@@ -181,7 +181,7 @@ article li {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E67E50 0%, #4A9B8E 100%);
   color: white;
   padding: var(--space-xl) 0;
   margin-bottom: var(--space-lg);
