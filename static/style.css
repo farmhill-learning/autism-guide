@@ -715,3 +715,49 @@ article li {
     }
 }
 
+/* Version 4: Subtle but Clear Navigation */
+.nav-stacked-v4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-stacked-v4 a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s;
+    border: 1px solid #e0e0e0;
+    background: white;
+}
+
+.nav-stacked-v4 a.primary {
+    border-color: #007AFF;
+    color: #007AFF;
+    background: rgba(0, 122, 255, 0.04);
+}
+
+.nav-stacked-v4 a.primary:hover {
+    background: #007AFF;
+    color: white;
+}
+
+.nav-stacked-v4 a.secondary {
+    color: #666;
+    background: #fafafa;
+}
+
+.nav-stacked-v4 a.secondary:hover {
+    background: #f0f0f0;
+    border-color: #ccc;
+}
+
+.nav-stacked-v4 .chevron-left,
+.nav-stacked-v4 .chevron-right {
+    font-size: 20px;
+    line-height: 1;
+}
+
