@@ -115,8 +115,12 @@ class Website:
         self.build_search_index()
 
     def render_static(self):
-        static_dir = content_root / 'static'
-        output_static_dir = project_root / '_site' / 'static'
+        self._copy_static_files("static")
+        self._copy_static_files("downloads")
+
+    def _copy_static_files(self, dirname):
+        static_dir = content_root / dirname
+        output_static_dir = project_root / '_site' / dirname
 
         if static_dir.exists():
             if output_static_dir.exists():
