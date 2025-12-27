@@ -55,24 +55,27 @@
 
             <!-- Navigation -->
             <div class="mt-5 pt-4 border-top">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        {% set prev_page = resource.get_previous_page(page) %}
-                        {% if prev_page %}
-                            <a href="{{ prev_page.url }}" class="btn btn-outline-primary">
-                                ← {{ prev_page.title }}
-                            </a>
-                        {% endif %}
-                    </div>
-                    <div>
-                        {% set next_page = resource.get_next_page(page) %}
-                        {% if next_page %}
-                            <a href="{{ next_page.url }}" class="btn btn-outline-primary">
-                                {{ next_page.title }} →
-                            </a>
-                        {% endif %}
-                    </div>
-                </div>
+                <nav class="nav-stacked-v4">
+                    {% set next_page = resource.get_next_page(page) %}
+                    {% if next_page %}
+                        <a href="{{ next_page.url }}" class="primary">
+                            <div>
+                                <div style="font-size: 12px; margin-bottom: 2px;">Continue reading</div>
+                                <div style="font-weight: 500;">Next: {{ next_page.title }}</div>
+                            </div>
+                            <span class="chevron-right">›</span>
+                        </a>
+                    {% endif %}
+                    {% set prev_page = resource.get_previous_page(page) %}
+                    {% if prev_page %}
+                        <a href="{{ prev_page.url }}" class="secondary">
+                            <span class="chevron-left">‹</span>
+                            <div>
+                                <div style="font-size: 14px;">Previous: {{ prev_page.title }}</div>
+                            </div>
+                        </a>
+                    {% endif %}
+                </nav>
             </div>
         </div>
 
