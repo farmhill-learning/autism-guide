@@ -143,26 +143,50 @@ The Autism Diagnostic Interview, Revised (ADI-R) is a structured interview emplo
 
             <!-- Navigation -->
             <div class="mt-5 pt-4 border-top">
-                <nav class="nav-stacked-v4">
+                <!-- Mobile Navigation (stacked with Contents) -->
+                <nav class="nav-container d-lg-none">
                     
                     
-                        <a href="/getting-a-diagnosis/diagnostic-process/" class="primary">
-                            <div>
-                                <div style="font-size: 12px; margin-bottom: 2px;">Continue reading</div>
-                                <div style="font-weight: 500;">Next: Diagnostic Process</div>
-                            </div>
-                            <span class="chevron-right">›</span>
-                        </a>
-                    
-                    
-                    
-                        <a href="/getting-a-diagnosis/" class="secondary">
-                            <span class="chevron-left">‹</span>
-                            <div>
-                                <div style="font-size: 14px;">Previous: The importance of diagnosis</div>
+                        <a href="/getting-a-diagnosis/diagnostic-process/" class="nav-next" aria-label="Next Chapter">
+                            <div class="next-content">
+                                <div class="label">Continue reading</div>
+                                <div class="title">Next: Diagnostic Process</div>
                             </div>
                         </a>
                     
+                    <div class="nav-top-row">
+                        
+                        
+                            <a href="/getting-a-diagnosis/" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous<span class="desktop-text">: The importance of diagnosis</span></span>
+                            </a>
+                        
+                        <button onclick="openTOC()" aria-label="Table of Contents" >
+                            <span class="icon-menu"></span>
+                            <span>Contents</span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Desktop Navigation (side by side) -->
+                <nav class="nav-container-desktop d-none d-lg-flex">
+                    
+                    
+                    <div class="nav-desktop-row">
+                        
+                            <a href="/getting-a-diagnosis/" class="nav-prev-desktop" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous: The importance of diagnosis</span>
+                            </a>
+                        
+                        
+                            <a href="/getting-a-diagnosis/diagnostic-process/" class="nav-next-desktop" aria-label="Next Chapter">
+                                <span>Next: Diagnostic Process</span>
+                                <span class="chevron-right"></span>
+                            </a>
+                        
+                    </div>
                 </nav>
             </div>
         </div>
@@ -208,6 +232,70 @@ The Autism Diagnostic Interview, Revised (ADI-R) is a structured interview emplo
         </aside>
     </div>
 </article>
+
+<!-- TOC Modal -->
+<div id="tocModal" class="toc-modal" onclick="closeTOC(event)">
+    <div class="toc-content" onclick="event.stopPropagation()">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-close" onclick="closeTOC(event)" aria-label="Close">×</button>
+        </div>
+        <ul class="toc-list">
+            
+                <li>
+                    <a href="/getting-a-diagnosis/" class="">
+                        <span class="chapter-number d-none">1</span>
+                        <span class="chapter-title">The importance of diagnosis</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/getting-a-diagnosis/adult-autism-diagnosis/" class="current">
+                        <span class="chapter-number d-none">2</span>
+                        <span class="chapter-title">Diagnosis for adults</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/getting-a-diagnosis/diagnostic-process/" class="">
+                        <span class="chapter-number d-none">3</span>
+                        <span class="chapter-title">Diagnostic Process</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/getting-a-diagnosis/next-steps/" class="">
+                        <span class="chapter-number d-none">4</span>
+                        <span class="chapter-title">Just Diagnosed - Next Steps for parents</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+<script>
+function openTOC() {
+    document.getElementById('tocModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTOC(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    document.getElementById('tocModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeTOC();
+    }
+});
+</script>
 
     </main>
 

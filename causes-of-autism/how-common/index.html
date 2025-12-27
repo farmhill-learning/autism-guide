@@ -111,26 +111,50 @@
 
             <!-- Navigation -->
             <div class="mt-5 pt-4 border-top">
-                <nav class="nav-stacked-v4">
+                <!-- Mobile Navigation (stacked with Contents) -->
+                <nav class="nav-container d-lg-none">
                     
                     
-                        <a href="/causes-of-autism/vaccines-autism/" class="primary">
-                            <div>
-                                <div style="font-size: 12px; margin-bottom: 2px;">Continue reading</div>
-                                <div style="font-weight: 500;">Next: Do vaccines cause autism?</div>
-                            </div>
-                            <span class="chevron-right">›</span>
-                        </a>
-                    
-                    
-                    
-                        <a href="/causes-of-autism/" class="secondary">
-                            <span class="chevron-left">‹</span>
-                            <div>
-                                <div style="font-size: 14px;">Previous: What causes autism?</div>
+                        <a href="/causes-of-autism/vaccines-autism/" class="nav-next" aria-label="Next Chapter">
+                            <div class="next-content">
+                                <div class="label">Continue reading</div>
+                                <div class="title">Next: Do vaccines cause autism?</div>
                             </div>
                         </a>
                     
+                    <div class="nav-top-row">
+                        
+                        
+                            <a href="/causes-of-autism/" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous<span class="desktop-text">: What causes autism?</span></span>
+                            </a>
+                        
+                        <button onclick="openTOC()" aria-label="Table of Contents" >
+                            <span class="icon-menu"></span>
+                            <span>Contents</span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Desktop Navigation (side by side) -->
+                <nav class="nav-container-desktop d-none d-lg-flex">
+                    
+                    
+                    <div class="nav-desktop-row">
+                        
+                            <a href="/causes-of-autism/" class="nav-prev-desktop" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous: What causes autism?</span>
+                            </a>
+                        
+                        
+                            <a href="/causes-of-autism/vaccines-autism/" class="nav-next-desktop" aria-label="Next Chapter">
+                                <span>Next: Do vaccines cause autism?</span>
+                                <span class="chevron-right"></span>
+                            </a>
+                        
+                    </div>
                 </nav>
             </div>
         </div>
@@ -176,6 +200,70 @@
         </aside>
     </div>
 </article>
+
+<!-- TOC Modal -->
+<div id="tocModal" class="toc-modal" onclick="closeTOC(event)">
+    <div class="toc-content" onclick="event.stopPropagation()">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-close" onclick="closeTOC(event)" aria-label="Close">×</button>
+        </div>
+        <ul class="toc-list">
+            
+                <li>
+                    <a href="/causes-of-autism/" class="">
+                        <span class="chapter-number d-none">1</span>
+                        <span class="chapter-title">What causes autism?</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/causes-of-autism/how-common/" class="current">
+                        <span class="chapter-number d-none">2</span>
+                        <span class="chapter-title">How common is autism?</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/causes-of-autism/vaccines-autism/" class="">
+                        <span class="chapter-number d-none">3</span>
+                        <span class="chapter-title">Do vaccines cause autism?</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/causes-of-autism/what-does-not-cause-autism/" class="">
+                        <span class="chapter-number d-none">4</span>
+                        <span class="chapter-title">What does not cause autism?</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+<script>
+function openTOC() {
+    document.getElementById('tocModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTOC(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    document.getElementById('tocModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeTOC();
+    }
+});
+</script>
 
     </main>
 

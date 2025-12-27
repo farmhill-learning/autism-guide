@@ -164,18 +164,40 @@
 
             <!-- Navigation -->
             <div class="mt-5 pt-4 border-top">
-                <nav class="nav-stacked-v4">
+                <!-- Mobile Navigation (stacked with Contents) -->
+                <nav class="nav-container d-lg-none">
                     
                     
+                    <div class="nav-top-row">
+                        
+                        
+                            <a href="/identifying-autism/" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous<span class="desktop-text">: Recognising Autism</span></span>
+                            </a>
+                        
+                        <button onclick="openTOC()" aria-label="Table of Contents" >
+                            <span class="icon-menu"></span>
+                            <span>Contents</span>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Desktop Navigation (side by side) -->
+                <nav class="nav-container-desktop d-none d-lg-flex">
                     
                     
-                        <a href="/identifying-autism/" class="secondary">
-                            <span class="chevron-left">‹</span>
-                            <div>
-                                <div style="font-size: 14px;">Previous: Recognising Autism</div>
-                            </div>
-                        </a>
-                    
+                    <div class="nav-desktop-row">
+                        
+                            <a href="/identifying-autism/" class="nav-prev-desktop" aria-label="Previous Chapter">
+                                <span class="chevron-left"></span>
+                                <span>Previous: Recognising Autism</span>
+                            </a>
+                        
+                        
+                            <div></div>
+                        
+                    </div>
                 </nav>
             </div>
         </div>
@@ -207,6 +229,56 @@
         </aside>
     </div>
 </article>
+
+<!-- TOC Modal -->
+<div id="tocModal" class="toc-modal" onclick="closeTOC(event)">
+    <div class="toc-content" onclick="event.stopPropagation()">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-close" onclick="closeTOC(event)" aria-label="Close">×</button>
+        </div>
+        <ul class="toc-list">
+            
+                <li>
+                    <a href="/identifying-autism/" class="">
+                        <span class="chapter-number d-none">1</span>
+                        <span class="chapter-title">Recognising Autism</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/identifying-autism/observable-signs/" class="current">
+                        <span class="chapter-number d-none">2</span>
+                        <span class="chapter-title">Observable signs of autism</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+<script>
+function openTOC() {
+    document.getElementById('tocModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeTOC(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    document.getElementById('tocModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeTOC();
+    }
+});
+</script>
 
     </main>
 
