@@ -1,0 +1,76 @@
+
+sections:
+    - title: Start Your Journey
+      description: Find the information most relevant to your situation
+      classname: "section-b"
+      card_style: "card-with-icon"
+      entries:
+        - title: Just Diagnosed
+          href: diagnosis.qmd
+          icon: users
+          subtitle: Essential next steps for parents and families who recently received an autism diagnosis
+          color: "#E67E50"
+        - title: Educators
+          href: education.qmd
+          icon: school
+          subtitle: Resources for teachers, therapists, and professionals working with autistic individuals
+          color: "#4A9B8E"
+        - title: Parents of Teens
+          href: teen-years-parents.qmd
+          icon: baby
+          subtitle: Support and guidance for caregivers of teenagers on the spectrum
+          color: "#D66B8B"
+        - title: Autistic Adults
+          href: adulting.qmd
+          icon: briefcase
+          subtitle: Information for adults on the spectrum navigating work, relationships, and independence
+          color: "#34A8B7"
+
+
+
+    - title: Understanding Autism
+      description: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
+      classname: "section-c"
+      card_style: "card-read-more"
+      entries:
+        - title: What is Autism?
+          href: /overview-of-autism/
+          icon_text: 🧩
+          label: Basics
+          subtitle: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
+          color: "#E67E50"
+        - title: Getting a Diagnosis
+          href: /diagnosis/
+          icon_text: 🔍 
+          label: Diagnosis
+          subtitle: Understanding the diagnosis process, what to expect, and how to access evaluation services in India. 
+          color: "#E67E50"
+        - title: Early Intervention
+          href: /early-intervention/
+          icon_text: 🌱
+          label: Early Support
+          subtitle: Evidence-based approaches to early intervention and how to access support for young children.
+          color: "#E67E50"
+
+
+    - title: The Autism Life Journey
+      description: Comprehensive guidance for every stage of life
+      classname: "section-d"
+      card_style: "resource-item"
+      entries:
+        - title: Identification & Early Years
+          href: identification-causes.qmd
+          number: "01"
+          subtitle: Recognizing early signs, getting a diagnosis, and accessing early intervention services to support your child's development.
+        - title: Education & Schooling
+          href: education.qmd
+          number: "02"
+          subtitle: Navigating educational options, IEPs, inclusive education, and supporting learning for children on the spectrum.
+        - title: The Teen Years
+          href: teen-years-parents.qmd
+          number: "03"
+          subtitle: Supporting teenagers through puberty, social challenges, mental health, and preparing for transition to adulthood.
+        - title: Employment & Independence
+          href: work.qmd
+          number: "04"
+          subtitle: Finding work, building independence, and accessing support for autistic adults navigating employment and daily life.
