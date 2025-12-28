@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from 'cards.html' import CardWithImage %}
 
-{% block title %}{{ page_title }} - Autism Bharat{% endblock %}
+{% block title %}{{ collection.title }} - Autism Bharat{% endblock %}
 
-{% block meta_description %}{% if page_description %}{{ page_description }}{% else %}Autism Bharat collection page{% endif %}{% endblock %}
+{% block meta_description %}{% if collection.description %}{{ collection.description }}{% else %}Autism Bharat collection page{% endif %}{% endblock %}
 
 {% block content %}
 <!-- Hero Section -->
@@ -16,19 +16,19 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/" class="text-white-50">Home</a></li>
                         <li class="breadcrumb-item"><a href="/resources" class="text-white-50">Resources</a></li>
-                        <li class="breadcrumb-item active text-white" aria-current="page">{{ page_title }}</li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">{{ collection.title }}</li>
                     </ol>
                 </nav>
 
-                <h1 class="display-4 fw-bold mb-3">{{ page_title }}</h1>
-                {% if page_description %}
-                <p class="lead mb-4">{{ page_description }}</p>
+                <h1 class="display-4 fw-bold mb-3">{{ collection.title }}</h1>
+                {% if collection.description %}
+                <p class="lead mb-4">{{ collection.description }}</p>
                 {% endif %}
                 <div class="d-flex flex-wrap gap-2">
-                    {% if collection_resources %}
+                    {% if collection.resources %}
                     <span class="badge bg-white text-dark rounded-pill px-3 py-2">
                         <i class="bi bi-book me-1"></i>
-                        {{ collection_resources|length }} Resource{% if collection_resources|length != 1 %}s{% endif %}
+                        {{ collection.resources|length }} Resource{% if collection.resources|length != 1 %}s{% endif %}
                     </span>
                     {% endif %}
                 </div>
@@ -39,17 +39,17 @@
 
 <article class="container">
     <div class="page-content bg-white rounded-3 p-4">
-        {{ content|safe }}
+        {{ to_markdown(collection.body)|safe }}
     </div>
 
-    {% if collection_resources %}
+    {% if collection.resources %}
     <section class="mt-5">
         <h2 class="h3 mb-4">
             <i class="bi bi-collection text-primary me-2"></i>
             Resources in This Collection
         </h2>
             <div class="grid-cards">
-            {% for resource in collection_resources %}
+            {% for resource in collection.resources %}
                 {{ CardWithImage(resource.title, resource.description, image_src=resource.image_url, label="resource", href=resource.url) }}
             {% endfor %}
         </div>
