@@ -1,3 +1,9 @@
+---
+title: Lesson plan - Family and Friends
+description: "This lesson plan is designed to help children understand family relationships and friendships, including identifying family members, understanding friendship dynamics, and learning appropriate social boundaries."
+image: family-friends-lesson.png
+---
+
 # Family and Friends Lesson Plans
 
 As children grow up they usually gravitate towards other children of similar age and these bonds become stronger around teenage. This is a well researched aspect of human development and it satisfies many of the secondary needs for a person like the need to belong, how well regarded a person is, builds their self esteem and confidence and aids further potential.

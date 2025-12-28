@@ -1,3 +1,9 @@
+---
+title: Lesson plan - How Money Flows
+description: "This lesson plan is designed to help children understand the concept of money, its origins, uses, and importance in daily life."
+image: money-lesson.png
+---
+
 # Money - where it comes from and where we use it
 
 Children are exposed to money very young. They see it getting exchanged for almost everything from morning to evening. Money has been part of functional math for many decades and lots of activities have been identified and written about. Then the question of why we are writing one more version again.

@@ -8,3 +8,10 @@ sections:
         - diagnosis-and-early-intervention
         - education-schooling-teenage
         - employment-and-adulthood
+
+    - title: Ready Resources
+      description: Ready to use resources for activities of daily living as well as lesson plans
+      classname: section-b
+      collections:
+        - daily-living
+        - lesson-plans

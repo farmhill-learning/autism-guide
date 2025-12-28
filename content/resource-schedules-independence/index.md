@@ -1,3 +1,9 @@
+---
+title: "Building independence through schedules"
+description: "This resource explores strategies to help autistic and ADHD individuals build independence by using schedules and fostering executive functioning skills."
+image: schedules-independence.png
+---
+
 # Resource: Building Independence
 
 ## Supporting Executive Function and Independence through schedules 
