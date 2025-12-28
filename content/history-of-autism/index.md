@@ -1,8 +1,7 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: "A History of Autism"
+description: "This resource provides a brief history of autism, tracing its recognition and understanding from early descriptions to contemporary perspectives on neurodiversity."
+image: autism-history.png 
 ---
 
 # The importance of a histroy of autism

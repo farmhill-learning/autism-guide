@@ -1,6 +1,6 @@
 ---
 title: "Overview of Autism"
-description: "A resource for autism in India, compiled by people with deep personal and professional experience in working with autism, developmental disabilities, applied behaviour analysis, schooling for autism, adults on the autism spectrum."
+description: "This resource provides a comprehensive overview of autism, including its characteristics, prevalence, and the importance of understanding neurodiversity."
 image: overview-of-autism.jpg
 ---
 

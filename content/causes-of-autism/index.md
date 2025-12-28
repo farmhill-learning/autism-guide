@@ -1,8 +1,7 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: "What causes autism?"
+description: "This resource explores the current understanding of the causes of autism, including genetic and environmental factors, and addresses common questions and misconceptions."
+image: causes-of-autism.png
 ---
 # What causes autism?
 

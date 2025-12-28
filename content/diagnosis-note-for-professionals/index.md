@@ -1,8 +1,7 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: Screening and Diagnosis for professionals
+description: "This resource provides professionals with key signs and symptoms to look for when screening for autism, along with guidance on when to refer for further assessment."
+image: diagnosis-professionals.png
 ---
 # Screening and Diagnosis - A note for professionals
 

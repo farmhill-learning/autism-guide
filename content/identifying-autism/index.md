@@ -1,11 +1,10 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: "Identifying Autism"
+description: "This resource outlines common signs and symptoms of autism in children, emphasizing the importance of early identification and understanding neurodiversity."
+image: autism-children-diverse.png
 ---
 
-# Recognising Autism
+# Identifying Autism
 
 Autism is a neurodevelopmental variation. The most effective way to support autistic people is through understanding, acceptance, and providing individualized supports and accommodations. Early identification can help families and communities better understand and support autistic individuals.
 

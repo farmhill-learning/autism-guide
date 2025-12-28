@@ -1,3 +1,10 @@
+---
+title: Education & Schooling
+description: "This resource explores considerations for schooling and education for children on the autism spectrum, addressing common questions and concerns parents may have."
+image: education-schooling.png  
+---
+
+
 # Thinking about schooling
 
 When considering schooling and education options for their children on the autism spectrum, parents often start with: "Can my child go to school?" Sometimes this question is also phrased as a need - “my child needs to go to school. How will he get an education otherwise?” This seemingly simple thought opens the doors on a variety of questions and concerns that parents often struggle with.

@@ -1,8 +1,7 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: Early Intervention
+description: "This resource highlights the significance of early intervention for children with autism, provides guidelines for choosing therapies and service providers and outlines possible approaches to speech and occupational therapy."
+image: early-intervention.png 
 ---
 
 # Early Intervention

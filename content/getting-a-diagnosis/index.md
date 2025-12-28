@@ -1,8 +1,7 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: Getting a Diagnosis
+description: "This resource discusses the importance of obtaining a diagnosis for autism, addressing common concerns and outlining when to seek screening and diagnosis."
+image: diagnosis.png
 ---
 
 # The importance of diagnosis

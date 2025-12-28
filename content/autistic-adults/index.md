@@ -1,3 +1,9 @@
+---
+title: Being an Adult Autistic
+description: "This resource explores the transition to adulthood for autistic individuals, addressing challenges such as the 'services cliff,' transition planning, and emotional impacts of changing structures, with a focus on the Indian context."
+image: adulting.png
+---
+
 # Entering Adulthood
 
 Entering adulthood marks a major life shift. For young people on the autism spectrum, this milestone often comes with exciting new possibilities alongside sudden changes in supports, routines, and expectations. If the teenage years were shaped by school-based services, structured schedules, and guided planning from teachers and family/ caregivers, adulthood can feel like stepping into new and unfamiliar territory.

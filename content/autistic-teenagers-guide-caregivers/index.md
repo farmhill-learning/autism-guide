@@ -1,3 +1,8 @@
+---
+title: Supporting Autistic Teenagers 
+description: "A guide for caregivers to understand and support autistic teenagers through the unique challenges of adolescence, focusing on emotional regulation, social skills, and developmental needs."
+image: teenage.png
+---
 
 # Supporting Autistic Teenagers - A Guide to Caregivers
 
