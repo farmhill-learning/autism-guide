@@ -13,5 +13,5 @@ sections:
       description: Ready to use resources for activities of daily living as well as lesson plans
       classname: section-b
       collections:
-        - daily-living
+        - resources-daily-living
         - lesson-plans
