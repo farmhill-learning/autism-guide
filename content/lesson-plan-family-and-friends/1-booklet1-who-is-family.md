@@ -37,7 +37,7 @@ A tailor made picture worksheet can also be made on similar lines. The file also
 {{< downloadthis downloads/family-friends-b1-a1-w1-circle-family.pdf dname=circle-family-ws label="Download Circle Family Worksheet" icon=file-earmark-pdf type=success >}} 
 
 ### Activity 2
-Create a personal family tree poster with names.
+Create a personal family tree poster with names
 
 #### How to conduct the activity
 
