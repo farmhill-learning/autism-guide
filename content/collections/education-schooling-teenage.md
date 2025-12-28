@@ -6,7 +6,7 @@ description: >
 
 resources:
     - education-schooling
-    - autistic-teenager-guide-caregivers
+    - autistic-teenagers-guide-caregivers
 ---
 
 Navigating education and schooling can present unique challenges and opportunities for autistic individuals, particularly during the teenage years. This collection of resources is designed to provide valuable insights and practical strategies for families, educators, and caregivers to support autistic students in their educational journey.
