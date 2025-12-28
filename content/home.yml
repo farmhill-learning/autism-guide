@@ -1,25 +1,10 @@
 
 sections:
-    - title: Start Your Journey
-      description: Find the information most relevant to your situation
+    - title: A Guide to Autism
+      description: Comprehensive guide to living with autism in India, across life stages
       classname: section-b
       collections:
-        - what-is-autism
-        - what-is-autism
-        - what-is-autism
-
-    - title: Understanding Autism
-      description: Learn about autism spectrum disorder, its characteristics, and how it presents across different ages.
-      classname: section-c
-      collections:
-        - what-is-autism
-        - what-is-autism
-        - what-is-autism
-
-    - title: The Autism Life Journey
-      description: Comprehensive guidance for every stage of life
-      classname: section-d
-      collections:
-        - what-is-autism
-        - what-is-autism
-        - what-is-autism
+        - understanding-autism
+        - diagnosis-and-early-intervention
+        - education-schooling-teenage
+        - employment-and-adulthood
