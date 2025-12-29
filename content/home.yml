@@ -2,7 +2,6 @@
 sections:
     - title: A Guide to Autism
       description: Comprehensive guide to living with autism in India, across life stages
-      classname: section-b
       collections:
         - understanding-autism
         - diagnosis-and-early-intervention
@@ -11,14 +10,12 @@ sections:
 
     - title: Ready Resources
       description: Ready to use resources for activities of daily living as well as lesson plans
-      classname: section-c
       collections:
         - resources-daily-living
         - lesson-plans
 
     - title: Lived Experiences
       description: Stories and experiences shared by individuals with autism and their families
-      classname: section-d
       collections:
         - perspectives-parents
         - perspectives-autistics
