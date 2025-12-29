@@ -10,13 +10,13 @@ The key is to create some delay between one mouthful and the next, encouraging t
 
 1. the child has a smiley chart and a bowl of smileys. The chart is a laminated sheet with velcro afixed on it. Smileys also have velcro fixed at the back. Pictures are below.
 
-![](images/smiley_empty_chart_400.png){fig-align="center"}
+![](/images/smiley_empty_chart_400.png){fig-align="center"}
 
-![](images/smileydubba_400.png){fig-align="center"}
+![](/images/smileydubba_400.png){fig-align="center"}
 
 2. Once the child takes one spoonful of food into the mouth, they fix the smileys from the bowl, on the chart. During this time, they keep chewing and the rule is they cannot take another mouthful till all the smileys are fixed. The chart with all smileys fixed looks like this. 
 
-![](images/smileychart_400.png){fig-align="center"}
+![](/images/smileychart_400.png){fig-align="center"}
 
 3. Once all smileys are fixed, they take another spoonful of food. 
 4. This time, they pick the smileys from the chart and put them in the bowl. 
@@ -30,7 +30,7 @@ Once, we came across a child who would touch food and everything around with bot
 
 1. A table mat, with spaces drawn for the child’s plate, glass and hands was created. The child was expected to keep the plate and glass on the mat, as well as keep their hands on the spaces indicated on the mat. The mat can look like this. 
 
-![](images/mat_goodhands.jpg){fig-align="center"}
+![](/images/mat_goodhands.jpg){fig-align="center"}
 
 2. A number line with numbers 1 to 10 was also drawn on the top of the mat. 
 3. The child takes a spoonful of food, and uses fingers to count from one to ten on the numberline. They chew while doing this. 

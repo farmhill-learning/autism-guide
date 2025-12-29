@@ -116,6 +116,7 @@ class Website:
 
     def render_static(self):
         self._copy_static_files("static")
+        self._copy_static_files("images")
         self._copy_static_files("downloads")
 
     def _copy_static_files(self, dirname):
