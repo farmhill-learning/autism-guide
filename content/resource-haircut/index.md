@@ -1,6 +1,7 @@
 ---
 title: "A Guide to Haircuts for Neurodiverse Children"
 description: "Techniques and strategies to help neurodiverse children have a positive experience during haircuts."
+image: haircut.png
 ---
 # A Guide to Haircuts for Neurodiverse Children
 
