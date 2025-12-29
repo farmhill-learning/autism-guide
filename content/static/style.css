@@ -279,6 +279,11 @@ article li {
   color: white;
 }
 
+.hero-section-simple-page {
+  background: linear-gradient(135deg, #9B8B7A 0%, #8B7A6A 100%);
+}
+
+
 /* Responsive adjustments for hero section */
 @media (max-width: 768px) {
   .hero-section {

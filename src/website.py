@@ -41,6 +41,7 @@ class Website:
 
         self.collections = self.load_collections()
         self._collections_dict = {c.name: c for c in self.collections}
+        self.simple_pages = self.load_simple_pages()
         self.site_config = self.load_site_config()
 
         # Register site config as a Jinja2 global so all templates can access it
@@ -70,6 +71,16 @@ class Website:
                 collection = Collection.load(self, md_file)
                 collections.append(collection)
         return collections
+
+    def load_simple_pages(self):
+        """Load all simple pages from content/pages/ directory."""
+        simple_pages = []
+        pages_dir = content_root / 'pages'
+        if pages_dir.exists() and pages_dir.is_dir():
+            for md_file in sorted(pages_dir.glob('*.md')):
+                simple_page = SimplePage.load(md_file)
+                simple_pages.append(simple_page)
+        return simple_pages
 
     def load_home(self):
         """Load home page configuration (sections and hero) from home.yml file."""
@@ -193,6 +204,8 @@ class Website:
             resource.render(self.resources)
         for collection in self.collections:
             collection.render()
+        for simple_page in self.simple_pages:
+            simple_page.render()
         self.build_search_index()
 
     def render_static(self):
@@ -238,7 +251,7 @@ class Resource:
     name: str
     title: str
     description: str
-    pages: list[Page]
+    pages: list[ResourcePage]
 
     @property
     def url(self):
@@ -266,7 +279,7 @@ class Resource:
         md_files = [f.name for f in sorted(resource_dir.glob('*.md')) if f.name != 'index.md']
         md_files = ["index.md"] + md_files
 
-        pages = [Page.load(resource_dir / filename, resource_name=name) for filename in md_files]
+        pages = [ResourcePage.load(resource_dir / filename, resource_name=name) for filename in md_files]
 
         # Get title from index page
         title = name.replace('-', ' ').title()  # fallback
@@ -295,9 +308,9 @@ class Resource:
                     shutil.copy2(image_file, output_file)
                     print(f'  {output_file.relative_to(project_root)}')
 
-    def render_page(self, page: Page):
+    def render_page(self, page: ResourcePage):
         rendered_html = render_template(
-            'page.html',
+            'resource-page.html',
             page=page,
             resource=self
         )
@@ -315,7 +328,7 @@ class Resource:
 
         print(output_file.relative_to(project_root))
 
-    def get_next_page(self, page: Page):
+    def get_next_page(self, page: ResourcePage):
         try:
             index = self.pages.index(page)
             if index < len(self.pages) - 1:
@@ -324,7 +337,7 @@ class Resource:
             pass
         return None
 
-    def get_previous_page(self, page: Page):
+    def get_previous_page(self, page: ResourcePage):
         try:
             index = self.pages.index(page)
             if index > 0:
@@ -426,7 +439,7 @@ class Collection:
         print(output_file.relative_to(project_root))
 
 @dataclass
-class Page:
+class ResourcePage:
     name: str
     title: str
     body: str
@@ -532,12 +545,138 @@ class Page:
                 # Fallback to filename-based title
                 title = page_name.replace('-', ' ').title()
 
-        return Page(
+        return ResourcePage(
             name=page_name,
             title=title,
             body=markdown_content,
             metadata=metadata,
             resource_name=resource_name
+        )
+
+@dataclass
+class SimplePage:
+    name: str
+    title: str
+    body: str
+    metadata: dict[str, Any]
+
+    @property
+    def description(self):
+        return self.metadata.get('description-meta') or self.metadata.get("description") or ""
+
+    @property
+    def url(self):
+        return f"/{self.name}/"
+
+    def get_url(self) -> str:
+        """Generate the URL path for this page."""
+        return f"/{self.name}/"
+
+    def get_searchable_text(self) -> str:
+        """Extract plain text from markdown body for searching."""
+        # Remove markdown syntax patterns
+        text = self.body
+
+        # Remove code blocks
+        text = re.sub(r'```[\s\S]*?```', '', text)
+        text = re.sub(r'`[^`]+`', '', text)
+
+        # Remove links but keep text: [text](url) -> text
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+
+        # Remove images: ![alt](url) -> alt
+        text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
+
+        # Remove headers but keep text: # Header -> Header
+        text = re.sub(r'^#{1,6}\s+(.+)$', r'\1', text, flags=re.MULTILINE)
+
+        # Remove bold/italic markers
+        text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', text)
+        text = re.sub(r'\*([^\*]+)\*', r'\1', text)
+        text = re.sub(r'__([^_]+)__', r'\1', text)
+        text = re.sub(r'_([^_]+)_', r'\1', text)
+
+        # Remove HTML tags if any
+        text = re.sub(r'<[^>]+>', '', text)
+
+        # Remove extra whitespace
+        text = re.sub(r'\s+', ' ', text)
+        text = text.strip()
+
+        return text
+
+    def get_headings(self) -> list[str]:
+        """Extract headings from markdown content."""
+        headings = []
+        lines = self.body.split('\n')
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#'):
+                # Extract heading text (remove # markers)
+                heading = re.sub(r'^#+\s+', '', line).strip()
+                if heading:
+                    headings.append(heading)
+        return headings
+
+    def render(self):
+        """Render this simple page to HTML file."""
+        rendered_html = render_template(
+            'simple-page.html',
+            page=self
+        )
+
+        output_dir = project_root / '_site' / self.name
+        output_file = output_dir / 'index.html'
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(rendered_html)
+
+        print(output_file.relative_to(project_root))
+
+    @staticmethod
+    def load(markdown_file):
+        """Load a simple page from a markdown file."""
+        with open(markdown_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        frontmatter_pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+        match = re.match(frontmatter_pattern, content, re.DOTALL)
+
+        if match:
+            frontmatter_yaml = match.group(1)
+            markdown_content = match.group(2)
+            try:
+                metadata = yaml.safe_load(frontmatter_yaml) or {}
+            except yaml.YAMLError:
+                metadata = {}
+        else:
+            metadata = {}
+            markdown_content = content
+
+        page_name = markdown_file.stem
+
+        # replace number prefix from page name
+        page_name = re.sub("^\d+-", "", page_name)
+
+        title = metadata.get('title')
+
+        # If no title in frontmatter, check if first line is a header
+        if not title:
+            lines = markdown_content.strip().split('\n')
+            if lines and lines[0].strip().startswith('#'):
+                # Extract title from first header line
+                title = lines[0].strip().lstrip('#').strip()
+                # Remove the first line from content
+                markdown_content = '\n'.join(lines[1:]).strip()
+            else:
+                # Fallback to filename-based title
+                title = page_name.replace('-', ' ').title()
+
+        return SimplePage(
+            name=page_name,
+            title=title,
+            body=markdown_content,
+            metadata=metadata
         )
 
 def load_resources(resources_file):
@@ -586,68 +725,6 @@ def to_markdown(markdown_content):
 
 # Register to_markdown as a global function in Jinja environment
 jinja_env.globals['to_markdown'] = to_markdown
-
-
-def generate_page_html(env, markdown_file, resource_key, resource_title, output_dir, resources):
-    frontmatter, markdown_content = parse_markdown_file(markdown_file)
-    html_content = convert_markdown_to_html(markdown_content)
-
-    page_name = markdown_file.stem
-    page_title = frontmatter.get('title', page_name.replace('-', ' ').title())
-    page_description = frontmatter.get('description-meta') or frontmatter.get('description')
-
-    template = env.get_template('page.html')
-    rendered_html = template.render(
-        page_title=page_title,
-        page_description=page_description,
-        content=html_content,
-        resource_key=resource_key,
-        resource_title=resource_title,
-        resources=resources
-    )
-
-    output_file = output_dir / 'index.html'
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(rendered_html)
-
-    print(output_file.relative_to(project_root))
-
-
-def generate_all_pages(env, resources, resources_dir, output_base_dir):
-    for resource_key, resource_data in resources.items():
-        resource_title = resource_data.get('title', resource_key)
-        pages = resource_data.get('pages', [])
-
-        for page_file in pages:
-            markdown_file = resources_dir / resource_key / page_file
-
-            if not markdown_file.exists():
-                continue
-
-            page_name = Path(page_file).stem
-            if page_file == 'index.md':
-                output_dir = output_base_dir / resource_key
-            else:
-                output_dir = output_base_dir / resource_key / page_name
-
-            generate_page_html(env, markdown_file, resource_key, resource_title, output_dir, resources)
-
-
-def generate_index_html(env, resources, output_file):
-    template = env.get_template('index.html')
-    html_content = template.render(
-        resources=resources,
-        site_title="Autism Bharat",
-        site_description="Resources and information about autism in India"
-    )
-
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(html_content)
-
-    print(output_file.relative_to(project_root))
-
 
 def main():
     website = Website()
