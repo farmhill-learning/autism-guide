@@ -1,7 +1,7 @@
 ---
 title: The importance of routines and schedules
 description: >
-    Daily routines help reduce uncertainty and anxiety by creating predictability and stability, especially for autistic individuals, while also supporting well-being and productivity when practiced consistently.
+    Daily routines help reduce uncertainty and anxiety by creating predictability for autistic individuals, while also supporting well-being and productivity when practiced consistently.
 date: 2025-10-13
 author: Chitra Seshadri
 ---

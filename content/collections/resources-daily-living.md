@@ -8,6 +8,7 @@ resources:
     - resource-schedules-independence
     - resource-dental-care
     - resource-eating
+    - resource-haircut
     - resource-communication
     
 ---
