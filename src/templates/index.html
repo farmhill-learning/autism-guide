@@ -5,7 +5,7 @@
 {% block meta_description %}{{ site.title|default('Autism Bharat') }} provides resources and information about autism in India. Explore our comprehensive guides and support materials.{% endblock %}
 
 {% block content %}
-{% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem %}
+{% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem, ArticleCard %}
 
 <!-- Hero Section -->
 {% if hero %}
@@ -50,13 +50,35 @@
         </p>
 
         <div class="grid-cards">
-            {% for collection in section.collections %}
-                {{ CardWithImage(collection.title, collection.description, collection.image_url, "collection", "/" + collection.name + "/") }}
-            {% endfor %}
+            {% if section.collections %}
+                {% for collection in section.collections %}
+                    {{ CardWithImage(collection.title, collection.description, collection.image_url, "collection", "/" + collection.name + "/") }}
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
     </section>
     {% endfor %}
+{% endif %}
+
+<!-- Articles Section (Hardcoded) -->
+{% if articles %}
+<section class="section-e" style="padding-bottom: 2rem;">
+    <div class="container">
+        <h2 class="section-title">
+            Articles
+        </h2>
+        <p class="section-description">
+            Recent articles and insights about autism
+        </p>
+
+        <div class="grid-cards">
+            {% for article in articles[:3] %}
+                {{ ArticleCard(article) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
 {% endif %}
 
 <!-- About Section -->

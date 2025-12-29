@@ -12,8 +12,9 @@ import sys
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import markdown
-from typing import Any
-from dataclasses import dataclass
+from typing import Any, Optional
+from dataclasses import dataclass, field
+from datetime import datetime
 
 src_root = Path(__file__).parent
 project_root = src_root.parent
@@ -42,6 +43,8 @@ class Website:
         self.collections = self.load_collections()
         self._collections_dict = {c.name: c for c in self.collections}
         self.simple_pages = self.load_simple_pages()
+        self.articles = self.load_articles()
+        self._articles_dict = {a.name: a for a in self.articles}
         self.site_config = self.load_site_config()
 
         # Register site config as a Jinja2 global so all templates can access it
@@ -82,6 +85,28 @@ class Website:
                 simple_pages.append(simple_page)
         return simple_pages
 
+    def load_articles(self):
+        """Load all articles from content/articles/ directory."""
+        articles = []
+        articles_dir = content_root / 'articles'
+        if articles_dir.exists() and articles_dir.is_dir():
+            for md_file in sorted(articles_dir.glob('*.md')):
+                article = Article.load(md_file)
+                articles.append(article)
+        
+        # Sort articles by date (newest first), then by filename if no date
+        def sort_key(article):
+            date_obj = article.date_obj
+            if date_obj:
+                # Use negative timestamp for descending order (newest first)
+                return (-date_obj.timestamp(), '')
+            else:
+                # Articles without dates sorted alphabetically by filename
+                return (float('inf'), article.name)
+        
+        articles.sort(key=sort_key)
+        return articles
+
     def load_home(self):
         """Load home page configuration (sections and hero) from home.yml file."""
         home_file = content_root / 'home.yml'
@@ -120,6 +145,7 @@ class Website:
             description = section_data.get('description', '')
             classname = section_data.get('classname', '')
             collection_names = section_data.get('collections', [])
+            articles_count = section_data.get('articles_count', 0)
 
             # Convert collection names to Collection objects
             collections = []
@@ -130,11 +156,17 @@ class Website:
                 except KeyError:
                     print(f"Warning: Collection '{collection_name}' not found in section '{title}'", file=sys.stderr)
 
+            # Get articles if requested
+            articles = []
+            if articles_count > 0:
+                articles = self.articles[:articles_count]
+
             section = Section(
                 title=title,
                 description=description,
                 classname=classname,
-                collections=collections
+                collections=collections,
+                articles=articles if articles else None
             )
             sections.append(section)
 
@@ -206,6 +238,7 @@ class Website:
             collection.render()
         for simple_page in self.simple_pages:
             simple_page.render()
+        self.render_articles()
         self.build_search_index()
 
     def render_static(self):
@@ -232,6 +265,7 @@ class Website:
             'index.html',
             sections=home_data['sections'],
             hero=home_data['hero'],
+            articles=self.articles,
             site_title=self.site_config.get('title', 'Autism Bharat'),
             site_description=self.site_config.get('description', 'Resources and information about autism in India')
         )
@@ -240,11 +274,28 @@ class Website:
             f.write(html_content)
         print(output_file.relative_to(project_root))
 
+    def render_articles(self):
+        """Render article index page and all individual articles."""
+        # Render article index page
+        output_file = project_root / '_site' / 'articles' / 'index.html'
+        html_content = render_template(
+            'articles/index.html',
+            articles=self.articles
+        )
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        print(output_file.relative_to(project_root))
+
+        # Render each individual article
+        for article in self.articles:
+            article.render()
+
     def build_search_index(self):
         """Build and save the search index."""
         from search import build_search_index
         output_path = project_root / '_site' / 'search.json'
-        build_search_index(self.resources, output_path)
+        build_search_index(self.resources, self.articles, output_path)
 
 @dataclass
 class Resource:
@@ -352,6 +403,7 @@ class Section:
     description: str
     classname: str
     collections: list[Collection]
+    articles: Optional[list[Article]] = None
 
 
 @dataclass
@@ -673,6 +725,173 @@ class SimplePage:
                 title = page_name.replace('-', ' ').title()
 
         return SimplePage(
+            name=page_name,
+            title=title,
+            body=markdown_content,
+            metadata=metadata
+        )
+
+@dataclass
+class Article:
+    name: str
+    title: str
+    body: str
+    metadata: dict[str, Any]
+
+    @property
+    def description(self):
+        return self.metadata.get('description') or ""
+
+    @property
+    def author(self):
+        return self.metadata.get('author') or None
+
+    @property
+    def date(self):
+        """Return date as string from metadata, or None if not available."""
+        return self.metadata.get('date') or None
+
+    @property
+    def date_obj(self):
+        """Return date as datetime object if available, None otherwise."""
+        date_str = self.date
+        if not date_str:
+            return None
+        
+        # Try to parse common date formats
+        date_formats = ['%Y-%m-%d', '%Y-%m-%d %H:%M:%S', '%Y/%m/%d']
+        for fmt in date_formats:
+            try:
+                return datetime.strptime(str(date_str), fmt)
+            except (ValueError, TypeError):
+                continue
+        
+        # If parsing fails, log warning and return None
+        print(f"Warning: Could not parse date '{date_str}' for article '{self.name}'", file=sys.stderr)
+        return None
+
+    @property
+    def url(self):
+        return f"/articles/{self.name}/"
+
+    def get_url(self) -> str:
+        """Generate the URL path for this article."""
+        return f"/articles/{self.name}/"
+
+    def get_searchable_text(self) -> str:
+        """Extract plain text from markdown body for searching."""
+        # Remove markdown syntax patterns
+        text = self.body
+
+        # Remove code blocks
+        text = re.sub(r'```[\s\S]*?```', '', text)
+        text = re.sub(r'`[^`]+`', '', text)
+
+        # Remove links but keep text: [text](url) -> text
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+
+        # Remove images: ![alt](url) -> alt
+        text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
+
+        # Remove headers but keep text: # Header -> Header
+        text = re.sub(r'^#{1,6}\s+(.+)$', r'\1', text, flags=re.MULTILINE)
+
+        # Remove bold/italic markers
+        text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', text)
+        text = re.sub(r'\*([^\*]+)\*', r'\1', text)
+        text = re.sub(r'__([^_]+)__', r'\1', text)
+        text = re.sub(r'_([^_]+)_', r'\1', text)
+
+        # Remove HTML tags if any
+        text = re.sub(r'<[^>]+>', '', text)
+
+        # Remove extra whitespace
+        text = re.sub(r'\s+', ' ', text)
+        text = text.strip()
+
+        return text
+
+    def get_headings(self) -> list[str]:
+        """Extract headings from markdown content."""
+        headings = []
+        lines = self.body.split('\n')
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#'):
+                # Extract heading text (remove # markers)
+                heading = re.sub(r'^#+\s+', '', line).strip()
+                if heading:
+                    headings.append(heading)
+        return headings
+
+    def render(self):
+        """Render this article to HTML file."""
+        rendered_html = render_template(
+            'articles/article.html',
+            article=self
+        )
+
+        output_dir = project_root / '_site' / 'articles' / self.name
+        output_file = output_dir / 'index.html'
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(rendered_html)
+
+        print(output_file.relative_to(project_root))
+
+    @staticmethod
+    def load(markdown_file):
+        """Load an article from a markdown file."""
+        with open(markdown_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        frontmatter_pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+        match = re.match(frontmatter_pattern, content, re.DOTALL)
+
+        if match:
+            frontmatter_yaml = match.group(1)
+            markdown_content = match.group(2)
+            try:
+                metadata = yaml.safe_load(frontmatter_yaml) or {}
+            except yaml.YAMLError:
+                metadata = {}
+        else:
+            metadata = {}
+            markdown_content = content
+
+        page_name = markdown_file.stem
+
+        # Extract title from frontmatter, first H1, or filename
+        title = metadata.get('title')
+        if not title:
+            lines = markdown_content.strip().split('\n')
+            if lines and lines[0].strip().startswith('#'):
+                # Extract title from first header line
+                title = lines[0].strip().lstrip('#').strip()
+                # Remove the first line from content
+                markdown_content = '\n'.join(lines[1:]).strip()
+            else:
+                # Fallback to filename-based title
+                title = page_name.replace('-', ' ').title()
+
+        # Parse date if available
+        if 'date' in metadata and metadata['date']:
+            date_str = str(metadata['date'])
+            # Try to parse and validate date format
+            date_formats = ['%Y-%m-%d', '%Y-%m-%d %H:%M:%S', '%Y/%m/%d']
+            parsed = False
+            for fmt in date_formats:
+                try:
+                    datetime.strptime(date_str, fmt)
+                    parsed = True
+                    break
+                except (ValueError, TypeError):
+                    continue
+            if not parsed:
+                print(f"Warning: Invalid date format '{date_str}' for article '{page_name}', treating as no date", file=sys.stderr)
+                metadata['date'] = None
+
+        return Article(
             name=page_name,
             title=title,
             body=markdown_content,

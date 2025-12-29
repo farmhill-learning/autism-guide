@@ -70,3 +70,38 @@
     </div>
 </a>
 {% endmacro %}
+
+{% macro ArticleCard(article) %}
+<a href="{{ article.url }}" class="card-base" style="display: block; text-decoration: none; color: inherit;">
+    <div style="padding: 1.5rem;">
+        <span
+            style="display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--primary-teal); margin-bottom: 1rem;">
+            Article
+        </span>
+        <h3 style="font-size: 1.35rem; margin-bottom: 1rem; margin-top: 0px;">
+            {{ article.title }}
+        </h3>
+        {% if article.author or article.date_obj %}
+        <div class="d-flex flex-wrap gap-3 text-muted small mb-2" style="font-size: 0.875rem;">
+            {% if article.author %}
+            <span>
+                <i class="bi bi-person me-1"></i>
+                {{ article.author }}
+            </span>
+            {% endif %}
+            {% if article.date_obj %}
+            <span>
+                <i class="bi bi-calendar3 me-1"></i>
+                {{ article.date_obj.strftime('%B %d, %Y') }}
+            </span>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if article.description %}
+        <p style="color: var(--text-secondary); margin-bottom: 0;">
+            {{ article.description|truncate(120) }}
+        </p>
+        {% endif %}
+    </div>
+</a>
+{% endmacro %}

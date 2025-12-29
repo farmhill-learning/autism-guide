@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}Articles - {{ site.title|default('Autism Bharat') }}{% endblock %}
+
+{% block meta_description %}Articles and blog posts about autism{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="mb-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="text-white-50">Home</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Articles</li>
+                    </ol>
+                </nav>
+
+                <h1 class="display-4 fw-bold mb-3">Articles</h1>
+                <p class="lead mb-4">Insights, stories, and information about autism</p>
+                {% if articles %}
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-white text-dark rounded-pill px-3 py-2">
+                        <i class="bi bi-journal-text me-1"></i>
+                        {{ articles|length }} Article{% if articles|length != 1 %}s{% endif %}
+                    </span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<article class="container">
+    {% if articles %}
+    <div class="row">
+        <div class="col-lg-10">
+            <div class="articles-list">
+                {% for article in articles %}
+                <div class="article-card bg-white rounded-3 p-4 mb-4 shadow-sm">
+                    <h2 class="h3 mb-3">
+                        <a href="{{ article.url }}" class="text-decoration-none text-dark">
+                            {{ article.title }}
+                        </a>
+                    </h2>
+                    
+                    <div class="article-meta mb-3">
+                        {% if article.author or article.date_obj %}
+                        <div class="d-flex flex-wrap gap-3 text-muted small">
+                            {% if article.author %}
+                            <span>
+                                <i class="bi bi-person me-1"></i>
+                                {{ article.author }}
+                            </span>
+                            {% endif %}
+                            {% if article.date_obj %}
+                            <span>
+                                <i class="bi bi-calendar3 me-1"></i>
+                                {{ article.date_obj.strftime('%B %d, %Y') }}
+                            </span>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    {% if article.description %}
+                    <p class="text-muted mb-3">
+                        {{ article.description|truncate(200) }}
+                    </p>
+                    {% endif %}
+                    
+                    <a href="{{ article.url }}" class="btn btn-outline-primary btn-sm">
+                        Read More
+                        <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="page-content bg-white rounded-3 p-4 text-center">
+                <p class="text-muted mb-0">No articles available yet. Check back soon!</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</article>
+{% endblock %}
