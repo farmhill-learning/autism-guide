@@ -20,4 +20,4 @@ sections:
       description: Stories and experiences shared by individuals with autism and their families
       classname: section-d
       collections:
-        - perspectives-4parents-early-intervention
+        - perspectives-parents
