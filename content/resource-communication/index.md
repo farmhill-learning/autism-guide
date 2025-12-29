@@ -1,13 +1,8 @@
 ---
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
+title: "Building pre-verbal Communication"
+description: "Techniques to help neurodiverse children develop pre-verbal communication skills."
 ---
-
-# Resource: Communication
-
-## Building pre-verbal Communication
+# Building pre-verbal Communication
 
 Here is a video by Anjali Barretto, a speech therapist at [Sethu](https://sethu.in), Goa on building pre-verbal communication. Key points she mentions are:
 

@@ -1,9 +1,3 @@
----
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
----
 # What does not cause autism?
 
 There are a lot of misconceptions around autism. Very often parents are blamed, or parents go ahead and blame themselves for the child’s autism. They may think that their parenting is responsible for the child’s autism or in the Indian context, they are likely to blame it on themselves and their bad ‘karma.’ This blame and guilt often push the parents into denial about the child’s autism or into depression believing there is something wrong with themselves. All of this is unnecessary and is only likely to waste precious time that can be better spent on working with children.

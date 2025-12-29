@@ -1,9 +1,3 @@
----
-format:
-  html:
-    include-after-body:
-       - "_includes/load-comments.html"
----
 # Do vaccines cause autism?
 
 If you are remotely connected to autism, it is highly likely you have come across this question before. The answer is, no, vaccines do not cause autism. This theory was proposed in 1998, has been thoroughly investigated and conclusively proven to be false by 2010.

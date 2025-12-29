@@ -11,7 +11,7 @@ sections:
 
     - title: Ready Resources
       description: Ready to use resources for activities of daily living as well as lesson plans
-      classname: section-b
+      classname: section-c
       collections:
         - resources-daily-living
         - lesson-plans
