@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from 'cards.html' import CardWithImage %}
 
-{% block title %}{{ collection.title }} - Autism Bharat{% endblock %}
+{% block title %}{{ collection.title }} - {{ site.title|default('Autism Bharat') }}{% endblock %}
 
-{% block meta_description %}{% if collection.description %}{{ collection.description }}{% else %}Autism Bharat collection page{% endif %}{% endblock %}
+{% block meta_description %}{% if collection.description %}{{ collection.description }}{% else %}{{ site.title|default('Autism Bharat') }} collection page{% endif %}{% endblock %}
 
 {% block content %}
 <!-- Hero Section -->

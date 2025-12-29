@@ -1,0 +1,32 @@
+title: Autism Bharat
+
+navbar:
+  links:
+    - label: Home
+      href: /
+    - label: About
+      href: /about/
+
+footer:
+  copyright: © 2024 [Farmhill Learning](https://farmhill-learning.org) | Licensed under Creative Commons
+  sections:
+    - title: About This Guide
+      entries:
+        - label: About this Project
+          href: /about
+    - title: Key Topics
+      entries:
+        - label: Understanding Autism
+          href: /understanding-autism/
+    - title: Partner Organizations
+      entries:
+        - title: Farmhill Learning Community
+          href: /
+        - title: Action for Autism
+          href: /
+        - title: Ummeed
+          href: /
+        - title: Sethu
+          href: /
+        - title: Azim Premji Foundation
+          href: /

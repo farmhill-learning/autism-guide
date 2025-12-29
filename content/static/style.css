@@ -1079,3 +1079,16 @@ article li {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
+footer p {
+  color: inherit;
+}
+
+footer p a {
+  color: inherit;
+}
+
+
+footer p a:hover {
+  color: inherit;
+}

@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{% block title %}Autism Bharat - Home{% endblock %}
+{% block title %}{{ site.title|default('Autism Bharat') }} - Home{% endblock %}
 
-{% block meta_description %}Autism Bharat provides resources and information about autism in India. Explore our comprehensive guides and support materials.{% endblock %}
+{% block meta_description %}{{ site.title|default('Autism Bharat') }} provides resources and information about autism in India. Explore our comprehensive guides and support materials.{% endblock %}
 
 {% block content %}
 {% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem %}
@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8 mx-auto text-center">
-                <h1 class="display-4 fw-bold mb-3">Autism Bharat</h1>
+                <h1 class="display-4 fw-bold mb-3">{{ site.title|default('Autism Bharat') }}</h1>
                 <p class="lead mb-4">
                     Empowering individuals, families, and communities with comprehensive resources and information about autism in India.
                 </p>
@@ -50,9 +50,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="display-6 fw-bold mb-4">About Autism Bharat</h2>
+                <h2 class="display-6 fw-bold mb-4">About {{ site.title|default('Autism Bharat') }}</h2>
                 <p class="lead">
-                    Autism Bharat is dedicated to providing accessible, accurate, and comprehensive information about autism spectrum disorders in the Indian context. Our mission is to support individuals with autism, their families, educators, and healthcare professionals with reliable resources and guidance.
+                    {{ site.title|default('Autism Bharat') }} is dedicated to providing accessible, accurate, and comprehensive information about autism spectrum disorders in the Indian context. Our mission is to support individuals with autism, their families, educators, and healthcare professionals with reliable resources and guidance.
                 </p>
             </div>
         </div>

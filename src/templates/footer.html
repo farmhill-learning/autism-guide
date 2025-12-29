@@ -2,47 +2,25 @@
 <footer class="footer-custom">
     <div class="footer-content">
         <div class="grid">
+            {% if site.footer and site.footer.sections %}
+            {% for section in site.footer.sections %}
             <div class="footer-section">
-                <h3>About This Guide</h3>
+                <h3>{{ section.title }}</h3>
+                {% if section.entries %}
                 <div class="footer-links">
-                    <a href="#">About the Project</a>
-                    <a href="#">People & Organizations</a>
-                    <a href="#">How to Contribute</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h3>Key Topics</h3>
-                <div class="footer-links">
-                    <a href="#">Understanding Autism</a>
-                    <a href="#">Diagnosis Process</a>
-                    <a href="#">Early Intervention</a>
-                    <a href="#">Education & Schooling</a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h3>Resources</h3>
-                <div class="footer-links">
-                    {% if resources %}
-                    {% for resource_key, resource in resources.items() %}
-                    <a href="/{{ resource_key }}/">{{ resource.title }}</a>
+                    {% for entry in section.entries %}
+                    <a href="{{ entry.href|default('#') }}">{{ entry.label|default(entry.title|default('')) }}</a>
                     {% endfor %}
-                    {% endif %}
                 </div>
+                {% endif %}
             </div>
-            <div class="footer-section">
-                <h3>Partner Organizations</h3>
-                <div class="footer-partners">
-                    <span>Farmhill Learning Community</span> •
-                    <span>Action for Autism</span> •
-                    <span>Ummeed</span> •
-                    <span>Sethu</span> •
-                    <span>Azim Premji Foundation</span>
-                </div>
-            </div>
+            {% endfor %}
+            {% endif %}
         </div>
+        {% if site.footer and site.footer.copyright and site.footer.copyright|trim %}
         <div class="footer-bottom">
-            © 2024 Farmhill Learning | Licensed under Creative Commons
+            {{ to_markdown(site.footer.copyright)|safe }}
         </div>
+        {% endif %}
     </div>
 </footer>

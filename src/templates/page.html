@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }} - Autism Bharat{% endblock %}
+{% block title %}{{ page.title }} - {{ site.title|default('Autism Bharat') }}{% endblock %}
 
-{% block meta_description %}{% if page.description %}{{ page.description }}{% else %}Autism Bharat resource page{% endif %}{% endblock %}
+{% block meta_description %}{% if page.description %}{{ page.description }}{% else %}{{ site.title|default('Autism Bharat') }} resource page{% endif %}{% endblock %}
 
 {% block content %}
 <!-- Hero Section -->

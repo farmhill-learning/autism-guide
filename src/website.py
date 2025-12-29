@@ -42,6 +42,10 @@ class Website:
         self.collections = self.load_collections()
         self._collections_dict = {c.name: c for c in self.collections}
         self.sections = self.load_sections()
+        self.site_config = self.load_site_config()
+
+        # Register site config as a Jinja2 global so all templates can access it
+        jinja_env.globals['site'] = self.site_config
 
     def get_resource(self, name):
         return self._resources_dict[name]
@@ -105,6 +109,63 @@ class Website:
 
         return sections
 
+    def load_site_config(self):
+        """Load site configuration from site.yml file."""
+        site_file = content_root / 'site.yml'
+
+        # Default configuration matching current hardcoded values
+        default_config = {
+            'title': 'Autism Bharat',
+            'navbar': {
+                'links': [
+                    {'label': 'Home', 'href': '/'}
+                ]
+            },
+            'footer': {
+                'copyright': '© 2024 Farmhill Learning | Licensed under Creative Commons',
+                'sections': []
+            }
+        }
+
+        if not site_file.exists():
+            print(f"Warning: site.yml not found, using defaults", file=sys.stderr)
+            return default_config
+
+        try:
+            with open(site_file, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+
+            if not data:
+                return default_config
+
+            # Merge with defaults to ensure all keys exist
+            config = default_config.copy()
+            config.update(data)
+
+            # Ensure nested structures exist
+            if 'navbar' not in config or not isinstance(config['navbar'], dict):
+                config['navbar'] = default_config['navbar']
+            else:
+                if 'links' not in config['navbar']:
+                    config['navbar']['links'] = default_config['navbar']['links']
+
+            if 'footer' not in config or not isinstance(config['footer'], dict):
+                config['footer'] = default_config['footer']
+            else:
+                if 'copyright' not in config['footer']:
+                    config['footer']['copyright'] = default_config['footer']['copyright']
+                if 'sections' not in config['footer']:
+                    config['footer']['sections'] = default_config['footer']['sections']
+
+            return config
+
+        except yaml.YAMLError as e:
+            print(f"Warning: Error parsing site.yml: {e}, using defaults", file=sys.stderr)
+            return default_config
+        except Exception as e:
+            print(f"Warning: Error loading site.yml: {e}, using defaults", file=sys.stderr)
+            return default_config
+
     def render(self):
         self.render_static()
         self.render_home()
@@ -136,8 +197,8 @@ class Website:
         html_content = render_template(
             'index.html',
             sections=self.sections,
-            site_title="Autism Bharat",
-            site_description="Resources and information about autism in India"
+            site_title=self.site_config.get('title', 'Autism Bharat'),
+            site_description=self.site_config.get('description', 'Resources and information about autism in India')
         )
         output_file.parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
