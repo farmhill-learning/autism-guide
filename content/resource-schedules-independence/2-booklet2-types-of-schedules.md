@@ -9,16 +9,16 @@ During *free time*, support the person in choosing their favorite activities. Gu
 
 Here are examples of these types of schedules.
 
-![Full Day Schedule P1](images/fullday-schedule-daily-routine-1.jpg "Fullday Schedule Page 1")
+![Full Day Schedule P1](/images/fullday-schedule-daily-routine-1.jpg "Fullday Schedule Page 1")
 
 
-![Full Day Schedule P2](images/fullday-schedule-daily-routine-2.jpg "Fullday Schedule Page 2")
+![Full Day Schedule P2](/images/fullday-schedule-daily-routine-2.jpg "Fullday Schedule Page 2")
 
 
-![Partial Schedule](images/partial-schedule-home.jpg "Partial Schedule - home")
+![Partial Schedule](/images/partial-schedule-home.jpg "Partial Schedule - home")
 
 
-![Activity Schedule](images/activity-schedule-playtime.jpg "Activity Schedule - playtime")
+![Activity Schedule](/images/activity-schedule-playtime.jpg "Activity Schedule - playtime")
 
 
 ## Types of Schedules - Visual and Written
@@ -33,9 +33,9 @@ Here are examples of these types of schedules.
 
 Schedules can be chunked for part of a day or a single activity (e.g., steps for brushing or an exercise routine). Some may use digital versions (like Google Keep).
 
-![Visual Schedule Home](images/visual-schedule-home-pecs.jpg "Visual Schedule - home")
+![Visual Schedule Home](/images/visual-schedule-home-pecs.jpg "Visual Schedule - home")
 
-![Written Schedule Home](images/written-schedule-home.jpg "Written Schedule - checklist")
+![Written Schedule Home](/images/written-schedule-home.jpg "Written Schedule - checklist")
 
 ## Making Changes to Schedules
 

@@ -16,13 +16,13 @@ Do not hesitate to take a step back if the person wants to stop the process mid 
 
 The social story focuses on tooth brushing practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
-![](images/social-story-visiting-dentist.jpg){fig-align="centre" width=50% .lightbox .img-border }
+![](/images/social-story-visiting-dentist.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/social-story-visiting-dentist.pdf dname=Visiting-dentist-social-story label="Download Visiting Dentist Social Story" icon=file-earmark-pdf type=success >}}
 
 ### Visiting a dentist check list
 
-![](images/visiting-dentist-checklist.jpg){fig-align="centre" width=50% .lightbox .img-border }
+![](/images/visiting-dentist-checklist.jpg){fig-align="centre" width=50% .lightbox .img-border }
 
 {{< downloadthis downloads/visiting-dentist-checklist.pdf dname=Visiting-dentist-checklist label="Download Visiting Dentist Sample checklist" icon=file-earmark-pdf type=success >}}
 
