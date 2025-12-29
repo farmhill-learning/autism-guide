@@ -21,3 +21,4 @@ sections:
       classname: section-d
       collections:
         - perspectives-parents
+        - perspectives-autistics
