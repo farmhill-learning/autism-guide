@@ -5,7 +5,7 @@ format:
        - "_includes/load-comments.html"
 ---
 
-# About the guide {.unnumbered}
+# About the guide
 
 
 This guide deals with autism and various aspects of living with it in India. Our aim is to make reliable and current information available in one place, in an accessible form. The work on this guide started in 2023 and it is up to date so far.
@@ -20,9 +20,9 @@ We are also glad to have access to the resources and thinking developed over the
 
 We are thankful to [Azim Premji Foundation](https://azimpremjifoundation.org/) for the support at various levels. This guide would not have seen the light of the day without the involvement and unstinting support of highly dedicated people at APF.
 
-While we have the support of wonderful organizations, and the community at farm hill, the key people actively working to put this guide here are - [venu GVGK](https://gvgk.in), Chithra Seshadri and the team comprising Nethra Parthiban, Nandana U and Chandu. Needless to say, all the errors are ours.
+While we have the support of wonderful organizations, and the community at farm hill, the key people actively working to put this guide here are - [venu GVGK](https://gvgk.in), Chithra Seshadri and the team comprising Nethra Parthiban, Nandana U, Ishita and Chandu. Needless to say, all the errors are ours.
 
-Please use the comment box available on each article page to let us know your thoughts. You can also email Venu directly on venu.gvgk@gmail.com.
+You can contact us by email directly on venu.gvgk@gmail.com.
 
 ## Structure of the guide and navigation
 
