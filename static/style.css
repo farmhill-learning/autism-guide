@@ -643,6 +643,10 @@ article li {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .footer-links {
+        gap: 0.25rem;
+    }
 }
 
 /* Resource Sidebar */
