@@ -15,3 +15,9 @@ sections:
       collections:
         - resources-daily-living
         - lesson-plans
+
+    - title: Lived Experiences 
+      description: Stories and experiences shared by individuals with autism and their families
+      classname: section-d
+      collections:
+        - perspectives-4parents-early-intervention
