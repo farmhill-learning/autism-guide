@@ -1,7 +1,7 @@
 ---
 title: "Perspectives of Parents of teenagers in a community learning space"
 description: "Insights from parents of teenagers on the autism spectrum participating in a community learning environment."
-image:
+image: parent-perspectives-teenagers-community.png 
 ---
 
 # Perspectives of Parents of teenagers in a community learning space
