@@ -5,7 +5,7 @@ navbar:
     - label: Home
       href: /
     - label: About
-      href: /about/
+      href: /content/pages/about.md
 
 footer:
   copyright: © 2024 [Farmhill Learning](https://farmhill-learning.org) | Licensed under Creative Commons
@@ -13,7 +13,7 @@ footer:
     - title: About This Guide
       entries:
         - label: About this Project
-          href: /about
+          href: /content/pages/about.md
     - title: Key Topics
       entries:
         - label: Understanding Autism
