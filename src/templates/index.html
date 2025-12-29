@@ -8,19 +8,33 @@
 {% from 'cards.html' import CardWithIcon, CardReadMore, CardWithImage, ResourceItem %}
 
 <!-- Hero Section -->
+{% if hero %}
 <section class="hero-section bg-primary text-white py-5 mb-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8 mx-auto text-center">
-                <h1 class="display-4 fw-bold mb-3">{{ site.title|default('Autism Bharat') }}</h1>
+                {% if hero.title %}
+                <h1 class="display-4 fw-bold mb-3">{{ hero.title }}</h1>
+                {% endif %}
+                {% if hero.subtitle %}
                 <p class="lead mb-4">
-                    Empowering individuals, families, and communities with comprehensive resources and information about autism in India.
+                    {{ hero.subtitle }}
                 </p>
-                <a href="#resources" class="btn btn-light btn-lg" aria-label="Explore resources">Explore Resources</a>
+                {% endif %}
+                {% if hero.actions %}
+                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                    {% for action in hero.actions %}
+                    <a href="{{ action.href|default('#') }}" class="btn btn-light btn-lg" aria-label="{{ action.label|default('') }}">
+                        {{ action.label }}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>
 </section>
+{% endif %}
 
 <!-- Home Sections from home.yml -->
 {% if sections %}

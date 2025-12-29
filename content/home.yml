@@ -16,9 +16,16 @@ sections:
         - resources-daily-living
         - lesson-plans
 
-    - title: Lived Experiences 
+    - title: Lived Experiences
       description: Stories and experiences shared by individuals with autism and their families
       classname: section-d
       collections:
         - perspectives-parents
         - perspectives-autistics
+
+hero:
+  title: Autism Bharat
+  subtitle: Empowering individuals, families, and communities with comprehensive resources and information about autism in India.
+  # actions:
+  #   - label: Explore Resources
+  #     href: /resources/

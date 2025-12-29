@@ -41,7 +41,6 @@ class Website:
 
         self.collections = self.load_collections()
         self._collections_dict = {c.name: c for c in self.collections}
-        self.sections = self.load_sections()
         self.site_config = self.load_site_config()
 
         # Register site config as a Jinja2 global so all templates can access it
@@ -72,19 +71,40 @@ class Website:
                 collections.append(collection)
         return collections
 
-    def load_sections(self):
+    def load_home(self):
+        """Load home page configuration (sections and hero) from home.yml file."""
         home_file = content_root / 'home.yml'
         if not home_file.exists():
-            return []
+            return {'sections': [], 'hero': None}
 
         with open(home_file, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
 
         if not data:
+            return {'sections': [], 'hero': None}
+
+        # Load sections
+        sections = self.load_sections(data)
+
+        # Load hero
+        hero_data = data.get('hero')
+        hero = None
+        if hero_data:
+            hero = {
+                'title': hero_data.get('title', ''),
+                'subtitle': hero_data.get('subtitle', ''),
+                'actions': hero_data.get('actions', [])
+            }
+
+        return {'sections': sections, 'hero': hero}
+
+    def load_sections(self, home_config):
+        """Load sections from home configuration."""
+        if not home_config:
             return []
 
         sections = []
-        for section_data in data.get('sections', []):
+        for section_data in home_config.get('sections', []):
             title = section_data.get('title', '')
             description = section_data.get('description', '')
             classname = section_data.get('classname', '')
@@ -193,10 +213,12 @@ class Website:
             output_static_dir.mkdir(parents=True, exist_ok=True)
 
     def render_home(self):
+        home_data = self.load_home()
         output_file = project_root / '_site' / 'index.html'
         html_content = render_template(
             'index.html',
-            sections=self.sections,
+            sections=home_data['sections'],
+            hero=home_data['hero'],
             site_title=self.site_config.get('title', 'Autism Bharat'),
             site_description=self.site_config.get('description', 'Resources and information about autism in India')
         )
