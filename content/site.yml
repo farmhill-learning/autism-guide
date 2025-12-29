@@ -8,7 +8,7 @@ navbar:
       href: /about/
 
 footer:
-  copyright: © 2024 [Farmhill Learning](https://farmhill-learning.org) | Licensed under Creative Commons
+  copyright: © 2024 [Farmhill Education Trust](https://farmhill.in) | Licensed under Creative Commons
   sections:
     - title: About This Guide
       entries:
@@ -18,15 +18,19 @@ footer:
       entries:
         - label: Understanding Autism
           href: /understanding-autism/
-    - title: Partner Organizations
+        - label: A guide to Happy Haircuts
+          href: /resource-haircut/
+        - label: Eating Interventions
+          href: /resource-eating/
+
+    - title: Supporting Organizations
       entries:
-        - title: Farmhill Learning Community
-          href: /
-        - title: Action for Autism
-          href: /
-        - title: Ummeed
-          href: /
-        - title: Sethu
-          href: /
         - title: Azim Premji Foundation
-          href: /
+          href: https://azimpremjifoundation.org/
+        - title: Action for Autism
+          href: https://www.autism-india.org/
+        - title: Ummeed
+          href: https://www.ummeed.org/
+        - title: Sethu
+          href: https://sethu.in/
+        
