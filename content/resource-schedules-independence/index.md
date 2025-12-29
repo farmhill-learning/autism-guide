@@ -10,7 +10,7 @@ image: schedules-independence.png
 
 **Executive functioning** includes skills such as planning, organizing, and carrying out tasks to completion. Many autistic and ADHD individuals experience unique challenges in these areas, which often means they need support from caregivers or family members during everyday routines.
 
-### Understanding the Cycle of Dependence{.unnumbered}
+### Understanding the Cycle of Dependence
 
 When executive functioning is not well established in an individual, it’s natural for caregivers to step in with lots of help, instructions, and reminders. As a result:
 
@@ -25,7 +25,7 @@ When executive functioning is not well established in an individual, it’s natu
 - Completing homework or learning activities
 - Engaging in relaxing activities like drawing or listening to music
 
-### How This Affects the Whole Family{.unnumbered}
+### How This Affects the Whole Family
 
 Over time, both the child and caregiver can become **overwhelmed**:
 
@@ -33,7 +33,7 @@ Over time, both the child and caregiver can become **overwhelmed**:
 - Children may feel demotivated and lose interest in tasks, sometimes refusing to participate at all.
 - Both may experience emotional outbursts, increased rigidity, and frustration, impacting their connection and the enjoyment of daily life.
 
-### Putting Agency in the Hands of Autistic and ADHD Individuals{.unnumbered}
+### Putting Agency in the Hands of Autistic and ADHD Individuals
 
 Fostering **agency** means supporting individuals with autism and ADHD to make choices and lead parts of their routines. Key steps include:
 
@@ -42,7 +42,7 @@ Fostering **agency** means supporting individuals with autism and ADHD to make c
 - **Encouraging decision-making**: Allowing individuals to choose how and when to complete certain activities or tackle challenges.
 - **Using visual supports and schedules**: Tools like checklists or picture guides can reduce reliance on verbal instructions and boost independence.
 
-### Tips for Families and Caregivers{.unnumbered}
+### Tips for Families and Caregivers
 
 - **Be patient and flexible**—progress toward independence can take time.
 - **Break tasks into small, achievable steps**, celebrating each success.
@@ -50,6 +50,6 @@ Fostering **agency** means supporting individuals with autism and ADHD to make c
 - **Use consistent routines** with clear expectations, but allow for flexibility as skills grow.
 - **Notice and reduce “prompt dependency”**—pause before stepping in, giving the individual a chance to try on their own.
 
-### Building Towards Independence{.unnumbered}
+### Building Towards Independence
 
 The journey toward greater independence is unique for every individual. By sharing responsibility, setting mutual goals, and trusting the capabilities of people with autism or ADHD, families can create a more positive, less stressful experience for everyone.

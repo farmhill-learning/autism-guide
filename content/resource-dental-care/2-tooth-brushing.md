@@ -12,7 +12,7 @@ A variety of issues that are often seen with children on the spectrum are - Unab
 
 *Preparation* - Preparation plays a huge role in developing a favourable attitude to brushing. Having a visual schedule which shows when it is time to brush is one of the key steps. Social stories and general story books about brushing can also help preparation. 
 
-### Tooth brushing social story{.unnumbered}
+### Tooth brushing social story
 
 The social story focuses on tooth brushing practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
@@ -20,7 +20,7 @@ The social story focuses on tooth brushing practices. Read this story repeatedly
 
 {{< downloadthis downloads/social-story-tooth-brushing.pdf dname=social-story-tooth-brushing label="Download Tooth Brushing Social Story" icon=file-earmark-pdf type=success >}}
 
-### Tooth brushing graphic story book{.unnumbered}
+### Tooth brushing graphic story book
 
 Tooth brushing graphic story book focuses on the importance of brushing teeth, and provides a visual structure for tooth brushing. The activities included reinforce the same. 
 
@@ -37,9 +37,9 @@ Tooth brushing graphic story book focuses on the importance of brushing teeth, a
 
 {{< downloadthis downloads/graphic-book-tooth-brushing.pdf dname=tooth-brushing-graphic-book label="Download Tooth Brushing Graphic Book" icon=file-earmark-pdf type=success >}}
 
-### Supporting tooth brushing{.unnumbered}
+### Supporting tooth brushing
 
-#### Visual prompt for toothbrushing{.unnumbered}
+#### Visual prompt for toothbrushing
 
 This is a video demonstrating the use of visual prompts to teach toothbrushing. This child has all the skills needed for brushing. He needs help with following a sequence. A visual prompt is a picture that the child/person refers to during the process. There is absolutely no need to give any kind of instruction. Notice that the facilitator does not say anything in the entire video. The facilitator just points to the picture and the child follows. The facilitator also gives counts where repetitions are needed. This ensures that the brushing is done for at least 2 minutes. 
 
@@ -47,7 +47,7 @@ The child could follow the sequence when the facilitator pointed to the picture.
 
 {{< video https://www.youtube.com/embed/7HOqgFsQ878?si=Fay-u43Oi-rIACz_ >}}
 
-#### Modelling and Physical Prompts{.unnumbered}
+#### Modelling and Physical Prompts
 
 A visual prompt works when a person has the skills to perform the different steps as shown in the prompt. What do we do when the person is not independently able to perform some steps?
 

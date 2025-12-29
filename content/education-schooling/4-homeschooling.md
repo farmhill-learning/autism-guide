@@ -10,7 +10,7 @@ Homeschooling is increasingly considered by families of autistic children who se
 
 * Potential for Isolation: Both the child and the parent can experience isolation if not connected with broader homeschooling or autism support communities.
 
-## What is homeschooling and why might it be the better option?{.unnumbered}
+## What is homeschooling and why might it be the better option?
 
 Homeschooling is not just replicating the structure of traditional school at home. Instead, it is an educational approach that can be highly personalized to a child’s strengths, interests, and needs. For autistic children, this often means adapting the pace, content, and environment to reduce stressors and maximize engagement. It can involve creative, real-world learning, integration of therapies, and flexibility in daily routines, rather than rigid adherence to a standard curriculum. It can be a better option because:
 
@@ -34,7 +34,7 @@ However, there are some prerequisites to be fulfilled for effective homeschoolin
 
 * Structured, Supportive Environment: The home should offer a calm, organized space with routines that help the child feel secure and ready to learn.
 
-## Getting Help from Outside{.unnumbered}
+## Getting Help from Outside
 
 For families considering or undertaking homeschooling, connecting with supportive communities and specialized programs can make a world of difference. There are spaces from where a family with an autistic child can seek help wherein they can receive professional support from experts - therapists, educators who can provide interventions and specialized instruction or therapy sessions; build a network with fellow families and form a community and share resources. Here are two examples of organizations we run, that offer structured, community-based support for neurodivergent children and their families:
 
@@ -53,7 +53,7 @@ At [**Farmhill learning community**](https://farmhill-learning.org/about/ ), we 
 
 * Rooted in Experience: Our founders, Venu and Chitra, started this journey after their own experiences navigating autism and education. Their vision guides us to create spaces where children are not forced to fit a mold but are empowered to grow authentically.
 
-## Support for Homeschooling famlies at Subodha and Farmhill{.unnumbered}
+## Support for Homeschooling famlies at Subodha and Farmhill
 - We provide professional guidance through our team of therapists and educators who help parents craft and adapt individualized learning plans.
 
 - We foster a community connection, so families don’t feel isolated but instead share experiences, resources, and encouragement.

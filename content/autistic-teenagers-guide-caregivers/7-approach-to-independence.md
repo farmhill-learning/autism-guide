@@ -1,17 +1,17 @@
 
 ## Approach to Independence: Redefining Autonomy
 
-#### Beyond the Myth of "Doing It All Alone"{.unnumbered}
+#### Beyond the Myth of "Doing It All Alone"
 
 Society often defines independence as complete self-sufficiency - "doing it all alone." This narrow view creates exclusion for autistic individuals who may always need certain support, whether emotional, sensory, or social. Rather than viewing autistic teenagers as either "dependent" or "independent," it's more accurate to picture independence as a spectrum of support. One teen might handle academics easily but need regular emotional support. Another might thrive in self-care yet struggle with abstract thinking. Some may succeed in supported employment while building fulfilling lives through various paths. A neurodiversity-affirming approach recognizes that true independence is not about eliminating support but about maintaining dignity, decision-making power, and control over one's life while accessing necessary assistance. 
 
-#### The Autistic Perspective: Independence as "The Ability to Take Help"{.unnumbered}
+#### The Autistic Perspective: Independence as "The Ability to Take Help"
 
 Autistic adults have offered a powerful reframing of independence: it's not about eliminating support but about being able to ask for and accept help without losing dignity or control. In practical terms, this might mean an autistic teen calling on a trusted adult during a meltdown, seeking support during confusing social situations, or using tools like sensory aids or communication devices to self-regulate.
 
 These actions demonstrate resilience and self-awareness rather than dependence. They show that a young person understands their needs and can identify when they require assistance. Far from diminishing independence, this capacity to negotiate support represents a deeper form of agency.
 
-#### Agency Exists Before Absolute Autonomy{.unnumbered}
+#### Agency Exists Before Absolute Autonomy
 
 A common misconception is that autistic individuals must achieve complete autonomy before their agency can be recognized. This denies teenagers the right to have their choices respected while they're still developing. Yet teenagers demonstrate agency in many everyday ways: refusing disliked foods, choosing between activities, asking for help during distress, or expressing discomfort. Each of these represents an act of agency. When adults dismiss these expressions as stubbornness or immaturity, teens receive the damaging message that their voice only matters once they become "fully independent" in neurotypical terms.
 

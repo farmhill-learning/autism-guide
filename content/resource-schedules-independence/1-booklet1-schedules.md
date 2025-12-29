@@ -1,10 +1,10 @@
 ## Schedules: A Path to Independence
 
-### Understanding Schedules{.unnumbered}
+### Understanding Schedules
 
 A **schedule** is a structured list of events or activities, laid out in a way that fits the person using it. Schedules can be visual, written, or digital, and are especially supportive for autistic and neurodivergent individuals. A schedule is not something imposed—it's a shared tool that respects agency, adapts to preferences, and grows with the individual.
 
-### Why Use a Schedule?{.unnumbered}
+### Why Use a Schedule?
 
 Schedules are more than just plans; they're companions for the day. They:
 
@@ -16,13 +16,13 @@ A truly helpful schedule is *personal* and *meaningful.* It isn’t just followe
 
 ## How Schedules Foster Agency
 
-### Getting Started{.unnumbered}
+### Getting Started
 
 - At first, a caregiver may plan the schedule.
 - The goal is collaboration: plan *with* the person using the schedule, not only *for* them.
 - Refer to examples like the 'Managing children at home' guide for varied age groups.
 
-### Helping with Choices{.unnumbered}
+### Helping with Choices
 
 - Agency starts with choosing.
 - Offer visuals of activities (e.g., two pictures), let the person pick what to add.
@@ -41,7 +41,7 @@ Here is another video that shows how to offer choices using yes and no questions
 
 {{< video https://youtu.be/5PKFIeGlAu0?si=Hv8bDayJxub7H3yh >}}
 
-### Growing Independence as a Skill{.unnumbered}
+### Growing Independence as a Skill
 
 Independence is learned over time. It's not an abstract value—it's a skill you develop, with support.
 
@@ -82,7 +82,7 @@ Independence is learned over time. It's not an abstract value—it's a skill you
 - A schedule says *what* to do, not *how* to do it.
 - Skills for each activity need to be taught and practiced separately.
 
-### Practical Uses of Schedules{.unnumbered}
+### Practical Uses of Schedules
 
 Schedules can support:
 
@@ -94,7 +94,7 @@ Schedules can support:
 - Handling anxiety about new or non-preferred tasks.
 - Completing every step in multi-step routines (like morning or night routines).
 
-### Functional Benefits{.unnumbered}
+### Functional Benefits
 
 - **Gives visibility:** See what comes next in the day.
 - **Supports transitions:** Clear beginnings and endings make change easier.

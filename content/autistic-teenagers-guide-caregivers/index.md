@@ -14,7 +14,7 @@ Many parents report a confusing shift when their autistic child reaches around 1
 
 This is not the child's fault, nor is it the parents' fault. It happens because the emotional, physical, and social needs of growing up were not fully supported before this challenging time began. Research shows that approximately 30% of autistic individuals experience marked decline in adaptive functioning during adolescence.
 
-### The Lived Experience of Behavioral Changes{.unnumbered}
+### The Lived Experience of Behavioral Changes
 
 **Case Study 1: From Compliance to Crisis at school**
 
@@ -24,7 +24,7 @@ A 13-year-old who had previously managed school with shadow teacher support, sit
 
 Therapists working with autistic teens report significant difficulties in maintaining routine activities. Children who once moved willingly between spaces now resist transitions from classroom to outdoor areas due to lethargy and lack of physical engagement. Constant requests for food ("lunch, lunch, lunch") become overwhelming, and ignoring these requests often triggers aggressive responses. These behaviors reflect the intersection of hormonal changes, unmet sensory needs, and the absence of comprehensive developmental planning.
 
-### Shift from Academic Focus to Emotional Survival{.unnumbered}
+### Shift from Academic Focus to Emotional Survival
 
 Educational achievement often takes a back seat to emotional and developmental challenges. The convergence of factors contributing to emotional dysregulation, make it harder for autistic teens to remain engaged in traditional learning. When emotional needs go unaddressed from the pre-puberty stages, particularly the ability to identify, express, and manage feelings, teens may experience frequent meltdowns, increased anxiety, or emotional withdrawal because of the growing complexity of their internal experience.
 

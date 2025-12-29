@@ -12,7 +12,7 @@ Do not hesitate to take a step back if the person wants to stop the process mid 
 
 *Preparation* - Preparation helps in building cooperation and managing anxiety around a new place and people. Dentist visit can be marked on a calendar. Social story can help in preparation. A check list can help by keeping things predictable. 
 
-### Visiting a dentist social story{.unnumbered}
+### Visiting a dentist social story
 
 The social story focuses on tooth brushing practices. Read this story repeatedly to reinforce learning. Remember social stories are most effective when used just before situations they address. Also, ensure the social story in in accordance with the real life situation - if not, you can change the relevant portions and use it. 
 
@@ -20,7 +20,7 @@ The social story focuses on tooth brushing practices. Read this story repeatedly
 
 {{< downloadthis downloads/social-story-visiting-dentist.pdf dname=Visiting-dentist-social-story label="Download Visiting Dentist Social Story" icon=file-earmark-pdf type=success >}}
 
-### Visiting a dentist check list{.unnumbered}
+### Visiting a dentist check list
 
 ![](images/visiting-dentist-checklist.jpg){fig-align="centre" width=50% .lightbox .img-border }
 

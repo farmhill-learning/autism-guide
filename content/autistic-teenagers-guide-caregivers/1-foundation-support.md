@@ -28,7 +28,7 @@ Essential Components of Meaningful Education include:
 - Flexible approaches that honor neurodivergent ways of learning
 - Focus on skills that contribute to future independence and confidence
 
-### Supporting Educational Engagement{.unnumbered}
+### Supporting Educational Engagement
 
 To maintain motivation and relevance, education must balance traditional academics with practical, real-world competencies. Learning to budget money, prepare meals, maintain personal hygiene, or navigate public transportation often holds more long-term value than test scores. These skills contribute directly to future independence and self-confidence.
 
