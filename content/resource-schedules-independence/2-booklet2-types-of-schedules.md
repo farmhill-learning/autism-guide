@@ -15,18 +15,13 @@ Here are examples of these types of schedules.
 ![Full Day Schedule P2](/images/fullday-schedule-daily-routine-2.jpg "Fullday Schedule Page 2")
 
 
-![Partial Schedule](/images/partial-schedule-home.jpg "Partial Schedule - home")
+![Partial Schedule](/images/partial-schedule-home.png "Partial Schedule - home")
 
 
-![Activity Schedule](/images/activity-schedule-playtime.jpg "Activity Schedule - playtime")
+![Activity Schedule](/images/activity-schedule-playtime.png "Activity Schedule - playtime")
 
 
 ## Types of Schedules - Visual and Written
-
-| Type             | How it Looks                            | Who It's For                 |
-| ---------------- | --------------------------------------- | ---------------------------- |
-| Visual schedule  | Pictures (plus words), Velcro board     | All ages—non-readers or visual thinkers |
-| Written schedule | List of words with checkboxes/notebook  | Readers and writers          |
 
 - **Visual schedules**: Attach 3-4 activities at a time, add more as needed. Some might need to see the whole day at once.
 - **Written schedules**: Use simple language, check off as you go.
@@ -35,7 +30,7 @@ Schedules can be chunked for part of a day or a single activity (e.g., steps for
 
 ![Visual Schedule Home](/images/visual-schedule-home-pecs.jpg "Visual Schedule - home")
 
-![Written Schedule Home](/images/written-schedule-home.jpg "Written Schedule - checklist")
+![Written Schedule Home](/images/written-schedule-home.png "Written Schedule - checklist")
 
 ## Making Changes to Schedules
 

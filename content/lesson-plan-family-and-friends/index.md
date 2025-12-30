@@ -15,19 +15,28 @@ This set of lesson plans may be appropriate for children 6 years and above.
 The following learning outcomes are addressed:
 
 Booklet 1: 
+
 - To identify family members, understand their roles and what we call them
 - Discriminate between family and non family members.
+
 Booklet 2: Revisit strangers and known people
+
 Booklet 3: 
+
 - To understand the word ‘friendship’ and identify ‘friends' from 'known people’
 - Discriminate between friends and family, understand why some are friends
 - Discriminate between friends and ‘known people’ and strangers
+
 Booklet 4: To identify all the things we do with friends
+
 Booklet 5: How to follow boundaries with friends and why
+
 Booklet 6: How to manage ourselves when we do not like some people
+
 Booklet 7: How to manage ourselves when we like some people, extend to how to be friends with anyone.
 
 Each booklet has the following:
+
 - Stated objectives
 - Things to collect and keep ready
 - List activities to be conducted and how they should be done

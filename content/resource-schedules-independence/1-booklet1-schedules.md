@@ -30,7 +30,7 @@ A truly helpful schedule is *personal* and *meaningful.* It isn’t just followe
 - Use *yes/no* questions and let the person’s voice lead the process.
 - Some children tend to choose the same activity repeatedly. This is okay initially, as it builds comfort with the choice-making process. Gradually introduce new options alongside familiar ones to expand their preferences over time. The related schedule can look like this. 
 
-![Choice Schedule](/images/repititive-choice-schedule.jpg "Choice Schedule")
+![Choice Schedule](/images/repetitive-choice-schedule.jpg "Choice Schedule")
 
 
 Here is a video that demonstrates how to help a child choose between two activities. 
