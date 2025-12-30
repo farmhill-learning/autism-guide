@@ -95,10 +95,13 @@ Note the responses on the board as you ask questions about the entire scenario.
 **Conclude**
 
 Travel to hospital (needs petrol → needs money)
+
 Doctor visit (consultation fee → needs money)
+
 Buy medicines at pharmacy (needs money)
 
 So, we pay money 
+
 - to buy things
 - to some people when they help us. 
 
@@ -228,6 +231,7 @@ You can download the lesson plan below.
 
 **Objective**
 To help children understand:
+
 - Money is needed to buy goods (ingredients).
 - Money is also used to pay people for their work (the cook).
 - Even for one dish, payments happen at many steps/places.
@@ -241,6 +245,7 @@ Quick talk: “What do we do with money?” (buy things, pay people)
 **List Ingredients (3–4 min)**
 Ask: “What ingredients do we need for chicken biryani?”
 Teacher writes on board:
+
 Chicken 🍗
 Vegetables 🥕🥔
 Spices 🌶️
@@ -251,8 +256,11 @@ Saffron 🌸
 **Where to Buy? (3–4 min)**
 
 Beside each ingredient, the class identifies where it is bought:
+
 Chicken → 🏪 Meat shop
+
 Vegetables → 🥬 Vegetable market
+
 Spices, Rice, Oil, Saffron → 🛒 Supermarket / Grocery
 
 *Reinforce: “Do we get it without paying?” → No. We must pay money.*
@@ -268,8 +276,11 @@ Teacher: “Cooking is the cook’s work. The cook also gets paid money for work
 **Vertical Flow Chart (make on board / worksheet)**
 
 Vegetables  →  Vegetable Shop  → Pay Money
+
 Spices/Rice/Oil  →  Supermarket → Pay Money
+
 Meat (Chicken)   →  Meat Shop   → Pay Money
+
 Cook makes Biryani → Cook works for us → Pay Money
 
 **Class Discussion (5 minutes)**
@@ -282,16 +293,20 @@ Ask Questions:
 - Can we eat biryani without ingredients? (No → need money to get them)
 
 Concluding Message:
+
  ✨ We pay money to buy things.
+
  ✨ We also pay money to people when they work.
+
  ✨ Even for one dish, many payments happen in different places.
 
 ✅ Activity Outcomes for Children
 
 By the end of this session, children will:
-Identify common goods we pay for (vegetables, chicken, rice, spices).
-Understand people’s work (cook, shopkeepers) also requires money.
-See that food on our table involves money many times over.
+
+- Identify common goods we pay for (vegetables, chicken, rice, spices).
+- Understand people’s work (cook, shopkeepers) also requires money.
+- See that food on our table involves money many times over.
 
 ⚡ Teacher Tip:
 You can turn this into a role-play version too: one child is the parent, others are shopkeepers (vegetable seller, meat seller, supermarket cashier), and one is the cook. Use pretend play (tokens/coins, picture cards of chicken/veggies) to make it real.
@@ -304,12 +319,13 @@ If you choose to do the two activities on different days, the consolidation ques
 
 If the lesson plan is being done in three days, then it is important to do introductory activities of what, who, where and then do the activities each day. 
 
-What do we need money for? We need money to buy things and pay people when they help us 
-How can we get money? We get money by working.
-Who has the money? Most adults have money because they work.
-When do we use money or pay money? to buy things and pay people when people work for us 
+- What do we need money for? We need money to buy things and pay people when they help us 
+- How can we get money? We get money by working.
+- Who has the money? Most adults have money because they work.
+- When do we use money or pay money? to buy things and pay people when people work for us 
 
 ### Worksheets
+
 Use the following worksheets to reinforce the concepts covered in this activity. 
 
 {{< downloadthis downloads/money-b1-a3-ws-chicken-biryani.pdf dname=cooking-biryani-ws label="Download Cooking Biryani Worksheet" icon=file-earmark-pdf type=success >}}
