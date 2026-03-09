@@ -41,6 +41,7 @@ Special needs or private beneficiary trusts are increasingly used by families to
 Awareness is lagging behind need. Most autism research and services focus on children and young adults, leaving older autistic adults relatively invisible in policy and practice. Recent studies emphasise that older autistic adults want continuity of identity—“our existence as whole individuals does not evaporate at 50”—and call for age-specific research on healthcare access, dementia risk, bereavement, retirement, and long-term living options.
 
 In India, future directions include:
+
 * Mapping the actual numbers and needs of autistic adults over 40 and 50.
 
 * Evaluating how guardianship and limited guardianship work in real families, and how to strengthen supported decision-making in practice.
@@ -50,4 +51,4 @@ In India, future directions include:
 * Training healthcare, legal, and social-care professionals to recognise autism in older adults, particularly those never diagnosed in childhood.
 
 
-Talking about aging and later life in the adulthood section affirms that autistic lives are lifelong, evolving journeys—not stories that stop at age 21 or 25. Bringing parents’ worries, older adults’ voices, and legal-planning questions into the open allows families and communities to plan with care rather than fear, and to advocate for systems that honour autistic people across the entire lifespan.
+Talking about aging and later life in the adulthood section affirms that autistic lives are lifelong, evolving journeys - not stories that stop at age 21 or 25. Bringing parents’ worries, older adults’ voices, and legal-planning questions into the open allows families and communities to plan with care rather than fear, and to advocate for systems that honour autistic people across the entire lifespan.
