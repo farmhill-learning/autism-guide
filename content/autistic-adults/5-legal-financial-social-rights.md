@@ -42,14 +42,9 @@ India’s legislative frameworks provide important protections but require pract
 
 A valid disability certificate (40% and above) under RPWD is the gateway to most benefits (travel concessions, tax relief, schemes, reservations, etc.).  Today this is linked to the **UDID card (Unique Disability ID)**.
 
-1. Collect key documents:
+1. Collect key documents:Diagnosis reports from government or recognised specialists (developmental paediatrician, psychiatrist, neurologist, clinical psychologist), Aadhaar, address proof, photos.
 
-- Diagnosis reports from government or recognised specialists (developmental paediatrician, psychiatrist, neurologist, clinical psychologist).
-- Aadhaar, address proof, photos.
-
-2. Register on the UDID / Swavlamban portal:
-
-- Go to swavlambancard.gov.in and create a login; then choose “Apply online for Disability Certificate/UDID”.
+2. Register on the UDID / Swavlamban portal: Go to swavlambancard.gov.in and create a login; then choose “Apply online for Disability Certificate/UDID”.
 
 3. Fill in details, upload reports, select the nearest medical authority and submit.
 
@@ -84,15 +79,15 @@ For some adults, especially with high support needs, there are situations where 
 
 1. Decide what is actually needed:
 
-- Many autistic adults only need supported decision‑making, not full guardianship—family can help think through options while the adult still signs/decides.
-- If the person really cannot manage legal/financial acts even with support, limited guardianship for specific areas (property, major healthcare) may be appropriate.
+    - Many autistic adults only need supported decision‑making, not full guardianship, family can help think through options while the adult still signs/decides.
+    - If the person really cannot manage legal/financial acts even with support, limited guardianship for specific areas (property, major healthcare) may be appropriate.
 
 2. For National Trust Guardianship:
 
-- Identify the Local Level Committee (LLC) for your district (often via the District Collector’s office or National Trust website).
-- Fill Form A (application) with details of the person and proposed guardian, and nature of guardianship (person / property / both).
-- Attach disability certificate, ID proofs, photos, and any medical reports; submit to the LLC.
-- Attend the hearing; if approved, you receive an order (Form B) appointing guardian, subject to periodic monitoring.
+    - Identify the Local Level Committee (LLC) for your district (often via the District Collector’s office or National Trust website).
+    - Fill Form A (application) with details of the person and proposed guardian, and nature of guardianship (person / property / both).
+    - Attach disability certificate, ID proofs, photos, and any medical reports; submit to the LLC.
+    - Attend the hearing; if approved, you receive an order (Form B) appointing guardian, subject to periodic monitoring.
 
 Try, wherever possible, to keep the autistic adult involved in decisions and to document their preferences clearly.
 
@@ -118,8 +113,8 @@ Legal and financial planning can reduce anxiety for both families and autistic a
 
 1. Consult a lawyer/financial planner familiar with disability law to explore:
 
-- Special needs trusts or private family trusts naming the autistic adult as beneficiary.
-- How guardianship (if any) and the trust will work together.
+    - Special needs trusts or private family trusts naming the autistic adult as beneficiary.
+    - How guardianship (if any) and the trust will work together.
 
 2. Keep nominations, wills, and trust deeds updated to clearly protect the adult’s share and access to resources.
 
@@ -135,8 +130,8 @@ Rights are easier to use when you are not alone.
 
 * If an agency refuses to follow RPWD protections, consider:
 
-- Writing to the state Commissioner for Persons with Disabilities, or
-- Using appellate mechanisms described in RPWD handbooks, sometimes with the help of legal‑aid services.
+    - Writing to the state Commissioner for Persons with Disabilities, or
+    - Using appellate mechanisms described in RPWD handbooks, sometimes with the help of legal‑aid services.
 
 ### Step 7: Keep the focus on autonomy and dignity
 
