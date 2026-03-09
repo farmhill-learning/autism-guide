@@ -14,13 +14,13 @@ Autism intersects with multiple aspects of identity such as gender, sexual orien
 
 Autistic adults frequently experience co-occurring conditions that influence daily functioning and quality of life, including:
     
-    ADHD (Attention Deficit Hyperactivity Disorder): Co-occurs in a significant subset, adding challenges in attention regulation, impulsivity, and executive functioning that complicate autism’s social and sensory traits.
+* ADHD (Attention Deficit Hyperactivity Disorder): Co-occurs in a significant subset, adding challenges in attention regulation, impulsivity, and executive functioning that complicate autism’s social and sensory traits.
 
-    Epilepsy: More prevalent in autistic adults than in the general population, epilepsy demands medical management and can affect cognition, mood, and independence.
+* Epilepsy: More prevalent in autistic adults than in the general population, epilepsy demands medical management and can affect cognition, mood, and independence.
 
-    Anxiety and Depression: Highly common co-occurring mental health conditions, often stemming from neurodivergent experiences, social exclusion, and stress related to inadequate supports.
+* Anxiety and Depression: Highly common co-occurring mental health conditions, often stemming from neurodivergent experiences, social exclusion, and stress related to inadequate supports.
 
-    Intellectual Disability: Present in some autistic adults, influencing learning, communication, and the type and level of supports needed. However, many autistic adults have average or above-average intelligence and distinct profiles of strengths and challenges.
+* Intellectual Disability: Present in some autistic adults, influencing learning, communication, and the type and level of supports needed. However, many autistic adults have average or above-average intelligence and distinct profiles of strengths and challenges.
 
 Recognizing and treating these co-occurring conditions in an integrated, holistic way is critical to providing effective supports. Often, services remain fragmented, which can result in unmet needs or inappropriate approaches.
 
