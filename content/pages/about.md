@@ -5,7 +5,7 @@ description: About Autism Bharat Project
 
 # About this project
 
-This guide deals with autism and various aspects of living with it in India. Our aim is to make reliable and current information available in one place, in an accessible form. The work on this guide started in 2023 and it is up to date so far.
+This guide deals with autism and various aspects of living with it in India. Our aim is to make reliable and current information available in one place, in an accessible form. The work on this guide started in 2023 and it is up to date as of 2026.
 
 ## People and Organizations
 
