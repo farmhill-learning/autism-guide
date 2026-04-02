@@ -20,6 +20,11 @@ sections:
         - perspectives-parents
         - perspectives-autistics
 
+    - title: Trainings and Workshps
+      description: Materials and resources for workshops and trainings for parents, educators, and professionals
+      collections:
+        - facilitator-training-introductory
+
 hero:
   title: Autism Bharat
   subtitle: Empowering individuals, families, and communities with comprehensive resources and information about autism in India.
