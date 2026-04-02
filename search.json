@@ -624,7 +624,7 @@
       "description": "A self-assessment at the end of the module",
       "resource": "Self-assessment",
       "resource_key": "facilitator-training-5-assessment",
-      "content": "Please download the self-assessment below, print it and complete it.",
+      "content": "Please download the self-assessment below, print it and complete it. {{}}",
       "headings": [],
       "type": "page"
     },
