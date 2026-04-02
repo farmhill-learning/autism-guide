@@ -232,8 +232,14 @@ class Website:
     def render(self):
         self.render_static()
         self.render_home()
+        rendered_resources = set()
+        for collection in self.collections:
+            for resource in collection.resources:
+                resource.render(collection=collection)
+                rendered_resources.add(resource.name)
         for resource in self.resources:
-            resource.render(self.resources)
+            if resource.name not in rendered_resources:
+                resource.render()
         for collection in self.collections:
             collection.render()
         for simple_page in self.simple_pages:
@@ -340,10 +346,10 @@ class Resource:
             description = pages[0].metadata.get("description") or ""
         return Resource(name=name, title=title, description=description, pages=pages)
 
-    def render(self, all_resources):
+    def render(self, collection=None):
         self.copy_images()
         for page in self.pages:
-            self.render_page(page)
+            self.render_page(page, collection=collection)
 
     def copy_images(self):
         """Copy all .jpg and .png files from resource directory to output directory."""
@@ -359,11 +365,12 @@ class Resource:
                     shutil.copy2(image_file, output_file)
                     print(f'  {output_file.relative_to(project_root)}')
 
-    def render_page(self, page: ResourcePage):
+    def render_page(self, page: ResourcePage, collection=None):
         rendered_html = render_template(
             'resource-page.html',
             page=page,
-            resource=self
+            resource=self,
+            collection=collection
         )
 
         output_base_dir = project_root / '_site'
