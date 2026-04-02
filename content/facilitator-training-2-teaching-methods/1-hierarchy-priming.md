@@ -8,16 +8,19 @@ Observation and Baseline: Start by observing how the child performs naturally—
 Categorize Activities: Group activities into easy, moderate, and difficult based on the learner’s current competence and comfort level.
 
 Session Composition (Flexible Guideline):
+
 * 20% difficult (challenge zone)
 * 20–30% easy (confidence-building and warm-up zone)
 * Remaining moderate (learning and practice zone)
 These percentages serve as a design guide, not strict quotas.
 
 Personalizing Based on Disposition:
+
 * Learners who enjoy challenges may need a higher proportion of difficult tasks to stay engaged.
 * Learners who experience anxiety may need more reassurance and control—regular “rain checks” about feelings, readiness, and willingness to accept support.
 
 Continuity and Choice:
+
 * Maintain continuity of tasks to help the learner experience progress, but if there is consistent resistance, pause and revisit the task in discussion. Avoid forcing participation; acknowledge that motivation and energy vary daily.
 
 ## Priming

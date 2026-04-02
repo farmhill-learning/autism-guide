@@ -50,24 +50,24 @@ Task analysis is a way to break down a single task into clear, teachable steps a
 * Choose a task to teach - Select one meaningful, functional task (for example, brushing teeth, dressing, tying shoelaces, or setting up for painting).
 
 * Make a list of steps needed to complete the task
-  - Watch someone (the child or another person) do the task in their natural way and note down each step, or take a video and write from that.
-  - Different people do the same task in different orders; suddenly changing the order can throw the learner off, so begin from how they naturally do it.
+    - Watch someone (the child or another person) do the task in their natural way and note down each step, or take a video and write from that.
+    - Different people do the same task in different orders; suddenly changing the order can throw the learner off, so begin from how they naturally do it.
 * Break the task into subtasks or chunks if needed
-  - Group related steps together into small chunks (for example, “getting brushing things,” “the actual brushing,” “rinsing and packing up”).
-  - Look at the whole routine, not just the central action. For brushing, that includes: collecting materials, preparing the brush, brushing, rinsing, and putting things back, not only the brush-in-mouth part.
+    - Group related steps together into small chunks (for example, “getting brushing things,” “the actual brushing,” “rinsing and packing up”).
+    - Look at the whole routine, not just the central action. For brushing, that includes: collecting materials, preparing the brush, brushing, rinsing, and putting things back, not only the brush-in-mouth part.
 * Identify the underlying skills required
-  - List the motor and understanding skills needed to complete the task (for example, squeezing toothpaste, opening and closing the tube, turning a tap, gargling, spitting).
-  - If there are serious limitations in these underlying skills, do not try to teach all of them at the same time within this task. Teach those motor or cognitive skills separately in other sessions so that the main activity does not become overwhelmingly laborious.
+    - List the motor and understanding skills needed to complete the task (for example, squeezing toothpaste, opening and closing the tube, turning a tap, gargling, spitting).
+    - If there are serious limitations in these underlying skills, do not try to teach all of them at the same time within this task. Teach those motor or cognitive skills separately in other sessions so that the main activity does not become overwhelmingly laborious.
 * Ensure steps are clear, observable, and measurable
-  - Write each step so that you can see whether it is done or not, and easily track data.
-  - As you work through the steps with the learner, note exactly where they need help and where they are already independent.
+    - Write each step so that you can see whether it is done or not, and easily track data.
+    - As you work through the steps with the learner, note exactly where they need help and where they are already independent.
 * Plan how you will teach the task (chaining options) - There are three main ways to support the learner through the whole chain of steps.
-  - Total task chaining - Use when the learner can already complete a good number of steps spread across the whole sequence (for example, 10–12 out of 20 steps, distributed from beginning to end). You stay available throughout the task, step in where help is needed, and consciously step back where the learner can manage independently.
-  - Forward chaining - Use when the learner can manage a few steps at the beginning but struggles with the rest. The learner starts by doing the first step or first few steps independently, and you assist with the following steps. Over time, you add more independent steps at the beginning.
-  - Backward chaining - Use when the learner is more successful at the end of the routine than at the beginning (for example, they can pack up nicely but not manage earlier parts). You assist from the first step through to near the end, and the learner completes the last few steps independently. Gradually, you fade your support earlier in the chain.
+    - Total task chaining - Use when the learner can already complete a good number of steps spread across the whole sequence (for example, 10–12 out of 20 steps, distributed from beginning to end). You stay available throughout the task, step in where help is needed, and consciously step back where the learner can manage independently.
+    - Forward chaining - Use when the learner can manage a few steps at the beginning but struggles with the rest. The learner starts by doing the first step or first few steps independently, and you assist with the following steps. Over time, you add more independent steps at the beginning.
+    - Backward chaining - Use when the learner is more successful at the end of the routine than at the beginning (for example, they can pack up nicely but not manage earlier parts). You assist from the first step through to near the end, and the learner completes the last few steps independently. Gradually, you fade your support earlier in the chain.
 * Implement, collect data, and revise as needed
-  - Implement your plan, observe carefully, and record which steps need prompts and which are independent.
-  - Revise the steps, the grouping, or the chaining strategy based on how the learner is responding.
+    - Implement your plan, observe carefully, and record which steps need prompts and which are independent.
+    - Revise the steps, the grouping, or the chaining strategy based on how the learner is responding.
 
 ### Using Supports and Visuals
 
@@ -79,8 +79,7 @@ Task analysis is a way to break down a single task into clear, teachable steps a
 
 ## “Cannot Do” vs “Does Not Want to Do”
 
-Sometimes a learner either cannot do a task yet, or can do it but does not currently want to do it. 
-Instead of framing it as “will not do,” consider it as the learner’s decision not to do it right now and get curious about why.
+Sometimes a learner either cannot do a task yet, or can do it but does not currently want to do it. Instead of framing it as “will not do,” consider it as the learner’s decision not to do it right now and get curious about why.
 
 Ask: Is the learner bored? Is the activity too hard, too easy, too repetitive, or presented in an uninteresting way? Can it be done differently?
 
