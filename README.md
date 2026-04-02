@@ -32,7 +32,7 @@ All content lives under the `content/` directory.
 
 ### Resource
 
-The primary content unit. A directory with `index.md` and optional numbered sub-pages.
+The primary content unit. A directory with `index.md` and optional numbered sub-pages or sections.
 
     content/overview-of-autism/
       index.md
