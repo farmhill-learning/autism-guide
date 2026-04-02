@@ -7,6 +7,9 @@ description: >
 resources:
     - facilitator-training-1-orientation
     - facilitator-training-2-teaching-methods
+    - facilitator-training-3-plan-conduct-session
+    - facilitator-training-4-choose-goals
+    - facilitator-training-5-assessment
 ---
 
 This collection of resources offers an introductory training course for facilitators working with neurodiverse individuals. The various resources are meant for self-study and are supported by worksheets and videos as appropriate. 
