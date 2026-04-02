@@ -425,6 +425,21 @@ class Collection:
     def description(self):
         return self.metadata.get("description") or ""
 
+    def get_resource_count(self):
+        return len(self.resources)
+
+    def get_resource_index(self, resource_name):
+        for i, r in enumerate(self.resources):
+            if r.name == resource_name:
+                return i + 1
+        return None
+
+    def get_next_resource(self, resource_name):
+        for i, r in enumerate(self.resources):
+            if r.name == resource_name and i + 1 < len(self.resources):
+                return self.resources[i + 1]
+        return None
+
     @property
     def image_url(self):
         if self.resources:

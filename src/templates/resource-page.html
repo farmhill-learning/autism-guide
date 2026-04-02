@@ -68,6 +68,27 @@
                                 <div class="title">Next: {{ next_page.title }}</div>
                             </div>
                         </a>
+                    {% elif collection %}
+                        <div class="resource-complete-card">
+                            <div class="resource-complete-header">
+                                <div class="resource-complete-check">✓</div>
+                                <div>
+                                    <div class="resource-complete-title">You've completed <strong>{{ resource.title }}</strong></div>
+                                    <div class="resource-complete-progress">Resource {{ collection.get_resource_index(resource.name) }} of {{ collection.get_resource_count() }} in {{ collection.title }}</div>
+                                </div>
+                            </div>
+                            {% set next_resource = collection.get_next_resource(resource.name) %}
+                            {% if next_resource %}
+                                <a href="/{{ next_resource.name }}/" class="nav-next" aria-label="Next Resource">
+                                    <div class="next-content">
+                                        <div class="label">Continue to next resource</div>
+                                        <div class="title">{{ next_resource.title }}</div>
+                                    </div>
+                                    <span class="chevron-right"></span>
+                                </a>
+                            {% endif %}
+                            <a href="/{{ collection.name }}/" class="resource-complete-browse">View all resources in {{ collection.title }}</a>
+                        </div>
                     {% endif %}
                     <div class="nav-top-row">
                         {% set prev_page = resource.get_previous_page(page) %}
@@ -107,6 +128,28 @@
                         {% endif %}
                     </div>
                 </nav>
+                {% if not next_page and collection %}
+                <div class="resource-complete-card mt-4">
+                    <div class="resource-complete-header">
+                        <div class="resource-complete-check">✓</div>
+                        <div>
+                            <div class="resource-complete-title">You've completed <strong>{{ resource.title }}</strong></div>
+                            <div class="resource-complete-progress">Resource {{ collection.get_resource_index(resource.name) }} of {{ collection.get_resource_count() }} in {{ collection.title }}</div>
+                        </div>
+                    </div>
+                    {% set next_resource = collection.get_next_resource(resource.name) %}
+                            {% if next_resource %}
+                        <a href="/{{ next_resource.name }}/" class="nav-next" aria-label="Next Resource">
+                            <div class="next-content">
+                                <div class="label">Continue to next resource</div>
+                                <div class="title">{{ next_resource.title }}</div>
+                            </div>
+                            <span class="chevron-right"></span>
+                        </a>
+                    {% endif %}
+                    <a href="/{{ collection.name }}/" class="resource-complete-browse">View all resources in {{ collection.title }}</a>
+                </div>
+                {% endif %}
             </div>
         </div>
 
