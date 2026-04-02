@@ -904,6 +904,66 @@ article li {
     color: white;
 }
 
+/* Resource completion card */
+.resource-complete-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.resource-complete-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.resource-complete-check {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #34A853;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.resource-complete-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+
+.resource-complete-title strong {
+    font-weight: 700;
+    color: #111;
+}
+
+.resource-complete-progress {
+    font-size: 14px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.resource-complete-browse {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.resource-complete-browse:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
 /* Hide extended text on mobile */
 .desktop-text {
     display: none;
