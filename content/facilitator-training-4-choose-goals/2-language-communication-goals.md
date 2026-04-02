@@ -230,19 +230,19 @@ Participants will:
 
 Using “dog” as a model:
 
-1. **Start with the child’s context**
+**Start with the child’s context**
 
    Does the child have a dog? Fear dogs? Love them? Only know them from TV?  
    Tailor materials: real dog, photos, videos, toys, drawings.  
 
-2. **Layer language around the dog**
+**Layer language around the dog**
 
    Nouns: dog, tail, teeth, fur, bowl, leash.  
    Verbs: bark, run, sleep, eat, jump, lick.  
    Describing words: big, small, friendly, loud, soft, scary.  
    Feelings: I’m scared, I like, I don’t like.  
 
-3. **Modes of engagement**
+**Modes of engagement**
 
    Listening: facilitator talks about dog, reads a small text, tells a mini-story.  
    Expressive: child says/signs/points/types words or short phrases.  
@@ -250,7 +250,7 @@ Using “dog” as a model:
    Play/pretend: wash the dog, feed the dog, dog goes to sleep, dog runs away.  
    Literacy: matching word to picture, tracing “dog”, reading simple “The dog runs.” as appropriate.  
 
-4. **Closing the loop**
+**Closing the loop**
 
    Make a scrapbook or page: each picture + a word/phrase, reviewed at the end.  
    Aim for the word “dog” and related words to appear in real communication: “Dog go”, “No dog”, “I like dog”, “Dog is big.”  
