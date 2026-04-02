@@ -10,12 +10,6 @@ Autism is a natural variation in how people’s brains work and experience the w
 
 *Throughout this document, we use identity-first language (such as “autistic person” or “autistic child”), in keeping with the preferences of many in the autistic community. However, we recognize and respect that some individuals may prefer person-first language.*
 
-::: callout-tip
-## Video Available
-
-This [video](#understanding-autism---a-video-from-sethu) covers key points in understanding autism.
-:::
-
 ## The onset of Autism
 
 Autism in children usually becomes noticeable around the age of 2 to 3 years, all though with increasing awareness, early identification is becoming more common these days.

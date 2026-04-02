@@ -26,7 +26,7 @@ Because of this, planning for generalisation is essential:
 * If the child can still distinguish big from small with new objects, that suggests the concept has generalised.
 * If they cannot, it may mean they have only learned the labels for those exact teaching objects and not the underlying idea of size.
 
-## Practical steps for therapists
+## Practical steps for facilitators
 
 For each concept you teach, build generalisation into your plan:
 

@@ -33,7 +33,7 @@ Alongside visual supports, auditory supports can also help.
 
 These tools give the learner more control: they can revisit information at their own pace, repeat it as many times as they like, and rely less on having to remember everything from a single verbal explanation.
 
-## Key idea for therapists
+## Key idea for facilitators
 
 Visuals, pictures, modelling, written supports, recordings, and AAC-based stories are not “extras”; they are core learning supports for many autistic children. They help bridge the gap between language and understanding, support independence in daily routines, and honour different sensory and processing styles in the learning environment.
 
