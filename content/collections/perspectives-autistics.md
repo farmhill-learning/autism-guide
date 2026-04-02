@@ -7,6 +7,7 @@ description: >
 resources:
     - perspectives-autistics-artists-ummeed
     - perspectives-autistics-autism-females-emmy-peach
+    - perspectives-autistics-aditi-sowmyanarayan
     
 ---
 
