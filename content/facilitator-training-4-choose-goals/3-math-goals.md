@@ -75,13 +75,13 @@ This way, “one, two, three, four” becomes attached to **how many** objects a
 Facilitators should explicitly recognize three distinct components:
 
 1. **Quantity (How many objects?)**  
-   - Child experiences and compares different set sizes.  
+   Child experiences and compares different set sizes.  
 
 2. **Number word (Sound)**  
-   - Child learns the spoken label “one, two, three…” for each quantity.  
+   Child learns the spoken label “one, two, three…” for each quantity.  
 
 3. **Symbol (Written numeral)**  
-   - Child later learns that “1”, “2”, “3” are written forms of those number words.  
+   Child later learns that “1”, “2”, “3” are written forms of those number words.  
 
 Effective intervention helps the child connect all three: objects ↔ number word ↔ symbol.
 
@@ -106,22 +106,22 @@ Facilitators should think in terms of a scaffolded hierarchy rather than jumping
 ### Suggested hierarchy
 
 1. **Pre-number concepts**  
-   - more/less, big/small, long/short, same/different.  
+    more/less, big/small, long/short, same/different.  
 
 2. **Number sense with objects**  
-   - Quickly seeing “how many” in small sets, comparing which is more or less.  
+    Quickly seeing “how many” in small sets, comparing which is more or less.  
 
 3. **Counting objects with 1–1 correspondence**  
-   - Touching each object once while saying each number word.  
+    Touching each object once while saying each number word.  
 
 4. **Mapping to number words**  
-   - Answering “How many?” with the correct spoken number.  
+    Answering “How many?” with the correct spoken number.  
 
 5. **Mapping to numerals (symbols)**  
-   - Matching sets to written numerals, e.g., 3 dots ↔ “3”.  
+    Matching sets to written numerals, e.g., 3 dots ↔ “3”.  
 
 6. **Working from memory**  
-   - Giving a requested number of items without them being counted together every time.  
+    Giving a requested number of items without them being counted together every time.  
 
 Understanding this hierarchy allows facilitators to locate the child’s current level and “step back” if needed to fill gaps.
 

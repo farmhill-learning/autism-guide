@@ -102,74 +102,74 @@ Use this as a written worksheet for yourself. Choose one child and one everyday 
 1. **What does the child experience in this theme?**  
    Think of what the child actually does, feels, sees, hears, smells, and touches.
 
-   - Actions the child does or sees:  
+    Actions the child does or sees:  
      _________________________________________________________  
 
-   - Objects and people involved:  
+    Objects and people involved:  
      _________________________________________________________  
 
-   - Possible feelings or body states (e.g., excited, hungry, anxious, calm, overloaded):  
+    Possible feelings or body states (e.g., excited, hungry, anxious, calm, overloaded):  
      _________________________________________________________  
 
 2. **Words you can layer on top**  
    Now build a list of words that match those experiences.
 
-   - Nouns (things, people, places):  
+    Nouns (things, people, places):  
      _________________________________________________________  
 
-   - Verbs (actions):  
+    Verbs (actions):  
      _________________________________________________________  
 
-   - Describing words (big, wet, loud, fun, scary, etc.):  
+    Describing words (big, wet, loud, fun, scary, etc.):  
      _________________________________________________________  
 
-   - Feelings and internal states (happy, bored, “don’t like”, “need help”, “tired”):  
+    Feelings and internal states (happy, bored, “don’t like”, “need help”, “tired”):  
      _________________________________________________________  
 
 3. **How can these words be used in real communication?**  
    For each function, write a few examples that you would like the child to be able to communicate using speech, sign, pictures, device, or writing.
 
-   - Requests (asking for something, asking for more, asking for help):  
+    Requests (asking for something, asking for more, asking for help):  
      _________________________________________________________  
 
-   - Comments (sharing what they notice or think):  
+    Comments (sharing what they notice or think):  
      _________________________________________________________  
 
-   - Protests / refusals / boundaries (saying no, stop, finished, don’t want):  
+    Protests / refusals / boundaries (saying no, stop, finished, don’t want):  
      _________________________________________________________  
 
-   - Questions (asking where, what, who, when, why, how):  
+    Questions (asking where, what, who, when, why, how):  
      _________________________________________________________  
 
 4. **Planning a short session around this map**  
    Using your notes above, sketch a simple plan for one real session with this child.
 
-   - One or two activities you will do (linked to the theme):  
+    One or two activities you will do (linked to the theme):  
      _________________________________________________________  
 
-   - Which communication functions you will look for or support first (tick 2–3):  
+    Which communication functions you will look for or support first (tick 2–3):  
      - [ ] Request  
      - [ ] Refuse / protest  
      - [ ] Comment  
      - [ ] Ask a question  
      - [ ] Share a feeling  
 
-   - Concrete opportunities you will create (e.g., “pause before giving snack so there is space to request”, “offer two choices so they can choose/refuse”):  
+    Concrete opportunities you will create (e.g., “pause before giving snack so there is space to request”, “offer two choices so they can choose/refuse”):  
      _________________________________________________________  
 
 5. **After the session – quick self-reflection**  
    Fill this in after you try the plan.
 
-   - Which words or functions did the child actually use or move towards?  
+    Which words or functions did the child actually use or move towards?  
      _________________________________________________________  
 
-   - What seemed to make communication easier? (e.g., visual support, modeling on device, more wait time, simplifying language):  
+    What seemed to make communication easier? (e.g., visual support, modeling on device, more wait time, simplifying language):  
      _________________________________________________________  
 
-   - One thing you would keep next time:  
+    One thing you would keep next time:  
      _________________________________________________________  
 
-   - One thing you would change next time:  
+    One thing you would change next time:  
      _________________________________________________________  
 
 At the end, look back over your page and notice how rich the language opportunities are, even around this single theme. This shows that you do not need to “finish all nouns first” before working on verbs, describing words, feelings, and real communication.
@@ -232,28 +232,28 @@ Using “dog” as a model:
 
 1. **Start with the child’s context**
 
-   - Does the child have a dog? Fear dogs? Love them? Only know them from TV?  
-   - Tailor materials: real dog, photos, videos, toys, drawings.  
+   Does the child have a dog? Fear dogs? Love them? Only know them from TV?  
+   Tailor materials: real dog, photos, videos, toys, drawings.  
 
 2. **Layer language around the dog**
 
-   - Nouns: dog, tail, teeth, fur, bowl, leash.  
-   - Verbs: bark, run, sleep, eat, jump, lick.  
-   - Describing words: big, small, friendly, loud, soft, scary.  
-   - Feelings: I’m scared, I like, I don’t like.  
+   Nouns: dog, tail, teeth, fur, bowl, leash.  
+   Verbs: bark, run, sleep, eat, jump, lick.  
+   Describing words: big, small, friendly, loud, soft, scary.  
+   Feelings: I’m scared, I like, I don’t like.  
 
 3. **Modes of engagement**
 
-   - Listening: facilitator talks about dog, reads a small text, tells a mini-story.  
-   - Expressive: child says/signs/points/types words or short phrases.  
-   - Receptive: child identifies pictures/objects on request.  
-   - Play/pretend: wash the dog, feed the dog, dog goes to sleep, dog runs away.  
-   - Literacy: matching word to picture, tracing “dog”, reading simple “The dog runs.” as appropriate.  
+   Listening: facilitator talks about dog, reads a small text, tells a mini-story.  
+   Expressive: child says/signs/points/types words or short phrases.  
+   Receptive: child identifies pictures/objects on request.  
+   Play/pretend: wash the dog, feed the dog, dog goes to sleep, dog runs away.  
+   Literacy: matching word to picture, tracing “dog”, reading simple “The dog runs.” as appropriate.  
 
 4. **Closing the loop**
 
-   - Make a scrapbook or page: each picture + a word/phrase, reviewed at the end.  
-   - Aim for the word “dog” and related words to appear in real communication: “Dog go”, “No dog”, “I like dog”, “Dog is big.”  
+   Make a scrapbook or page: each picture + a word/phrase, reviewed at the end.  
+   Aim for the word “dog” and related words to appear in real communication: “Dog go”, “No dog”, “I like dog”, “Dog is big.”  
 
 ### Activity 3: Build a 30–45 Minute Language Session (30 min)
 
